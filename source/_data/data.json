@@ -8,25 +8,130 @@
     	"searchWrapperClass":"",
     	"searchFieldClass":"",
     	"searchFieldPlaceholder":"search",
-    	"searchIcon":"fa-search"
+    	"searchIcon":"search"
     },
     "button": {
 		"buttonText": "Button",
-		"buttonType": "button",
-		"buttonClass": ""
+		"buttonClass": "cta-btn",
+		"fontAwesomeIconClass":"fa fa-caret-right"
 	},
 	
     "headingTag": "h1",
-    "headingClass": "bloghead",
+    "headingClass": "",
     "headingTxt":"This is heading",
-    "headingSubtxt":"This is sub text",
 
     "imageList" : {
-    	"imgPath" : "../../images/cs-1.jpg",
+    	"imgPath" : "https://via.placeholder.com/1312x532.jpg",
 	    "imgAlttxt":"alt text",
 	    "imgLink":"#",
 	    "linkClass":""
     },
+
+
+    "socialMedia":{
+    	"wrapperClass":"",
+    	"socialIcons":[
+    		{
+	    		"links": {
+					"link" : "#",
+					"linkClass" : "",
+					"linkTxt" : "",
+					"fontAwesomeIconClass" : "fab fa-facebook-f"
+				}
+			},
+		
+	    	{
+	    		"links": {
+					"link" : "#",
+					"linkClass" : "",
+					"linkTxt" : "",
+					"fontAwesomeIconClass" : "fab fa-twitter"
+				}
+	    	},
+	    	{
+	    		"links": {
+					"link" : "#",
+					"linkClass" : "",
+					"linkTxt" : "",
+					"fontAwesomeIconClass" : "fa fa-envelope"
+				}
+	    	}
+	    	
+	    ]   	
+    },
+    "heroBanner":{
+    	"bannerClass":"hero-banner",
+    	"headingTag": "h1",
+	    "headingClass": "",
+	    "headingTxt":"This is dummy heading",
+	    "bannerContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+	    "links": {
+			"link" : "#",
+			"linkClass" : "",
+			"linkTxt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+		}	
+    },
+    "cta":{
+    	"headingTag": "h3",
+    	"ctaContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+    	"textInput": {
+			"inputParentClass":"email-input col-md-7",
+			"attributes": [
+				{
+					"name": "id",
+					"value": "email"
+				},
+				{
+					"name": "autoComplete",
+					"value": "off"
+				},
+				{
+					"name": "class",
+					"value": "form-control"
+				},
+				{
+					"name": "placeholder",
+					"value": "Lorem ipsum"
+				},
+				{
+					"name": "type",
+					"value": "email"
+				},
+				{
+					"name": "data-minlength",
+					"value": "2"
+				},
+				{
+					"name": "data-minlength-error",
+					"value": "Invalid First Name"
+				},
+				{
+					"name": "maxlength",
+					"value": "60"
+				},
+				{
+					"name": "aria-label",
+					"value": "Email"
+				}
+			],
+			"required": {
+				"errorMessage": "Email is required"
+			}
+		},
+		"button": {
+			"buttonText": "Button",
+			"buttonClass": "cta-btn",
+			"fontAwesomeIconClass":"fa fa-caret-right"
+		},
+		"imageList" : {
+	    	"imgPath" : "../../images/cta-bg.svg",
+		    "imgAlttxt":"alt text",
+	    }
+    },
+
+
+
+
     "listItem": "List Item", 
 
     "header": {

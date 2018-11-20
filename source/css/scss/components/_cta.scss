@@ -1,0 +1,47 @@
+.cta-btn{
+	background-color: $btn-gray;
+	color: $social-blue;
+	font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    &:hover{
+    	text-decoration:none;
+    	color: $color-white;
+    	background-color: $social-blue;
+    }
+    i{
+    	font-size: 23px;
+    	vertical-align: bottom;
+    	margin-left: 10px;
+    }
+}
+.cta{
+	position: relative;
+	overflow: hidden;
+	padding: 20px 0;
+	margin: 10px 0;
+	h3{
+		color: $sub-heading-gray;
+	}
+	.email-input{
+		input{
+			border: 1px solid #767676;
+			border-radius: 0;
+		}
+	}
+	img{
+		position: absolute;
+	    right: 10%;
+	    top: -15%;
+	    width: 200px;
+	    z-index: -1;
+	}
+	@media screen and (max-width: 767px){
+		.cta-btn{
+			margin-top: 20px;
+		}
+	}
+}

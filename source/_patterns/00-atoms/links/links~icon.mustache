@@ -1,1 +1,3 @@
-<a href="{{{links.link}}}" class="{{links.linkClass}}">{{links.linkTxt}} <i class="fa fa-{{links.linkIcon}}"></i></a>
+{{#links}}
+	<a href="{{{link}}}" class="{{linkClass}}">{{linkTxt}} {{>atoms-font-awesome-icon}}</a>
+{{/links}}
