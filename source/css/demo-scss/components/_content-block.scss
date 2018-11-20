@@ -1,0 +1,95 @@
+.content-page {
+  .content-page-wrapper {
+    padding-top: rem(50px);
+    padding-bottom: rem(50px);
+  }
+
+  .video-content {
+    padding: rem(50px 0px 0px);
+
+    .video {
+      max-width: rem(100%);
+      min-width: rem(100%);
+      max-height: rem(550px);
+      min-height: rem(550px);
+      background-color: $color-gray-95;
+    }
+
+    .video-wrapper {
+      padding: rem(25px 0px);
+    }
+  }
+}
+
+.content-block-wrapper {
+  padding: rem(20px 0px 20px);
+
+  h2 {
+    font-family: "MuseoSansBold";
+    font-size: rem(32px);
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: rem(0.2px);
+    text-align: center;
+    color: $color-brand-astronaut;
+    margin-bottom: rem(20px);
+  }
+
+  p {
+    font-family: "MuseoSansLight";
+    font-size: rem(16px);
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: rem(0.3px);
+    text-align: center;
+    color: $color-brand-astronaut;
+    margin-bottom: rem(20px);
+  }
+
+  ul, ol {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: rem(20px);
+
+    li {
+      font-family: "MuseoSansLight";
+      font-size: rem(16px);
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: rem(0.3px);
+      color: $color-brand-astronaut;
+    }
+
+    @include media-breakpoint-down(sm) {
+      padding: rem(0px 20px);
+    }
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  a {
+    font-family: "MuseoSansLight";
+    font-size: rem(16px);
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: rem(0.3px);
+    text-align: center;
+    color: $color-brand-astronaut;
+    text-decoration: underline;
+  }
+
+  button {
+    display: block;
+    margin: rem(auto auto 20px);
+  }
+}

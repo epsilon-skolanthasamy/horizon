@@ -1,0 +1,138 @@
+{
+    "homePageData": {
+        "heroBanner": {
+            "bannerClass": "landing-page",
+            "bannerImg": {
+                "url": "../../images/banner1.jpg",
+                "alt": "Lorem"
+            },
+            "homeBanner" : {
+                "description": "Partner with Epsilon to Empower Your Investment in Crownpeak"
+            },
+            "blogBanner": "",
+            "insightBanner": "" 
+        }
+    },
+
+    "contentBlock":{
+        "desc": "Epsilon is part of Alliance Data, a leading provider of marketing, loyalty, and credit solutions that uses the power of data to achieve results for our clients. Together, Alliance Data's three lines of business manage more than 100 million consumer relationships for some of the world's leading brands. Epsilon is part of Alliance Data, a leading provider of marketing, loyalty, and credit solutions that uses the power of data to achieve results for our clients. Together, Alliance Data's three lines of business manage more than 100 million consumer relationships for some of the world's leading brands.",
+        "button": {
+            "buttonText": "Read More",
+            "buttonType": "button",
+            "buttonClass": "contentBlock-btn",
+            "buttonIcon" : "external-link"
+        }
+    },
+
+
+    "caseStudy": {
+
+        "imageLists" : [
+            {
+                "imageList" : {
+                    "imgPath" : "../../images/cs-1.jpg",
+                    "imgAlttxt":"alt text",
+                    "imgLink":"#",
+                    "linkClass":""
+                }  
+            },
+            {
+                "imageList" : {
+                    "imgPath" : "../../images/cs-2.jpg",
+                    "imgAlttxt":"alt text",
+                    "imgLink":"#",
+                    "linkClass":""
+                }  
+            },
+            {
+                "imageList" : {
+                    "imgPath" : "../../images/cs-3.jpg",
+                    "imgAlttxt":"alt text",
+                    "imgLink":"#",
+                    "linkClass":""
+                }  
+            },
+            {
+                "imageList" : {
+                    "imgPath" : "../../images/cs-4.jpg",
+                    "imgAlttxt":"alt text",
+                    "imgLink":"#",
+                    "linkClass":""
+                }  
+            },
+            {
+                "imageList" : {
+                    "imgPath" : "../../images/cs-5.jpg",
+                    "imgAlttxt":"alt text",
+                    "imgLink":"#",
+                    "linkClass":""
+                }  
+            },
+            {
+                "imageList" : {
+                    "imgPath" : "../../images/cs-6.jpg",
+                    "imgAlttxt":"alt text",
+                    "imgLink":"#",
+                    "linkClass":""
+                }  
+            },
+            {
+                "imageList" : {
+                    "imgPath" : "../../images/cs-7.jpg",
+                    "imgAlttxt":"alt text",
+                    "imgLink":"#",
+                    "linkClass":""
+                }  
+            },
+            {
+                "imageList" : {
+                    "imgPath" : "../../images/cs-8.jpg",
+                    "imgAlttxt":"alt text",
+                    "imgLink":"#",
+                    "linkClass":""
+                }  
+            }
+          
+        ],
+        
+        "headingTxt":"Case Studies",
+        "headingSubtxt":"Solutions to real world challenges",
+    },
+
+    "blogs" :{
+        "headingTag": "h3",
+        "headingClass": "bloghead",
+        "headingTxt":"Blogs",
+        "headingSubtxt":"Business insights & resources", 
+        "blogLists":  [ 
+            {
+                "blogList": {
+                    "headingTag": "h4",
+                    "headingTxt":"Why your data strategy and loyalty program do belong together",
+                    "headingSubtxt":"",
+                    "blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
+                    "links": {
+                        "linkTxt": "View blog article",
+                        "linkClass": "blog-btn",
+                        "linkIcon" : "chevron-right",
+                        "link": "#"
+                    }
+                }
+            },
+            {
+                "blogList": {
+                    "headingTag": "h4",
+                    "headingTxt":"Understanding the value of the catalog in the digital age",
+                    "headingSubtxt":"",
+                    "blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
+                    "links": {
+                        "linkTxt": "View blog article",
+                        "linkClass": "blog-btn",
+                        "linkIcon" : "chevron-right",
+                        "link": "#"
+                    }
+                }
+            }
+        ]          
+    },
+}

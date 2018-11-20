@@ -1,0 +1,18 @@
+
+<div class="search-filter">
+	<h5 class="search-filter-head">{{searchFilter.filterTopicHead}}</h5>
+	<div class="search-filter-content">
+		<ul>
+			{{#searchFilter.filterTopics}}
+				<li class="custom-control custom-checkbox">
+					<input class="custom-control-input" type="checkbox" name="{{searchFilter.filterTopicHead}}" id="{{filterTopic}}" value="{{filterTopic}}" />
+					<label class="custom-control-label" for="{{filterTopic}}">
+						<span>{{filterTopic}} <small>({{filterTopicCount}})</small></span>
+					</label>
+				</li>
+			{{/searchFilter.filterTopics}}
+
+		</ul>
+	</div>
+</div>
+ 

@@ -1,0 +1,25 @@
+.page-link {
+    color: $color-gray-42;
+    border:none;
+    padding: rem(8px 6px);
+    font-family: MuseoSansLight;
+    background-color: transparent;
+
+    &:hover{
+        color: $color-brand-astronaut;
+        background-color: transparent;
+        border-color: transparent;
+        font-family: MuseoSansBold;
+    }
+
+    &.active{
+        color: $color-brand-astronaut;
+        background-color: transparent;
+        border-color: transparent;
+        font-family: MuseoSansBold;
+    }
+}
+
+.arrow-hide{
+    display: none;
+}

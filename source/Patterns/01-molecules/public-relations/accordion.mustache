@@ -1,0 +1,47 @@
+<section class="full-width bg-gray-09  accordion-wrapper">
+	{{# privacyPolicyData }}
+	<div class="container-fluid">
+		<div id="accordion">
+			{{#privacyPolicyData.policyInfo}}
+			<div class="card">
+				<div class="card-header">
+					<h2 class="mb-0">
+						<button class="btn btn-link" data-toggle="collapse" data-target="#{{cardId}}" aria-expanded="{{aria-expanded}}" aria-controls="{{cardId}}">
+							{{#collapseIcon}}
+								{{> atoms-font-awesome-icon}}
+							{{/collapseIcon}}
+							{{#expandIcon}}
+								{{> atoms-font-awesome-icon}}
+							{{/expandIcon}}
+							{{head}}
+						</button>
+					</h2>
+				</div>
+
+				<div id="{{cardId}}" class="accodion-body collapse {{visibility}}" aria-labelledby="{{cardId}}" data-parent="#accordion">
+					<div class="card-body">
+						<p>
+							{{description}}
+						</p>
+						{{#policyLists}}
+						<ul>
+							<li>{{listItem}}
+								{{#policySubLists}}
+								<ul>
+									<li>{{sublist}}</li>
+								</ul>
+								{{/ policySubLists}}
+							</li>
+						</ul>
+						{{/ policyLists}}
+					</div>
+				</div>
+			</div>
+			{{/ privacyPolicyData.policyInfo}}
+		</div>
+	</div>
+	{{/ privacyPolicyData }}
+
+
+
+</section>

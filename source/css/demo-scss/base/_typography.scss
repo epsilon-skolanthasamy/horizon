@@ -1,0 +1,62 @@
+// Style 1 - top nav links
+@mixin text-style-1 {
+  @include font-MuseoSans(normal);
+	font-size: rem(10px);
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.1px;
+}
+
+// Style 2 - header navbar menu item
+@mixin text-style-2 {
+  @include font-MuseoSans(normal);
+	font-size: rem(18px);
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.1px;
+
+	@include media-breakpoint-up(md) {
+		font-size: rem(14px);
+	}
+}
+
+// Style 3 - header submenu items
+@mixin text-style-3 {
+  @include font-MuseoSans(normal);
+	font-size: rem(12px);
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.1px;
+}
+
+// Style 4 - h1 headings
+@mixin text-style-4 {
+}
+
+// Style 5 - h2 headings
+@mixin text-style-5 {
+}
+
+// Style 6 - h3 headings
+@mixin text-style-6 {
+  @include font-MuseoSans(normal);
+	font-size: rem(20px);
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.1px;
+}
+
+// error messages
+@mixin text-style-7 {
+  font-family: MuseoSansItalicNormal;
+  font-size: rem(9px);
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: $color-brand-medium-carmine;
+}

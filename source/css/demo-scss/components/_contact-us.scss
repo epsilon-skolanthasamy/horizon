@@ -1,0 +1,129 @@
+.contact-us {
+
+  .locationSatelliteMap #locationSatelliteMap{
+    height: rem(260px);
+    width: rem(260px);
+    margin: 0 auto rem(40px);
+    border-radius: 50%;
+  }
+  h1 {
+    font-family: "MuseoSansBold";
+    font-size: rem(32px);
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    padding-top: rem(40px);
+    padding-bottom: rem(35px);
+    letter-spacing: rem(0.2px);
+    text-align: center;
+    color: $color-brand-astronaut;
+  }
+  .center {
+    text-align: center;
+  }
+  .circular-wrapper {
+    display: inline-block;
+    width: rem(288px);
+    height: rem(288px);
+    max-width: 100%;
+    margin-bottom: rem(25px);
+  }
+  .stay-in-touch-from {
+    max-width: 100%;
+  }
+  .form-fields {
+    input {
+      margin-bottom: rem(20px);
+    }
+  }
+  .btn-submit {
+    margin-bottom:rem( 30px);
+    button {
+      max-width: 100%;
+    }
+  }
+  .address-wrapper{
+    margin: 0 auto;
+    max-width: rem(400px);
+  }
+  .address-section {
+    position: relative;
+    margin-bottom: rem(20px);
+
+    span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding-right: 0.625rem;
+      i {
+        vertical-align: rem(1px);
+      }
+    }
+    p {
+      width: 100%;
+      min-height: 1.5rem;
+      padding-left: rem(30px);
+      font-size: 1rem;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: rem(20px);
+      letter-spacing: normal;
+      color: $color-brand-astronaut;
+      font-family: "MuseoSansNormal"
+    }
+  }
+  .social-icons {
+    padding-top: rem(25px);
+    a {
+      color: $color-brand-astronaut;
+      text-decoration: none;
+      &:first-child {
+        padding-right: rem(10px);
+      }
+      &:not(:first-child):not(:last-child) {
+        padding: rem(10px);
+      }
+      &:last-child {
+        padding-left: rem(10px);
+      }
+      i {
+        font-size: rem(25px);
+      }
+    }
+  }
+  @include media-breakpoint-between(md, lg) {
+    .locationSatelliteMap #locationSatelliteMap{
+      height: rem(230px);
+      width: rem(230px);
+    }
+  }
+  @include media-breakpoint-up(md) {
+    h1{
+      text-align: left;
+      padding-top: 0;
+    }
+   .wrapper {
+      padding: rem(70px) rem(15px);  
+    }
+    .locationSatelliteMap #locationSatelliteMap{
+      padding-top: 0;
+      text-align: left;
+    }
+    .circular-wrapper{
+      width: rem(260px);
+      height: rem(260px);
+      margin-bottom: 0;
+    }
+    .stay-in-touch-from{
+      max-width: rem(240px);
+    }
+    .btn-submit{
+      margin-bottom: 0;
+    }
+    .address-wrapper{
+      padding: rem(30px) 0 0 0;
+      margin: 0 auto;
+      max-width: 400px;
+    }
+  }
+}

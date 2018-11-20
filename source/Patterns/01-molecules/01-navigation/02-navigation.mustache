@@ -1,0 +1,77 @@
+<nav id="primaryNavContainer" class="navbar navbar-expand-md">
+	<div class="container">
+
+		<button class="navbar-toggler"
+			type="button" data-toggle="collapse" data-target="#navigationContent"
+			aria-controls="navigationContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-line"></span>
+			<span class="navbar-toggler-line"></span>
+			<span class="navbar-toggler-line"></span>
+			<i aria-hidden="true" class="fas fa-times"></i>
+		</button>
+
+		{{> molecules-logo-link:navbar-brand }}
+
+		<div class="navbar-collapse collapse" id="navigationContent">
+			<ul class="navbar-nav" role="menubar">
+				{{# headerData.menuItems }}
+					<li class="nav-item dropdown" role="menuitem" aria-haspopup="true">
+						<a class="nav-link dropdown-toggle" href="#" id="{{ menuGroupLinkItem.id }}"
+							aria-label="{{ menuGroupLinkItem.label }} menu" role="menuitem"
+							data-toggle="dropdown" aria-expanded="false">
+							{{ menuGroupLinkItem.label }}<i aria-hidden="true" class="fas fa-angle-down"></i>
+						</a>
+
+            {{# menuGroupLinkItem.isQuoteMenu }}
+              {{> organisms-section-get-quote:dropdown-menu|nav-sub-menu-container }}
+            {{/ menuGroupLinkItem.isQuoteMenu }}
+            {{^ menuGroupLinkItem.isQuoteMenu }}
+              {{> molecules-nav-sub-menu:dropdown-menu }}
+            {{/ menuGroupLinkItem.isQuoteMenu }}
+
+					</li>
+				{{/ headerData.menuItems }}
+
+				<li class="account-access-wrapper nav-item" role="menuitem" aria-haspopup="true">
+					<button id="accountAccessLink" type="button" role="menuitem"
+						class="dropdown-toggle nav-link {{# loggedIn }}logged-in-avatar{{/ loggedIn }}"
+						data-toggle="dropdown" aria-expanded="false">
+						<span class="d-none d-sm-none d-md-inline">My Account</span>
+						<span class="d-md-none acc-text-loggedin">Login</span>
+						<i aria-hidden="true" class="fas fa-angle-down d-md-inline icon-expand"></i>
+						<i aria-hidden="true" class="fas fa-times icon-close"></i>
+					</button>
+
+					{{^ loggedIn }}
+						{{> molecules-login-form:dropdown-menu }}
+					{{/ loggedIn}}
+
+					{{# loggedIn }}
+						{{# headerData.accountMenu }}
+							{{> molecules-nav-sub-menu:dropdown-menu }}
+						{{/ headerData.accountMenu }}
+					{{/ loggedIn }}
+					{{> molecules-forgot-pwd:dropdown-menu}}
+				</li>
+
+			</ul>
+
+			<div class="utilities-sm-nav d-sm-block d-md-none">
+				{{# headerData.utilitiesNav.publicRelationsLinks }}
+					<a class="utilities-sm-nav-item" href="{{ headerLinkItem.url }}">{{ headerLinkItem.label }}</a>
+				{{/ headerData.utilitiesNav.publicRelationsLinks }}
+
+				{{# headerData.utilitiesNav.helpLinks }}
+					<a class="utilities-sm-nav-item" href="{{ headerLinkItem.url }}">{{ headerLinkItem.label }}</a>
+				{{/ headerData.utilitiesNav.helpLinks }}
+
+        <div class="language-control utilities-sm-nav-item" aria-label="Change language">
+          {{# headerData.utilitiesNav.languageControl }}
+            {{> atoms-select-dropdown:language-select-box }}
+          {{/ headerData.utilitiesNav.languageControl }}
+        </div>
+			</div>
+		</div>
+
+	</div>
+</nav>

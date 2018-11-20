@@ -1,0 +1,25 @@
+{{> organisms-header }}
+
+<main id="main-content" class="main-content" aria-label="main content">
+
+	{{> organisms-hero }}
+
+  {{> organisms-hero-with-video }}
+
+	{{> organisms-section-get-quote }}
+
+	{{^ loggedIn }}
+		{{# findAgentData }}
+			{{> organisms-two-column-content }}
+		{{/ findAgentData }}
+	{{/ loggedIn }}
+
+	{{# loggedIn }}
+		{{> organisms-video}}
+	{{/ loggedIn }}
+
+	{{> organisms-article-summary }}
+
+</main>
+
+{{> organisms-footer }}

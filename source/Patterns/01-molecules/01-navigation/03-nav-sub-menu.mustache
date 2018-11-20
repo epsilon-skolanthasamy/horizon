@@ -1,0 +1,20 @@
+<div class="nav-sub-menu-container row {{ styleModifier }}" aria-labelledby="{{ menuGroupLinkItem.id }}" role="menubar">
+	<div class="row">
+		<div class="container">
+			<div class="row {{ menuGroupLinkItem.justifyContent }}">
+				{{# menuSubGroupsList }}
+					<div class="col-auto nav-sub-menu-group" role="menu">
+						<a class="dropdown-item nav-sub-menu-group-head" href="/"
+							 role="menuitem" aria-label="{{ MenuSubGroupHead }} sub menu group">{{ MenuSubGroupHead }}</a>
+
+						<div class="collapse collapse-sm show nav-sub-menu-group-links">
+							{{# MenuSubGroupList }}
+								<a  role="menuitem" class="dropdown-item" href="">{{ label }}</a>
+							{{/ MenuSubGroupList }}
+						</div>
+					</div>
+				{{/ menuSubGroupsList }}
+			</div>
+		</div>
+	</div>
+</div>

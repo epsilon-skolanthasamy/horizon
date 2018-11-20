@@ -1,0 +1,34 @@
+{{# imageWithWrapText }}
+	<div class="image-with-wrap-text right-image {{ styleModifier }}">
+		<div class="row">
+			<div class="col-md-12">
+				{{# imageDetails }}
+					<img class="d-none d-sm-none d-md-inline" aria-hidden="{{ ariaHidden }}" src="{{ image }}"
+					srcset="{{ image }} 1x, {{ image@2x }} 2x" alt="{{ alt }}" >
+					<img class="d-md-none" aria-hidden="{{ ariaHidden }}" src="{{ imageSmall }}"
+						srcset="{{ imageSmall }} 1x, {{ imageSmall@2x }} 2x" alt="{{ alt }}" >
+				{{/ imageDetails }}
+
+				{{# sectionHead }}
+					<h2 class="section-head">
+            {{# isHeadingLink }}
+              <a href="/">
+            {{/ isHeadingLink }}
+              {{ headingText }}
+            {{# isHeadingLink }}
+            </a>
+            {{/ isHeadingLink }}
+          </h2>
+				{{/ sectionHead }}
+
+				{{# subTitle }}
+					<span class="sub-title">{{ subTitle }}</span>
+				{{/ subTitle }}
+
+				{{# description }}
+					<p>{{ paragraphContent }}</p>
+				{{/ description }}
+			</div>
+		</div>
+	</div>
+{{/ imageWithWrapText }}

@@ -1,0 +1,39 @@
+.video-with-caption {
+	video {
+		width: 100%;
+	}
+
+  .youtube-embed-video-container {
+    width: 100%;
+    height: rem(340px);
+
+    .youtube-embed-video {
+      width: 100%;
+      height: 100%;
+      padding: rem(15px) 0;
+    }
+  }
+
+	.video-sub-title {
+		font-family: "MuseoSansLight";
+		font-size: rem(20px);
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: rem(0.2px);
+		color: $color-brand-astronaut;
+		margin-bottom: rem(12px);
+	}
+
+	p {
+		color: $color-gray-84;
+		margin-bottom: 0;
+    letter-spacing: rem(0.3px);
+	}
+
+  @include media-breakpoint-up(md) {
+    .youtube-embed-video-container {
+      height: rem(675px);
+    }
+  }
+}

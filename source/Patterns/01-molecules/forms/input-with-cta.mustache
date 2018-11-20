@@ -1,0 +1,14 @@
+<form action="{{ inputCTAForm.action }}" method="{{ inputCTAForm.method }}"
+	class="input-with-cta" data-toggle="validator">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 form-group">
+				{{> atoms-text-field }}
+				<div class="help-block with-errors"></div>
+			</div>
+			<div class="col-md-6">
+				{{> atoms-button:btn-blue }}
+			</div>
+		</div>
+	</div>
+</form>

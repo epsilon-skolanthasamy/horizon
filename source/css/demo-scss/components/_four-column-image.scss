@@ -1,0 +1,48 @@
+.four-column-container{
+  margin: 0 auto;
+	background-color: $color-gray-09;
+	padding: rem(85px 0 150px);
+	.four-column-head{
+		font: rem(32px) MuseoSansBold;
+		text-align: center;
+		padding: rem(0px 0px 60px);
+	}
+	.four-column-container-image{
+		width: 100%;
+	}
+	.type-content{
+		text-align: center;
+		margin: rem(23px 0px);
+		.sub-head{
+			font: rem(24px) MuseoSansBold;
+			margin-bottom: rem(13px);
+		}
+		.link{
+			font: rem(18px) MuseoSansNormal;
+		}
+	}
+	.col-blok-content{
+		padding: rem(0px 15px);
+	}
+	@include media-breakpoint-down(sm) {
+
+		padding: rem(35px 0px);
+
+		.four-column-head{
+			padding: rem(0px 0px 20px);
+		}
+    .four-column-container-image {
+      width: auto;
+      max-height: 300px;
+      display: block;
+      margin: auto;
+    }
+		.type-content{
+      margin: (15px auto 30px);
+			.sub-head{
+				margin-bottom: rem(3px);
+			}
+		}
+
+	}
+}

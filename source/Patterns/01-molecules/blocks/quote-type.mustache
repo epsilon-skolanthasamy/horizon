@@ -1,0 +1,12 @@
+{{# quoteType }}
+	<a class="get-quote-link hover-ease-2 {{ class }}" href="{{link}}" title="{{ quoteTypeLabel }}" >
+		{{^ quoteWithImages }}
+			{{> atoms-font-awesome-icon }}
+		{{/ quoteWithImages }}
+		{{# quoteWithImages }}
+			<img src="../../../images/quote.jpg" class="get-quote-img" alt="{{quoteTypeLabel}} image" />
+			<img src="../../../images/quotehover.jpg" class="get-quote-hover-img" alt="{{quoteTypeLabel}} image" />
+		{{/ quoteWithImages }}
+		<span>{{ quoteTypeLabel }}</span>
+	</a>
+{{/ quoteType }}

@@ -1,0 +1,24 @@
+
+<div class="search-result-item">
+	{{^ noResultsExist}}
+	<div class="search-result-head">
+		<h2>{{searchListData.searchListHead}}</h2>
+	</div>
+
+	<div class="search-result-content">
+		<ul>
+			{{#searchListData.searchList}}
+			<li>
+				<h4 class="search-result-subHead"><a href="/">{{title}}</a></h4>
+				<p>{{date}} - {{desc}}</p>
+			</li>
+			{{/searchListData.searchList}}
+		</ul>
+	</div>
+	{{/ noResultsExist}}
+	{{# noResultsExist}}
+    <p class="no-search-results-text">
+			{{noResultText}}
+		</p>
+	{{/ noResultsExist}}
+</div>

@@ -1,0 +1,13 @@
+.app-download {
+    text-align: center;
+    img {
+	    max-width: rem(152px);
+	    padding-bottom: rem(10px);
+	}
+	@include media-breakpoint-up(md) {
+		text-align: left;
+		img{
+			margin-right: rem(40px);
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{{#policyPrice}}
+	<div class="policy-price-block">
+		<div class="policy-price-head">
+			<h2>{{insuranceType}}</h2>
+			<span>{{insuranceDesc}}</span>
+		</div>
+		<div class="policy-price-block-content {{activeClass}} text-center">
+			<div class="policy-price-detail">
+				<h3>{{insuranceHead}}</h3>
+				<h4>{{insuranceQuote}}</h4>
+				<div class="policy-price-desc">
+					<span>{{insuranceQuoteDesc}}</span>
+					<h5>{{insuranceQuoteMonthly}}/MO</h5>
+					<span>{{insuranceQuoteAnnually}} Annually</span>
+				</div>
+			</div>
+			{{> atoms-button:btn-gray }}
+		</div>
+	</div>
+{{/policyPrice}}

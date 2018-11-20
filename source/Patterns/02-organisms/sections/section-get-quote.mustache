@@ -1,0 +1,14 @@
+<section class="full-width get-quote-wrapper bg-gray-09 text-center {{ styleModifier }}">
+	<h2 class="sectionHead">{{ getQuoteData.sectionTitle }}</h2>
+
+	<div class="container-fluid">
+		<div class="row>">
+			<div class="col-xs-12 get-quote-list">
+				{{# getQuoteData.quoteTypeList }}
+					{{> molecules-quote-type }}
+				{{/ getQuoteData.quoteTypeList }}
+			</div>
+		</div>
+	</div>
+
+</section>

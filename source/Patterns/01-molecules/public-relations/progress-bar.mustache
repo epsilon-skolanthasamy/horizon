@@ -1,0 +1,11 @@
+<div class="progress-container">
+    <h3 class="progress-heads">{{progressBarData.headText}}</h3>
+    <ul class="progress-indicator">
+        {{#progressBarData.progressBarList}}
+        <li class="{{status}}">
+            <span class="bubble-label">{{amountText}}</span>
+            <span class="bubble"></span>
+        </li>
+        {{/progressBarData.progressBarList}}
+    </ul>
+</div>

@@ -1,0 +1,25 @@
+{
+	"formFieldAttr": {
+		"attributes": [{
+				"name": "action",
+				"value": "/"
+			},
+			{
+				"name": "class",
+				"value": "account-setup"
+			},
+			{
+				"name": "method",
+				"value": "POST"
+			},
+			{
+				"name": "data-toggle",
+				"value": "validator"
+			},
+			{
+				"name": "novalidate",
+				"value": "true"
+			}
+		]
+	}
+}

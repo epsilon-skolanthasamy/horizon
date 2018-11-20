@@ -1,0 +1,24 @@
+/*
+* Blog-listings wrapper styling
+*/
+.blog-listing-wrapper {
+    background: $color-gray-09;
+    display: block;
+    padding-bottom: rem(5px);
+
+    .sectionHead {
+        text-align: center;
+        font-family: "MuseoSansBold";
+        font-size: rem(32px);
+        padding: rem(36px) rem(0) rem(21px) rem(0);
+    }
+
+    @include media-breakpoint-up(sm) {
+        padding-bottom: rem(92px);
+
+        .sectionHead {
+            text-align: left;
+            padding: rem(57px) rem(0) rem(30px) rem(0);
+        }
+    }
+}

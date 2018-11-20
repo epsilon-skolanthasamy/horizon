@@ -1,0 +1,20 @@
+{{# videoWithCaption }}
+	<div class="video-with-caption">
+		<div class="row">
+			<div class="col-md-12">
+        <div class="youtube-embed-video-container">
+          <iframe class="youtube-embed-video" src="https://www.youtube.com/embed/YPpdpjZ5yEw"
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+
+				{{# videoTitle }}
+					<h3 class="video-sub-title">{{ videoTitle }}</h3>
+				{{/ videoTitle }}
+
+				{{# videoDescription }}
+					<p>{{ videoDescription }}</p>
+				{{/ videoDescription }}
+			</div>
+		</div>
+	</div>
+{{/ videoWithCaption }}

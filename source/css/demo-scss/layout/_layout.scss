@@ -1,0 +1,25 @@
+header,
+.main-content,
+footer {
+	width: 100%;
+	max-width: rem($page-width);
+	margin: 0 auto;
+
+  @media (min-width: ($page-width + 1)) {
+    border-left: 1px solid $color-gray-39;
+    border-right: 1px solid $color-gray-39;
+  }
+}
+
+.main-content {
+  background-color: $color-gray-09;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.container,
+.container-fluid {
+	max-width: rem($content-width);
+}

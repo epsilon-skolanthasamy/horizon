@@ -1,0 +1,66 @@
+{{# accountSetupForm }}
+	<section class="full-width account-setup-wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="section-head">{{ sectionTitle }}</h2>
+
+
+					<div class="account-setup-form">
+						<form {{# formFieldAttr.attributes }}{{ name }}="{{ value }}" {{/ formFieldAttr.attributes }}>
+							<div class="form-fieldset-wrapper">
+								{{# formFieldGroups }}
+									<fieldset class="form-group">
+										<div class="row">
+											<legend class="col-form-label">{{ groupHead }}</legend>
+												{{# formFields }}
+													<div class="form-group {{ class }}">
+														<label for="{{ id }}">{{ label }}</label>
+														{{# textInput }}
+															{{> atoms-text-field}}
+                              <div class="help-block with-errors"></div>
+														{{/ textInput }}
+														{{# selectField }}
+															{{> atoms-select-dropdown}}
+														{{/ selectField }}
+													</div>
+												{{/ formFields }}
+										</div>
+									</fieldset>
+								{{/ formFieldGroups }}
+
+							</div>
+							<hr>
+							<div class="account-setup-buttons">
+
+
+							<div class="buttons">
+								<div class="row">
+									<div class="col-md-3"></div>
+									<div class="col-md-6">
+										<div class="row">
+											<div class="col-md-6 button1">
+												{{# button1}}
+												{{> atoms-button:btn-blue }}
+												{{/ button1}}
+											</div>
+											<div class="col-md-6 button2">
+												{{# button2}}
+												{{> atoms-button }}
+												{{/ button2}}
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3"></div>
+								</div>
+							</div>
+						</div>
+						</form>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+{{/ accountSetupForm }}

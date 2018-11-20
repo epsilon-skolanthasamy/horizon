@@ -1,0 +1,31 @@
+.input-with-cta {
+	text-align: center;
+
+	.container-fluid {
+		padding: 0;
+	}
+
+	input[type="text"] {
+		text-align: center;
+	}
+
+	input,
+	button {
+		width: 100%;
+	}
+
+	@include media-breakpoint-up(md) {
+		width: auto;
+		max-width: rem(493px);
+		text-align: left;
+
+		input[type="text"] {
+			text-align: left;
+			width: 100%;
+		}
+
+		button {
+			width: 100%;
+		}
+	}
+}

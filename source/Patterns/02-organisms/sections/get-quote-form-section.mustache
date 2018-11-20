@@ -1,0 +1,22 @@
+{{# getQuoteFormHeaderData }}
+  <div class="container">
+    <div class="row">
+      {{#sectionSubTitle}}
+      <h2 class="quote-form-title">{{sectionSubTitle}}</h2>
+      {{/sectionSubTitle}}
+      <div class="get-quote-form offset-md-2 col-md-8">
+        <form id="getQuoteForm" novalidate="true" data-toggle="validator">
+          {{# quoteFormFields }}
+            {{> molecules-quote-form-row }}
+          {{/ quoteFormFields }}
+          <div class="row justify-content-center get-quote-form-setion">
+            {{> atoms-customcheckbox }}
+          </div>
+          <div class="row justify-content-center get-quote-form-setion get-quote-button">
+            {{> atoms-button-blue }}
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{{/ getQuoteFormHeaderData }}

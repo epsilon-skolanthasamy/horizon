@@ -1,0 +1,13 @@
+{{#video}}
+<div class="video-wrapper">
+	<video class="video" id="{{ videoId }}" poster="../../images/video_thumbnail.jpg">
+		<source src="../../images/movie.mp4" type="video/mp4">
+		<source src="../../images/movie.ogg" type="video/ogg">
+		Your browser does not support the video tag.
+	</video>
+	<a aria-label="Video play Button" href="#" class="video-ctrl video-play-button" data-target="{{ videoId }}">
+		<img src="{{playIcon}}"  alt="play Image" srcset="{{playIcon}} 1x,
+             {{playIcon2x}} 2x">
+	</a>
+</div>
+{{/video}}

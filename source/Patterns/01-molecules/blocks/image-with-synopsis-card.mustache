@@ -1,0 +1,18 @@
+{{# imageWithSynopsisCard }}
+  <div class="image-with-synopsis-card {{ colSpanModifier }}">
+    {{# imageData }}
+      <img {{# attributes }}{{name}}="{{value}}" {{/ attributes }}
+        class="d-block d-sm-block d-md-none" src="{{ imagePaths.small }}"
+        srcset="{{ imagePaths.small }} 1x, {{ imagePaths.small@2x }} 2x" />
+      <img {{# attributes }}{{name}}="{{value}}" {{/ attributes }}
+        class="d-none d-sm-none d-md-block" src="{{ imagePaths.large }}"
+        srcset="{{ imagePaths.large }} 1x, {{ imagePaths.large@2x }} 2x" />
+    {{/ imageData }}
+
+  	<div class="image-synopsis">
+  		<h3><a href="/">{{ title }}</a></h3>
+  		<span>{{ date }}</span>
+  		<p>{{ description }}</p>
+  	</div>
+  </div>
+{{/ imageWithSynopsisCard }}

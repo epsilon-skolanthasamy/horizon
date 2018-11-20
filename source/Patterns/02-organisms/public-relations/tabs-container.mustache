@@ -1,0 +1,21 @@
+<div class="tab-box-container h-100">
+  {{# tabsContainerData }}
+    {{# tabBoxHead }}
+      <h3 class="tab-box-head text-center">{{tabBoxHead}}</h3>
+    {{/ tabBoxHead }}
+    {{# tabHeading }}
+      <p class="tab-heading">{{tabHeading}}</p>
+    {{/ tabHeading }}
+  {{/ tabsContainerData }}
+
+  {{> molecules-nav-tab}}
+
+  <div class="tabs-box-description">
+    <p>{{infoListHead}}</p>
+    <ul>
+      {{#tabInfoList}}
+        <li>{{listData}}</li>
+      {{/tabInfoList}}
+    </ul>
+  </div>
+</div>

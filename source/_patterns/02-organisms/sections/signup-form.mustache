@@ -1,0 +1,25 @@
+{{#signupForm}}
+	<div class="signup-form">
+		{{>atoms-headings}}
+		<form action="#" class="block-div row">
+			<div class="form-fields">
+				{{#formFields}}
+					{{>atoms-text-field}}
+				{{/formFields}}
+			</div>
+			<div class="bottom-form-fields col-md-12">
+				{{#bottomField}}
+					{{>atoms-headings}}
+					{{#formFields}}
+						{{>atoms-select-dropdown}}
+						{{>atoms-customcheckbox}}
+						<div class="captcha"></div>
+					{{/formFields}}
+			
+				{{/bottomField}}
+				{{>atoms-button}}
+			</div>
+			
+		</form>
+	</div>
+{{/signupForm}}

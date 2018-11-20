@@ -1,0 +1,83 @@
+.image-with-wrap-text {
+  .section-head,
+  .section-head a {
+    font-family: "MuseoSansLight";
+    font-size: rem(20px);
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: rem(0.1px);
+    color: $color-brand-astronaut;
+    margin-bottom: 0;
+  }
+
+  .sub-title {
+    display: block;
+    font-family: "MuseoSansItalicLight";
+    font-size: rem(12px);
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: rem(0.1px);
+    color: $color-gray-84;
+    margin-bottom: rem(20px);
+  }
+
+  img {
+    display: block;
+    margin: 0 auto rem(20px);
+    width: 100%;
+    max-width: 290px;
+  }
+
+  p {
+    color: $color-gray-84;
+    margin-bottom: rem(20px);
+    font-size: rem(14px);
+    letter-spacing: rem(0.1px);
+  }
+  @include media-breakpoint-up(md) {
+    &.right-image {
+      img {
+        float: right;
+        margin-left: rem(27px);
+        margin-right: 0;
+      }
+    }
+
+    &.left-image {
+      img {
+        float: left;
+        margin-right: rem(27px);
+        margin-left: 0;
+      }
+    }
+
+    img {
+      max-width: 495px;
+    }
+  }
+
+  &.press-release-item {
+    .section-head {
+      margin-bottom: rem(20px);
+    }
+  }
+
+  &.blog-summary {
+    margin-bottom: rem(10px);
+    text-align: center;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      margin-top: rem(18px);
+    }
+    @include media-breakpoint-up(md) {
+      margin-bottom: rem(30px);
+      text-align: left;
+    }
+  }
+}

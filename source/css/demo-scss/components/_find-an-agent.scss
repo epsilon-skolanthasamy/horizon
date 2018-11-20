@@ -1,0 +1,129 @@
+
+/*
+* Find An Agent - Organism styling
+*/
+
+.find-an-agent-detail{
+	padding: rem(35px) 0;
+
+	.find-an-agent-header {
+		
+		text-align: center;
+		h1{
+			padding-bottom: rem(20px);
+			font-size: rem(32px)
+		}
+		.find-an-agent-form{
+			padding-bottom: rem(20px);
+			input[type="text"]{
+				color: $color-gray-70;
+				margin-bottom: rem(10px);
+			}
+		}
+	}
+
+	.agent-location{
+		padding-top: rem(30px);
+		h3{
+			padding-bottom: rem(20px);
+			font-family: "MuseoSansBold";
+			letter-spacing: rem(0.1px);
+		}
+		li{
+			padding: rem(15px) rem(20px); 
+			margin-bottom: rem(15px);
+			box-shadow: rem(1px) rem(1px) rem(2px) 0 rgba(0, 0, 0, 0.5);
+			background-color: $color-white;
+			text-align: center;
+			*{
+				color:  $color-brand-dodger-blue;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: normal;
+				font-size: rem(16px);
+				letter-spacing: rem(0.1px);
+			}
+			h4{
+				font-family: "MuseoSansBold";
+			}
+			.agent-addr{
+				strong{
+					@include font-MuseoSans('light');
+					font-weight: normal;
+				}
+				a, br{
+					display: none;
+				}
+			}
+		}
+	}
+	.contact-info{
+		.name{
+			display: block;
+			@include font-MuseoSans('bold');
+			font-size: rem(18px); 
+			line-height: normal;
+			letter-spacing: rem(0.1px);
+			color: $color-brand-astronaut;
+			margin-bottom: rem(5px);
+		}
+		.phone{
+			 display: block;
+			 @include font-MuseoSans('light');
+			 font-size: rem(14px); 
+			 line-height: normal;
+			 letter-spacing: rem(0.1px);
+			 color: $color-brand-dodger-blue;
+			 margin-bottom: rem(7px);
+
+		}
+		.address{
+			 display: block;
+			 @include font-MuseoSans('light');
+			 font-size: rem(14px); 
+			 line-height: normal;
+			 letter-spacing: rem(0.1px);
+			 color: $color-gray-84;
+		}
+	}
+	@include media-breakpoint-up(sm) {
+		padding: rem(60px) 0;
+
+		.find-an-agent-header {
+			display: flex;
+			text-align: left;
+			padding-bottom: rem(30px);
+			width: 80%;
+			margin: 0 auto;
+			h1{
+				flex: 1;
+			}
+			.find-an-agent-form{
+				flex: 2;
+				padding: 0
+			}
+			
+		}
+		.agent-location{
+			padding-top: rem(40px);
+			li{
+				display: flex;
+				text-align: left;
+				padding: rem(10px) rem(20px);
+
+				*{
+					font-size: rem(18px);
+				}
+				h4{
+					flex: 1;
+				}
+				.agent-phone{
+					flex: 1;
+				}
+				.agent-addr{
+					flex: 3;
+				}
+			}
+		}
+	}
+}

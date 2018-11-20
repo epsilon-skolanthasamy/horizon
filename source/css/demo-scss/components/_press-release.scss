@@ -1,0 +1,54 @@
+/*
+* Press-Release listing tempalte styling
+*/
+.press-release-data-wrapper {
+  padding: rem(30px 0);
+
+  .press-release-filter {
+    .search-filter {
+      border-bottom: solid rem(1px) $color-brand-astronaut;
+    }
+  }
+
+  .press-releases-list {
+    padding-top: rem(20px);
+
+    .image-with-synopsis-card {
+      margin-bottom: rem(30px);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    padding: rem(100px 0 55px 0);
+
+    .press-releases-list {
+      padding-top: 0;
+
+      .image-with-synopsis-card {
+        margin-bottom: rem(45px);
+      }
+    }
+
+    .press-release-filter {
+      margin-right: rem(60px);
+      border-bottom: none;
+
+      &:after {
+        content: "";
+        border-right: rem(1px) solid $color-brand-astronaut;
+        position: absolute;
+        top: 0;
+        right: rem(-35px);
+        height: calc(100% - 60px);
+      }
+
+      .search-filter {
+        border-bottom: none;
+      }
+    }
+  }
+}

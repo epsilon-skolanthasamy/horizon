@@ -1,0 +1,55 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+/**
+ * Button
+ */
+.btn {
+	@include btn();
+}
+
+a.btn {
+  line-height: rem(20px);
+}
+
+/**
+ * Red Button
+ */
+.btn.btn-red {
+	border: none;
+	color: $color-white;
+	background-color: $color-brand-medium-carmine;
+
+	@include media-breakpoint-up(md) {
+		&:hover {
+			background-color: $color-brand-medium-carmine-dark;
+		}
+	}
+}
+
+/**
+ * Blue Button
+ */
+.btn.btn-blue {
+	border: none;
+	color: $color-white;
+	background-color: $color-brand-dodger-blue;
+
+	&:hover {
+		background-color: $color-brand-astronaut;
+	}
+}
+
+/**
+ * Text button
+ */
+.text-btn {
+	font-size: rem(16px);
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: rem(0.2px);
+	color: $color-brand-dodger-blue;
+}

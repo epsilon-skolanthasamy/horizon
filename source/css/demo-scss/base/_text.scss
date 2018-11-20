@@ -1,0 +1,25 @@
+/*------------------------------------*\
+    #TEXT
+\*------------------------------------*/
+
+/**
+ * Paragraph base styles
+ */
+p {
+	margin-bottom: 0;
+	font: 13px MuseoSansLight;
+
+	&.disclaimer {
+		font-size: rem(10px);
+		color: $color-white;
+		padding-bottom: rem(10px);
+
+		&:last-child {
+			padding: 0;
+		}
+	}
+
+	@include media-breakpoint-up(md) {
+		font-size: rem(16px);
+	}
+}

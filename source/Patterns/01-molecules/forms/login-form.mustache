@@ -1,0 +1,33 @@
+<form class="login-form {{ styleModifier }}" id="loginForm" data-toggle="validator" novalidate="true">
+	<h3 class="login-head">Access Your Policy</h3>
+
+	<div class="form-group">
+		<input aria-label="Email Address" type="email" class="form-control input"
+      id="loginEmail" placeholder="Email Address" required data-required-error="Please enter login email address."
+      maxlength="100" data-email-validator="email-validator">
+    <div class="help-block with-errors"></div>
+	</div>
+
+	<div class="form-group">
+		<input aria-label="Password" type="password" class="form-control input"
+      id="loginPassword" placeholder="Password" required data-required-error="Please enter password."
+      maxlength="25">
+    <div class="help-block with-errors"></div>
+	</div>
+
+	<a class="dropdown-item link-reset-password" href="#">Forgot password?</a>
+
+  {{# loginError }}
+    <div class="has-error">
+      <div class="help-block with-errors form-errors">
+        <ul class="list-unstyled">
+          <li>Login information does not match our records.</li>
+        </ul>
+      </div>
+    </div>
+  {{/ loginError }}
+
+	{{# headerData.loginForm }}
+		{{> atoms-button:btn-blue }}
+	{{/ headerData.loginForm }}
+</form>

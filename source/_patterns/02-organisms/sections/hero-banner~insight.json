@@ -1,0 +1,12 @@
+{
+    "heroBanner": {
+        "bannerClass": "insightBanner",
+        "bannerImg": "",
+        "insightBanner" : {
+            "heading": "A Brand New View",
+            "description": "Welcome to our world! Here you'll find all the latest thinking in marketing along with news, case studies and other useful resources to support your programs"
+        },
+        "blogBanner": "",
+        "homeBanner": "" 
+    }
+}

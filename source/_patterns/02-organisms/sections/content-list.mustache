@@ -1,0 +1,12 @@
+{{#listWrap}}
+	<div class="list-wrap">
+		{{>atoms-headings}}
+		<p>{{listHeading}}</p>
+		<ul class="{{listClass}}">
+			{{#listItems}}
+				{{>molecules-list-content}}
+			{{/listItems}}
+		</ul>
+		<p class="bottom-txt">{{bottomTxt}}</p>
+	</div>
+{{/listWrap}}

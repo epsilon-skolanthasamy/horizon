@@ -1,0 +1,362 @@
+// colors
+$incomplete: $color-gray-84 !default;
+$complete: $color-brand-dodger-blue !default;
+$active: $color-brand-dodger-blue !default;
+$hover: $color-brand-dodger-blue !default;
+$step-danger: $color-brand-medium-carmine !default;
+$step-info: $color-brand-astronaut !default;
+// sizing
+$bubble-size: rem(15px) !default;
+$bubble-line-thickness: rem(5px) !default;
+$border-thickness: rem(1px) !default;
+$darken-amount: 30% !default;
+// misc
+$mobile-size: rem(400px) !default;
+@mixin bubble-style($color) {
+  background-color: $color;
+  color: $color;
+  border-color: darken($color, $darken-amount);
+
+  &:after,
+  &:before {
+    background-color: $color;
+    border-color: darken($color, $darken-amount);
+  }
+}
+
+.progress-container {
+  margin-top: rem(20px);
+  margin-bottom: rem(30px);
+  text-align: center;
+
+  .progress-heads {
+    font-size: rem(20px);
+    color: $color-brand-dodger-blue;
+    letter-spacing: rem(0.3px);
+  }
+
+  @include media-breakpoint-up(md) {
+    margin: rem(20px 0 70px);
+    text-align: left;
+  }
+}
+
+.progress-indicator {
+  display: flex;
+  margin: rem(35px 2px 0 2px);
+  padding: 0;
+  font-size: 80%;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+
+  > li {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    text-overflow: ellipsis;
+    color: $incomplete;
+    display: block;
+    z-index: 1;
+
+    &:hover {
+      color: darken($incomplete, $darken-amount);
+    }
+  }
+
+  .bubble-label {
+    position: absolute;
+    top: rem(-25px);
+    left: 0;
+    right: 0;
+    display: none;
+  }
+
+  > li .bubble {
+    border-radius: 50%;
+    width: $bubble-size;
+    height: $bubble-size;
+    background-color: $incomplete;
+    display: block;
+    margin: 0 auto 0.5em;
+    border-bottom: $border-thickness solid darken($incomplete, 20%);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  // line connectors
+  > li .bubble:after,
+  > li .bubble:before {
+    display: block;
+    position: absolute;
+    top: $bubble-size / 2 - $bubble-line-thickness / 2;
+    width: 50%;
+    height: $bubble-line-thickness;
+    content: '';
+    background-color: $incomplete;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  > li .bubble:before {
+    left: 0;
+  }
+
+  > li .bubble:after {
+    right: 0;
+  }
+
+  > li:first-child .bubble:after,
+  > li:first-child .bubble:before {
+    width: 50%;
+  }
+
+  > li:last-child .bubble:after,
+  > li:last-child .bubble:before {
+    width: 50%;
+  }
+  // completed state
+  > li.completed {
+    color: $complete;
+
+    .bubble {
+      @include bubble-style($complete);
+    }
+  }
+  // current state
+  > li.active {
+    color: $active;
+
+    .bubble {
+      @include bubble-style($active);
+    }
+  }
+  > li.completed-last {
+    &:last-child {
+      .bubble:after {
+        background-color: $complete;
+      }
+    }
+
+    .bubble:after {
+      background-color: $incomplete;
+    }
+
+    .bubble-label {
+      display: block;
+    }
+  }
+  > li.bubble-hover {
+    .bubble-label {
+      display: block;
+    }
+  }
+  // button states
+  > li a:hover .bubble {
+    @include bubble-style($hover);
+  }
+  // override states
+  > li.danger .bubble {
+    @include bubble-style($step-danger);
+  }
+
+  > li.info .bubble {
+    @include bubble-style($step-info);
+  }
+}
+@include media-breakpoint-down(sm) {
+  .progress-indicator {
+    font-size: 60%;
+  }
+}
+/*---
+	Tool Tip Style
+---*/
+.tooltip-inner {
+  padding: rem(3px 8px);
+  color: $color-brand-dodger-blue;
+  text-align: center;
+  background-color: transparent;
+  font: rem(14px) MuseoSansNormal;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before,
+.tooltip.bs-tooltip-top .arrow::before {
+  margin-left: -3px;
+  content: "";
+  border-width: 0;
+}
+
+/*---
+	nav Tab Style
+---*/
+.nav-tabs-container {
+  .nav-link {
+    padding: rem(10px 15px);
+    margin: rem(0px 0);
+    line-height: normal;
+    background-color: $color-gray-84;
+    color: $color-white;
+    border-radius: rem(0px);
+    font: rem(10px) MuseoSansNormal;
+    text-transform: uppercase;
+    letter-spacing: rem(0.2px);
+    @include media-breakpoint-up(md) {}
+
+    &.active {
+      color: $color-brand-dodger-blue;
+      border-color: $color-white;
+    }
+  }
+
+  .tab-content {
+    background-color: $color-white;
+    padding: rem(10px 15px 25px 15px);
+
+    .tab-pane {
+      text-align: center;
+      font: MuseoSansNormal;
+
+      .btn {
+        margin-top: rem(12px);
+      }
+    }
+
+    .content-head {
+      font-size: rem(30px);
+      margin-bottom: rem(8px);
+      letter-spacing: rem(0.4px);
+    }
+
+    .content-text {
+      font: rem(14px) MuseoSansNormal;
+      letter-spacing: rem(0.2px);
+    }
+  }
+
+  .nav-tabs {
+    border-bottom: rem(0px);
+  }
+}
+/*---
+	Tab and list container style
+---*/
+.tab-box-container {
+  padding: rem(20px 25px);
+  background-color: $color-gray-39;
+
+  .tab-box-head {
+    letter-spacing: rem(0.3px);
+    font: rem(18px) MuseoSansNormal;
+    margin-bottom: rem(20px);
+  }
+
+  .tab-heading {
+    font-size: rem(9px);
+    padding: rem(3px 6px);
+    letter-spacing: rem(0.1px);
+  }
+
+  .tabs-box-description {
+    margin-top: rem(25px);
+
+    p {
+      font: rem(12px) MuseoSansItalicNormal;
+      margin-bottom: rem(12px);
+      letter-spacing: rem(0.1px);
+    }
+  }
+
+  .tabs-box-description ul {
+    margin-left: rem(25px);
+
+    li {
+      list-style-type: disc;
+      font: rem(12px) MuseoSansLight;
+      margin-bottom: rem(15px);
+      letter-spacing: rem(0.1px);
+    }
+  }
+}
+/*---
+	Plan Comparison page style
+---*/
+.plan-comparison-main-content {
+  padding-top: rem(30px);
+  padding-bottom: rem(40px);
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: rem(130px);
+  }
+}
+/*---
+    Quote comparison page style
+---*/
+.quote-confirmation-wrapper {
+  .quote-description {
+    padding: rem(20px 0);
+
+    h3 {
+      font: rem(20px) MuseoSansNormal;
+      color: $color-brand-dodger-blue;
+      padding-bottom: rem(20px);
+      letter-spacing: rem(0.3px);
+    }
+
+    p {
+      padding-bottom: rem(25px);
+      font: rem(16px) MuseoSansLight;
+      color: $color-gray-84;
+      letter-spacing: rem(0.3px);
+    }
+  }
+
+  .nav-tabs-container .tab-content {
+    position: relative;
+    padding-bottom: rem(50px);
+  }
+
+  .tab-footer-info {
+    background-color: $color-gray-84;
+    text-align: center;
+    color: $color-white;
+    font: rem(10px) MuseoSansNormal;
+    text-transform: uppercase;
+    padding: rem(10px 0);
+    position: absolute;
+    bottom: rem(0px);
+    left: rem(0px);
+    width: 100%;
+  }
+
+  .get-quote-form {
+    margin-left: rem(0px);
+    min-width: 100%;
+    max-width: 100%;
+    padding-top: rem(20px);
+
+    .form-inline p {
+      min-width: rem(75px);
+      text-align: center;
+    }
+
+    .get-quote-form-setion {
+      text-align: left;
+    }
+
+    .get-quote-button {
+      margin-bottom: rem(0px);
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .tab-box-container {
+      margin-left: rem(60px);
+    }
+  }
+}

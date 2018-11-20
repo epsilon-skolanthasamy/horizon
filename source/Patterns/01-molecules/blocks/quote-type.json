@@ -1,0 +1,8 @@
+{
+	"quoteType" : {
+    "fontAwesomeIconClass": "fab fa-font-awesome",
+    "link": "/",
+    "quoteTypeLabel": "Lorem",
+    "class" : ""
+  }
+}

@@ -1,0 +1,32 @@
+/*
+* Blog details styling
+*/
+.blog-details {
+  .blog-section-head {
+    font-family: "MuseoSansBold";
+    font-size: rem(32px);
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: rem(0.2px);
+    color: $color-brand-astronaut;
+    margin: 3.5625rem 0 1.875rem 0;
+    text-align: center;
+  }
+
+  .blog-section {
+    margin-bottom: rem(50px);
+
+    h2{
+      letter-spacing: rem(0.2px);
+    }
+    p{
+      letter-spacing: rem(0.3px);
+    }
+  }
+  @include media-breakpoint-up(md) {
+    .blog-section-head{
+      text-align: left;
+    }
+  }
+}

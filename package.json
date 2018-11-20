@@ -1,0 +1,42 @@
+{
+  "name": "CrownPeak-microsite",
+  "description": "CrownPeak-microsite site created from edition-node-gulp of patternlab-node.",
+  "version": "1.0.0",
+  "dependencies": {
+    "browser-sync": "^2.0.0",
+    "gulp": "^4.0.0",
+    "minimist": "^1.2.0",
+    "patternlab-node": "^2.0.0",
+    "styleguidekit-assets-default": "^3.0.0",
+    "styleguidekit-mustache-default": "^3.0.0"
+  },
+  "keywords": [
+    "Pattern Lab",
+    "Atomic Web Design",
+    "Node",
+    "Gulp",
+    "Javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epsilon-skolanthasamy/crownpeak-eps.git"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js",
+    "gulp": "gulp -- "
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=5.0"
+  },
+  "devDependencies": {
+    "bootstrap": "~4.0.0",
+    "bootstrap-validator": "^0.11.9",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.1",
+    "sass-rem": "^2.0.0"
+  }
+}

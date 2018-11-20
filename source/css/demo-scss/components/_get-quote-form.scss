@@ -1,0 +1,219 @@
+.quote-form-title {
+  font-size: rem(20px);
+  color: $color-brand-dodger-blue;
+  text-align: center;
+  margin-top: rem(14px);
+  font-family: "MuseoSansNormal";
+  letter-spacing: rem(0.3px);
+  text-align: center;
+  margin-bottom: rem(15px);
+  width: 100%;
+
+  @include media-breakpoint-up(md) {
+    font-size: rem(20px);
+    color: $color-brand-dodger-blue;
+    text-align: left;
+    margin-bottom: rem(35px);
+    padding-left: rem(calc(#{$grid-gutter-width} / 2));
+  }
+}
+
+.get-quote-form {
+  .form-inline {
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      font-size: rem(20px);
+      color: $color-gray-84;
+      font-family: "MuseoSansNormal";
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: rem(0.3px);
+      text-align: center;
+      color: $color-gray-84;
+      margin-bottom: rem(35px);
+
+      &:first-child {
+        margin-bottom: rem(10px);
+      }
+    }
+
+    .quote-form-dropdown-container {
+      width: 100%;
+      min-width: rem(260px);
+      max-width: rem(290px);
+      margin: 0 auto;
+    }
+  }
+
+  .form-group {
+    margin-bottom: rem(10px);
+  }
+
+  .get-quote-form-setion {
+    clear: both;
+  }
+  .custom-checkbox {
+    label {
+      font-family: "MuseoSansNormal";
+      font-size: rem(10px);
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: rem(0.7px);
+      color: $color-gray-84;
+    }
+  }
+
+  .get-quote-button {
+    margin: rem(20px 0 45px);
+  }
+
+
+  @include media-breakpoint-up(md) {
+    .form-inline {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      min-height: rem(60px);
+      float: left;
+
+      .quote-form-dropdown-container {
+        width: rem(145px);
+        min-width: auto;
+        max-height: rem(145px);
+        margin: 0 rem(20px);
+      }
+    }
+
+    .get-quote-button {
+      margin: rem(30px auto 120px);
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .form-inline {
+      p {
+        &:first-child {
+          min-width: rem(70px);
+          text-align: left;
+        }
+      }
+      &.justify-content-center {
+        width: 100%;
+      }
+    }
+  }
+
+  @include media-breakpoint-between(md, lg) {
+    .form-inline {
+      p {
+        &:first-child {
+          min-width: rem(55px);
+          text-align: left;
+        }
+      }
+    }
+  }
+   @include media-breakpoint-between(sm, md) {
+    .form-inline {
+      float: none;
+      display: block;
+
+      p, p:first-child {
+        text-align: center;
+        min-width: auto;
+      }
+
+      .quote-form-dropdown-container {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+    .quote-form-title{
+      text-align: center;
+    }
+  }
+}
+
+/*
+* Get a quote Molecules styling
+*/
+.quote-header {
+  border-bottom: solid rem(1px) $color-brand-astronaut;
+
+  h1 {
+    font-family: MuseoSansBold;
+    font-size: rem(32px);
+    margin: rem(12px) rem(0px);
+    text-align: center;
+    letter-spacing: rem(0.2px);
+  }
+
+  span {
+    font-family: MuseoSansLight;
+    padding-left: rem(5px);
+    color: $color-brand-dodger-blue;
+    font-size: rem(12px);
+  }
+
+  .fa-arrow-alt-circle-left:before {
+    color: $color-brand-dodger-blue;
+    height: rem(20px);
+  }
+
+  .quotecircle {
+    text-align: center;
+    margin: rem(8px) rem(0px);
+
+    .get-quote-link {
+      height: rem(73px);
+      width: rem(73px);
+      padding: rem(10px) rem(0px);
+      background: $color-brand-astronaut;
+      margin: 0 auto;
+      cursor: default;
+
+      span {
+        font-family: MuseoSansNormal;
+        color: $color-white;
+        padding: rem(0px);
+        font-size: rem(9px);
+      }
+
+      i {
+        font-size: 2rem;
+      }
+
+      .fa-font-awesome:before {
+        color: $color-white;
+        font-size: rem(25px);
+      }
+
+      .fa-gem:before {
+        color: $color-white;
+        font-size: rem(25px);
+      }
+    }
+  }
+  @include media-breakpoint-up(md) {
+    h1 {
+      margin: rem(14px) rem(0px);
+      text-align: left;
+    }
+
+    span {
+      color: $color-gray-95;
+    }
+
+    .fa-arrow-alt-circle-left:before {
+      color: $color-gray-95;
+    }
+
+    .quotecircle {
+      float: right;
+    }
+  }
+}

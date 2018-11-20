@@ -1,0 +1,115 @@
+/*
+ * Policy Prices - Molecule styling
+ */
+
+.policy-price-block {
+  max-width: rem(500px);
+  margin-bottom: rem(35px);
+
+	.policy-price-head{
+		padding-bottom: rem(15px);
+		h5{
+			color: $color-brand-dodger-blue;
+			letter-spacing: rem(0.3px);
+			font: rem(20px) "MuseoSansNormal";
+			padding-bottom: rem(5px);
+		}
+		span{
+			color: $color-gray-84;
+			letter-spacing: rem(0.3px);
+			font: rem(16px) "MuseoSansLight";
+		}
+	}
+	.policy-price-block-content{
+		padding: rem(15px) 0 0;
+		border: rem(1px) solid $color-gray-65;
+		background: $color-white;
+		color: $color-brand-astronaut;
+
+		&.active{
+			box-shadow: 0 rem(2px) rem(4px) 0 rgba(0, 0, 0, 0.5);
+			.btn{
+				background-color: #4169FB;
+			    border-color: #4169FB;
+			    color: #fff;
+			}
+		}
+
+		h4{
+			font: rem(22px) "MuseoSansBold";
+		}
+		h2{
+			font-size: rem(36px);
+		}
+
+		h2,h4{
+			letter-spacing: rem(0.3px);
+		}
+		.policy-price-desc{
+			margin: rem(15px) rem(22px);
+			border-top: rem(1px) solid $color-gray-65;
+			padding-top: rem(5px);
+			font-family:  "MuseoSansNormal";
+
+			span{
+				letter-spacing: rem(0.2px);
+				font-size: rem(14px);
+				text-transform: uppercase;
+			}
+			h3{
+				font-size: rem(30px);
+				letter-spacing: rem(0.4px);
+			}
+		}
+	}
+	.btn.btn-gray{
+		font-size: rem(10px);
+		border-radius: 0;
+		width: 100%;
+		max-width: 100%;
+    background: $color-gray-84;
+    border-color: $color-gray-84;
+    color: $color-white;
+	}
+}
+
+/*
+ * Policy Prices - Organism styling
+ */
+.policy-price-wrapper {
+  padding: rem(30px) 0 rem(75px);
+
+  .policy-prices {
+    padding: rem(75px) 0 0;
+  }
+
+  .policyDescription {
+    color: $color-gray-84;
+    font: rem(16px) "MuseoSansLight";
+    letter-spacing: rem(0.3px);
+    padding-top: rem(40px);
+  }
+
+  .quoteinsurance .quotecircle .get-quote-link {
+    color: $color-white;
+    padding: rem(18px) 0;
+
+    .far {
+      font-size: rem(25px);
+    }
+  }
+
+  .quoteinsurance p {
+    font-family: MuseoSansBold;
+  }
+  @include media-breakpoint-up(md) {
+    .policy-prices {
+      max-width: 90%;
+      margin: 0 auto;
+
+      .policy-price-block {
+        max-width: rem(360px);
+      }
+    }
+  }
+}

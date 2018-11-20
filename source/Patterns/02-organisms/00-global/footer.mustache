@@ -1,0 +1,31 @@
+<footer class="full-width bg-dark-blue">
+	<div class="container-fluid">
+
+		<div class="row footer-nav justify-content-between">
+			{{# footerData.footerNavList }}
+				<div class="col-md-4 col-lg-2">
+					{{> molecules-footer-nav}}
+				</div>
+			{{/ footerData.footerNavList }}
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-4 order-xs-first order-md-last footer-social">
+				<div class="float-lg-right">
+					{{# footerData.socialLinks }}
+						<a href="{{ link }}" aria-label="{{ label }}">{{> atoms-font-awesome-icon }}</a>
+					{{/ footerData.socialLinks }}
+				</div>
+			</div>
+
+			<div class="col-md-8 order-xs-last order-md-first footer-disclaimer">
+				{{# footerData.disclaimerCopy }}
+					<p class="disclaimer">{{ disclaimerText }}</P>
+				{{/ footerData.disclaimerCopy }}
+			</div>
+
+		</div>
+
+	</div>
+</footer>

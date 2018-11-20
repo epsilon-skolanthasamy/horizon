@@ -1,0 +1,27 @@
+{{#searchHeader}}
+	<div class="search-result-header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="search-form">
+						{{> molecules-input-with-cta }}
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="search-result-count text-right d-none d-md-block">
+						<p>{{searchCount}} Results</p>
+					</div>
+				</div>
+			</div>
+			<div class="search-result-label">
+				<div class="d-none d-md-block">
+					<h2>Results for "{{searchText}}" <small>Search instead for "{{searchText}}"</small></h2>
+				</div>
+				<div class="d-block d-md-none">
+					<h2>{{searchCount}} Results for "{{searchText}}" <small>Search instead for "{{searchText}}"</small></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+{{/searchHeader}}
+

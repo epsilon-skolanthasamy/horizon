@@ -1,0 +1,197 @@
+/*------------------------------------*\
+    $Case Studies
+/*------------------------------------*/
+
+
+.imgWrap {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%;
+  .col-md-3 {
+    padding: 0;
+    .imgBox {
+      margin: 0 5px;
+      img {
+        max-width: 100%;
+        margin-bottom: 10px;
+        width: 100%;
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  h3 span {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+.case-studies {
+  padding: 30px 0;
+  h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    span {
+      font-size: 20px;
+      font-weight: normal;
+      text-transform: none;
+      margin-left: 30px;
+    }
+  }
+
+}
+
+
+
+/*------------------------------------*\
+    $Case Study - Story
+/*------------------------------------*/
+
+.cs-story-head {
+  background: $violet-bg;
+  padding: 30px 0 70px;
+  position: relative;
+
+  &:after {
+    content: "";
+    border-top: 25px solid $violet-bg;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .cs-story-list {
+    color: #fff;
+    text-align: center;
+
+    h4 {
+      font-size: 26px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    p {
+      font-weight: 300;
+      font-size: 18px;
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    padding-bottom: 50px;
+
+    .cs-story-list {
+      padding-bottom: 30px;
+    }
+  }
+}
+
+.cs-story-content {
+  color: #000;
+  padding: 60px 0 50px;
+  background: $color-gray-09;
+
+  h3 {
+    font-weight: 600;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    font-weight: 300;
+    font-size: 18px;
+  }
+}
+
+
+/*------------------------------------*\
+    $More Case studies
+/*------------------------------------*/
+
+.more-cs.case-studies {
+  h3 {
+    text-transform: none;
+    color: $btn-blue;
+    text-align: center;
+  }
+  .more-cs-btn {
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 15px auto;
+    border: 1px solid $btn-blue;
+    color: $btn-blue;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+
+/*------------------------------------*\
+    $Case Study Solution - Results
+/*------------------------------------*/
+
+.cs-solution {
+  background-color: $color-gray-09;
+  padding: 40px 0 50px;
+  text-align: center;
+  position: relative;
+  h3 {
+    color: $blue-header;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  img {
+    margin: 50px 0 70px;
+    width: 100%;
+  }
+  p {
+    font-size: 22px;
+    padding: 0 50px;
+    text-align: left;
+    font-weight: 350;
+  }
+  &:after {
+    content: "";
+    border-top: 25px solid $color-gray-09;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+.cs-results {
+  background-color: $violet-bg;
+  padding: 80px 0 40px;
+  text-align: center;
+  h3 {
+    color: $color-white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 22px;
+    padding: 0 50px;
+    text-align: left;
+    font-weight: 350;
+    color: $color-white;
+  }
+}

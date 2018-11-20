@@ -1,0 +1,107 @@
+/*------------------------------------*\
+    #FORMS
+\*------------------------------------*/
+
+/**
+ * Fieldset base styles
+ */
+fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+
+/**
+ * Input and text area base styles
+ * 1) Width entire container, gray border, padding
+ */
+input, textarea {
+	width: 100%;
+	border: 1px solid $color-gray-39;
+	border-radius: $border-rad-lite;
+	padding: rem(10px) rem(16px);
+	color: $color-gray-70;
+	@include font-MuseoSans(normal);
+	font-size: rem(12px);
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.8px;
+}
+
+input {
+	height: rem(32px);
+	padding: rem(6px) rem(20px);
+}
+
+select,
+select.form-control,
+select.form-control:not([size]):not([multiple]) {
+	height: rem(32px);
+	border-radius: rem(4px);
+}
+
+.select-dropdown-container {
+  margin: 0;
+  position: relative;
+
+  select,
+  .form-control {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    &::-ms-expand {
+      display: none;
+    }
+
+    width: 100%;
+    font-size: rem(12px);
+    padding-right: rem(20px);
+    display: block;
+    padding: rem(0px 25px 0 12px);
+    background-color: $color-white;
+  }
+
+  &:after {
+    content: '\f107';
+    font-family: "Font Awesome 5 Pro";
+    color: $color-gray-84;
+    font-size: rem(14px);
+    position: absolute;
+    top: rem(6px);
+    right: rem(10px);
+    pointer-events: none;
+  }
+
+  &.dropdown-blue {
+    select,
+    .form-control {
+      border: solid rem(1px) $color-brand-dodger-blue !important;
+      color: $color-brand-dodger-blue;
+    }
+
+    &:after {
+      color: $color-brand-dodger-blue;
+    }
+  }
+}
+
+.form-control{
+	font-size: rem(12px);
+}
+
+.has-error .form-control {
+	border: rem(1px) solid $color-brand-medium-carmine;
+	margin-bottom: rem(3px) !important;
+	font-size: rem(12px);
+}
+
+.has-error .help-block {
+	li {
+		@include text-style-7;
+		&:not(:first-child) {
+			display: none;
+		}
+	}
+}

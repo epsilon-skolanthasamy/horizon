@@ -1,0 +1,61 @@
+// Include variables
+@import "scss/abstracts/variables";
+
+// Bootstrap overrides
+/*// @import "scss/base/bootstrap-variables-override";*/
+
+// Include sass-rem
+@import '../../node_modules/sass-rem/_rem.scss';
+
+// Include bootstrap mixins for media queries usage
+@import "../../node_modules/bootstrap/scss/mixins";
+
+/*------------------------------------*\
+    $ABSTRACTS
+/*------------------------------------*/
+
+@import "font-awesome.scss";
+
+
+/*------------------------------------*\
+    $BASE
+/*------------------------------------*/
+
+// @import "scss/base/fonts";
+// @import "scss/base/typography";
+
+// @import "scss/base/body";
+// @import "scss/base/forms";
+// //@import "scss/base/global-classes";
+// @import "scss/base/btn";
+// @import "scss/base/headings";
+// @import "scss/base/links";
+// @import "scss/base/lists";
+// @import "scss/base/media";
+// //@import "scss/base/reset";
+// //@import "scss/base/tables";
+// @import "scss/base/text";
+// @import "scss/components/check-box";
+// @import "scss/base/map";
+
+
+
+/*------------------------------------*\
+    $LAYOUT
+\*------------------------------------*/
+
+// @import "scss/layout/layout";
+
+/*------------------------------------*\
+    $COMPONENTS
+\*------------------------------------*/
+
+@import "scss/components/header";
+@import 'scss/components/hero-banner';
+@import 'scss/components/content-block';
+@import 'scss/components/case-study';
+@import 'scss/components/blog-list';
+@import 'scss/components/footer';
+@import 'scss/components/testimonial-banner';
+@import 'scss/components/form';
+@import 'scss/components/pagination';

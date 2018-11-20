@@ -1,0 +1,25 @@
+{
+	"twoColumnContent": {
+		"bgClass": "bg-gray-09",
+		"sectionHead" : "Lorem ipsum",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+
+		"inputCTAForm": "",
+
+		"appDownload": {
+			"appStore": "../../../images/appStore.png",
+			"appStore@2x": "../../../images/appStore@2x.png",
+			"googlePlay": "../../../images/googlePlay.png",
+			"googlePlay@2x": "../../../images/googlePlay@2x.png"
+		},
+
+		"alt": "Mobile Image",
+		
+		"imagePaths": {
+			"small": "../../../images/bitmap.png",
+			"small@2x": "../../../images/bitmap@2x.png",
+			"large": "../../../images/bitmap.png",
+			"large@2x": "../../../images/bitmap@2x.png"
+		}
+	}
+}

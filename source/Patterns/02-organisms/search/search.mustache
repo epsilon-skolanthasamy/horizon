@@ -1,0 +1,32 @@
+{{#searchData}}
+
+<section class="full-width search-result-wrapper bg-gray-09">
+	{{> molecules-search-header }}
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<a class="d-block d-md-none search-filter-anchor collapsed" data-toggle="collapse" href="#searchFilter" data-target="#searchFilter">FILTER RESULTS {{> atoms-font-awesome-icon }}</a>
+				<div id="searchFilter" class="searchFilter-collapse collapse">
+					{{#searchFilters}}
+						{{> molecules-search-filter }}
+					{{/searchFilters}}
+				</div>
+			</div>
+			<div class="col-md-9">
+				{{#searchListDataContent}}
+					{{> molecules-search-result }}
+				{{/searchListDataContent}}
+			{{^ hidePagination }}
+			<div class="row justify-content-end">
+				{{> molecules-search-pagination }}
+			</div>
+			{{/ hidePagination }}
+			</div>
+
+		</div>
+
+	</div>
+</section>
+
+{{/searchData}}

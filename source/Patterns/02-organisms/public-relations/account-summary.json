@@ -1,0 +1,38 @@
+{
+    "formAttr": {
+        "attributes": [{
+                "name": "action",
+                "value": "/"
+            },
+            {
+                "name": "class",
+                "value": "account-setup"
+            },
+            {
+                "name": "method",
+                "value": "POST"
+            },
+            {
+                "name": "data-toggle",
+                "value": "validator"
+            },
+            {
+                "name": "novalidate",
+                "value": "true"
+            }
+        ]
+    },
+
+    "button1": {
+        "button": {
+            "buttonText": "SAVE",
+            "buttonType": "submit"
+        }
+    },
+    "button2": {
+        "button": {
+            "buttonText": "CANCEL",
+            "buttonType": "submit"
+        }
+    }
+}

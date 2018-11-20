@@ -1,0 +1,168 @@
+{
+	"blogData":{
+		"heroBanner": {
+	        "bannerClass": "insightBanner",
+	        "bannerImg": "",
+	        "insightBanner" : {
+	            "heading": "A Brand New View",
+	            "description": "Welcome to our world! Here you'll find all the latest thinking in marketing along with news, case studies and other useful resources to support your programs"
+	        },
+	        "blogBanner": "",
+	        "homeBanner": "" 
+	    },
+	    "subscribeForm":{
+	    	"groupHead": "Subscribe",
+			"formFields": [
+				{
+					"class": "",
+					"label": "First Name",
+					"id": "firstName",
+					"textInput": {
+						"attributes": [
+							{
+								"name": "id",
+								"value": "firstName"
+							},
+							{
+								"name": "autoComplete",
+								"value": "off"
+							},
+							{
+								"name": "class",
+								"value": "form-control"
+							},
+							{
+								"name": "placeholder",
+								"value": "Please enter your first name"
+							},
+							{
+								"name": "type",
+								"value": "text"
+							},
+							{
+								"name": "data-minlength",
+								"value": "2"
+							},
+							{
+								"name": "data-minlength-error",
+								"value": "Invalid First Name"
+							},
+							{
+								"name": "maxlength",
+								"value": "60"
+							},
+							{
+								"name": "aria-label",
+								"value": "First Name"
+							}
+						],
+						"required": {
+							"errorMessage": "First Name is required"
+						}
+					}
+				},
+				{
+					"class": "",
+					"label": "Last Name",
+					"id": "lastName",
+					"textInput": {
+						"attributes": [
+							{
+								"name": "id",
+								"value": "lastName"
+							},
+							{
+								"name": "autoComplete",
+								"value": "off"
+							},
+							{
+								"name": "class",
+								"value": "form-control"
+							},
+							{
+								"name": "placeholder",
+								"value": "Please enter your last name"
+							},
+							{
+								"name": "type",
+								"value": "text"
+							},
+							{
+								"name": "data-minlength",
+								"value": "2"
+							},
+							{
+								"name": "data-minlength-error",
+								"value": "Invalid Last Name"
+							},
+							{
+								"name": "maxlength",
+								"value": "60"
+							},
+							{
+								"name": "aria-label",
+								"value": "Last Name"
+							}
+						],
+						"required": {
+							"errorMessage": "Last Name is required"
+						}
+					}
+				},
+				{
+					"class": "",
+					"label": "Email",
+					"id": "email",
+					"textInput": {
+						"attributes": [
+							{
+								"name": "id",
+								"value": "email"
+							},
+							{
+								"name": "autoComplete",
+								"value": "off"
+							},
+							{
+								"name": "class",
+								"value": "form-control"
+							},
+							{
+								"name": "placeholder",
+								"value": "Please enter your email"
+							},
+							{
+								"name": "type",
+								"value": "email"
+							},
+							{
+								"name": "data-minlength",
+								"value": "2"
+							},
+							{
+								"name": "data-minlength-error",
+								"value": "Invalid Email"
+							},
+							{
+								"name": "maxlength",
+								"value": "60"
+							},
+							{
+								"name": "aria-label",
+								"value": "Email"
+							}
+						],
+						"required": {
+							"errorMessage": "Email is required"
+						}
+					}
+				}
+			],
+			"button":{
+				"buttonClass":"form-btn",
+				"buttonType":"button",
+				"buttonText":"Submit"
+			}
+		}
+	}
+}

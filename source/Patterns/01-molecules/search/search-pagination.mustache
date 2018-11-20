@@ -1,0 +1,25 @@
+{{#pagination}}
+  <nav aria-label="Page navigation">
+    <ul class="pagination">
+      <li class="page-item {{arrowDisplay}}">
+        <a class="page-link" href="#" aria-label="Previous">
+          {{#leftIcon}}
+    				{{> atoms-font-awesome-icon}}
+    			{{/leftIcon}}
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      {{#pagination.pageList}}
+        <li class="page-item"><a class="page-link {{pageNumberActive}}" aria-label="{{pageLabel}}" href="{{pageLink}}">{{pageNumbers}}</a></li>
+      {{/pagination.pageList}}
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          {{#rightIcon}}
+    				{{> atoms-font-awesome-icon}}
+    			{{/rightIcon}}
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+{{/pagination}}

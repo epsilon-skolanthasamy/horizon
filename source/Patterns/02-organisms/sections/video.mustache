@@ -1,0 +1,20 @@
+<section class="full-width video text-center">
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-sm-12">
+				<div class="video-content">
+					{{#video}}
+						<h2>{{ sectionHead }}</h2>
+						<p>{{ description }}</p>
+						{{> atoms-video }}
+						{{> atoms-anchor-button:btn-blue }}
+					{{/video}}
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</section>

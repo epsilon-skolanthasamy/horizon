@@ -1,0 +1,27 @@
+{{#testimonialBanner}}
+	<section class="testimonial-banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="testimonial-header">
+						{{>atoms-headings}}
+					</div>
+					<div class="testimonial-wrap">
+						<div class="testimonial-img">
+							<img src="{{testimonialImg}}" alt="{{testimonialAltTxt}}">
+						</div>
+						<div class="testimonial-content">
+							<div class="overlay-content">
+								<h3>"{{testimonial}}"</h3>
+								<p>-&nbsp;{{testimonialAuthor}}</p>
+							</div>
+							<div class="testimonial-cta">
+								{{>atoms-links}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{{/testimonialBanner}}

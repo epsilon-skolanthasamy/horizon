@@ -1,0 +1,25 @@
+{{#policyPriceData}}
+<section class="full-width policy-price-wrapper bg-gray-09 ">
+
+	<div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-12">
+        {{> molecules-quote-header }}
+      </div>
+    </div>
+
+		<div class="policy-prices">
+			<div class="row">
+				{{#policyPrices}}
+					<div class="col-sm-6">
+						{{> molecules-policy-card }}
+					</div>
+				{{/policyPrices}}
+			</div>
+		</div>
+		<p class="policyDescription">{{policyDescription}}</p>
+	</div>
+
+</section>
+{{/policyPriceData}}

@@ -1,0 +1,20 @@
+{{#four-column-text-Data}}
+<section class="full-width bg-gray-09 text-center four-column-wrapper">
+	<div class="section-head-wrapper center-align">
+		<h2 class="sectionHead">{{headerText}}</h2>
+		<p>{{columnDescription}}</p>
+	</div>
+	<div class="container-fluid">
+		<div class="col-xs-12">
+			<div class="row">
+				{{#columnList}}
+					{{> molecules-four-column-text}}
+				{{/columnList}}
+			</div>
+		</div>
+		<div class="cta-wrapper">
+			{{> molecules-input-with-cta}}
+		</div>
+	</div>
+</section>
+{{/four-column-text-Data}}

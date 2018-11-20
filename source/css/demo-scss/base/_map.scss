@@ -1,0 +1,8 @@
+.location-map {
+	width: 100%;
+	height: rem(400px);
+	
+	@include media-breakpoint-up(sm) {
+		height: rem(500px);	
+	}
+}

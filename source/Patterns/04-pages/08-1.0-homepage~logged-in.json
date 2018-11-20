@@ -1,0 +1,134 @@
+{
+	"title" : "Home Page",
+	"bodyClass": "home",
+
+	"loggedIn": true,
+
+	"getQuoteData" : {
+		"sectionTitle": "Get a Quote",
+		"quoteTypeList": [
+			{
+				"quoteType" : {
+					"fontAwesomeIconClass": "fal fa-gem",
+					"link": "/",
+					"quoteTypeLabel": "Life"
+				}
+			},
+			{
+				"quoteType" : {
+					"fontAwesomeIconClass": "far fa-user",
+					"link": "/",
+					"quoteTypeLabel": "Renters"
+				}
+			},
+			{
+				"quoteType" : {
+					"fontAwesomeIconClass": "far fa-car",
+					"link": "/",
+					"quoteTypeLabel": "Auto"
+				}
+			},
+			{
+				"quoteType" : {
+					"fontAwesomeIconClass": "far fa-chart-bar",
+					"link": "/",
+					"quoteTypeLabel": "Business"
+				}
+			},
+			{
+				"quoteType" : {
+					"fontAwesomeIconClass": "far fa-motorcycle",
+					"link": "/",
+					"quoteTypeLabel": "Motorcycle"
+				}
+			},
+			{
+				"quoteType" : {
+					"fontAwesomeIconClass": "fal fa-search",
+					"link": "/",
+					"quoteTypeLabel": "Other"
+				}
+			}
+		]
+	},
+
+	"findAgentData": {
+		"twoColumnContent": {
+			"bgClass": "bg-pattern",
+			"sectionHead" : "Find an Agent",
+			"description" : "You and your agent are the team that keeps your family safe. Make sure you find the best agent for the job",
+
+			"textInput": {
+				"attributes": [
+          {
+            "name": "id",
+            "value": "agentZipCode"
+          },
+					{
+						"name": "class",
+						"value": "form-control"
+					},
+          {
+            "name": "autoComplete",
+            "value": "off"
+          },
+          {
+            "name": "placeholder",
+            "value": "Enter Zip Code"
+          },
+          {
+            "name": "type",
+            "value": "text"
+          },
+          {
+            "name": "maxlength",
+            "value": "5"
+          },
+          {
+            "name": "data-minlength",
+            "value": "5"
+          },
+          {
+            "name": "data-minlength-error",
+            "value": "Invalid Zip code"
+          },
+          {
+            "name": "data-zip-code",
+            "value": "zip-code"
+          },
+					{
+						"name": "aria-label",
+						"value": "Enter Zip code"
+					}
+        ],
+        "required": {
+          "errorMessage": "Please enter a zip code/state/city"
+        }
+			},
+
+			"button": {
+				"buttonType": "submit",
+				"buttonText": "FIND AN AGENT"
+			},
+
+			"appDownload": "",
+
+			"imagePaths": {
+				"small": "../../../images/thinking-woman-small.png",
+				"small@2x": "../../../images/thinking-woman-small@2x.png",
+				"large": "../../../images/thinking-woman-large.png",
+				"large@2x": "../../../images/thinking-woman-large@2x.png"
+			}
+		}
+	},
+	"heroComponentData": {
+        "sectionHead": "Here to help when it matters most",
+        "description": "Our promise is to build and deliver, to be authentic, innovative, truly different, and to put our customers first. We believe the customer should be fully informed about their exposures and current coverage",
+        "button": {
+            "buttonType": "submit",
+            "buttonText": "Learn more"
+        },
+        "heroImage": "../../../images/hero-banner.jpg",
+        "heroImageMobile": "../../../images/hero-banner-sm.jpg"
+    }
+}

@@ -1,0 +1,33 @@
+{{ #heroBanner }}
+<div class="hero-banner {{ bannerClass }}">
+  {{#bannerImg}}
+    <img class="banner-img" src="{{ url }}" alt=" {{ alt }}" >
+  {{/bannerImg}}
+  <div class="hero-banner-content">
+    <div class="container">
+
+      {{ #homeBanner }}
+        <div class="home-banner">
+          <h3>{{description}}</h3>
+        </div>
+      {{ /homeBanner }}
+
+      {{ #blogBanner }}
+        <div class="blog-banner">
+          <h5 class="blog-cate">{{blogCategory}}</h5>
+          <img src="{{logoImage.url}}" alt="logoImage.alt" />
+          <p>{{description}}</p>
+        </div>
+      {{ /blogBanner }}
+
+      {{ #insightBanner }}
+        <div class="home-banner">
+          <h3>{{heading}}</h3>
+          <p>{{description}}</p>
+        </div>
+      {{ /insightBanner }}
+
+    </div>
+  </div>
+</div>
+{{ /heroBanner }}

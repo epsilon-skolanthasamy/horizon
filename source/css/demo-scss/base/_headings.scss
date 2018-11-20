@@ -1,0 +1,72 @@
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+
+/**
+ * Heading 1
+ */
+h1  {
+	font: rem(32px) MuseoSansBold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: rem(0.2px);
+}
+
+/**
+ * Heading 2
+ */
+h2 {
+	font: rem(32px) MuseoSansBold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: rem(0.2px);
+}
+
+/**
+ * Heading 3
+ */
+h3  {
+	@include text-style-6;
+	font-weight: 500;
+}
+
+/**
+ * Heading 4
+ */
+h4  {
+
+}
+
+/**
+ * Heading 5
+ */
+h5 {
+
+}
+
+/**
+ * Heading 6
+ */
+h6 {
+
+}
+
+/**
+ * Subheading
+ */
+.subheading {
+	font-weight: normal;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,44 @@
+{{#footer}}
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				{{#ctaSection}}
+				<div class="ctaSection">
+					<div class="col-md-5">
+						{{>atoms-images}}
+					</div>
+					<div class="col-md-4">
+						{{>atoms-headings}}
+					</div>
+					<div class="col-md-3">
+						{{>atoms-links-icon}}
+					</div>
+				</div>
+				{{/ctaSection}}
+				{{#aboutContent}}
+					<div class="aboutContent">
+						<div class="col-md-12">
+						<p>Epsilon® is an all-encompassing global marketing innovator. We provide unrivaled data intelligence and customer insights, world-class technology including loyalty, email and CRM platforms and data-driven creative, activation and execution. Epsilon’s digital media arm, Conversant®, is a leader in personalized digital advertising and insights through its proprietary technology and trove of consumer marketing data, delivering digital marketing with unprecedented scale, accuracy and reach through personalized media programs and through CJ Affiliate by Conversant®, one of the world’s largest affiliate marketing networks. Together, we bring personalized marketing to consumers across offline and online channels, at moments of interest, that help drive business growth for brands. Recognized by Ad Age as the #1 World’s Largest CRM/Direct Marketing Agency Network, #1 Largest U.S. Agency from All disciplines, # 1 Largest U.S CRM/Direct Marketing Agency Network and # 1 Lagest U.S Mobile Marketing Agency. Epsilon employs over 8,000 associates in 70 offices worldwide. Epsilon is an Alliance Data company. For more information, visit <a href="{{epsilonURL}}">www.epsilon.com</a> and follow us on Twitter <a href="{{twitterURL}}">@EpsilonMktg</a>.</p>
+						<p>By continuing to use this site you are giving us your consent to the processing of your personal data in accordance with and as described in the <a href="{{privacyURL}}">Privacy Policy</a>. You may withdraw your consent at any time. For more details see our <a href="{{privacyURL}}">Privacy Policy</a> or update your <a href="{{preferenceURL}}">Preferences</a></p>
+						</div>
+					</div>
+				{{/aboutContent}}
+				<hr>
+				{{#copyright}}
+				<div class="copyright">
+					<div class="col-md-12">
+						<div class="linkList">
+							<a href="{{privacyURL}}">{{privacyTxt}}</a>
+							<span>|</span>
+							<a href="{{termsURL}}">{{termsTxt}}</a>
+						</div>
+						<div class="copyTxt">
+							<p>{{copyTxt}}</p>
+						</div>
+					</div>
+				</div>
+				{{/copyright}}
+			</div>
+		</div>
+	</footer>
+{{/footer}}

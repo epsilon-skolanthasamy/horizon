@@ -1,0 +1,380 @@
+{
+	"contactPage":{
+		"imageList":{
+    		"imgPath" : "../../images/blog-banner.jpg"
+    	},
+    	"listWrap":{
+	    	"headingTag": "h3",
+	        "headingClass": "",
+	        "headingTxt": "Please fill in the form to schedule your time with an Epsilon Crownpeak solutions engineer.",
+	        "headingSubtxt":"",
+	        "listHeading":"During this meeting, we will:",
+	        "listClass":"bullet-list",
+	        "listItems":[
+	        	{
+	        		"listItem": "Talk about your current customer experience including challenges and successes"
+				},
+				{
+					"listItem": "Explore areas of focus for scale, execution, integration and partnerships"
+				},
+				{
+					"listItem": "Begin to prioritize decisions that will accelerate your time-to-market"
+				}
+	        ],
+	        "bottomTxt":"This one-to-one meeting is your first step on the path to formalizing your success plan. We look forward to seeing you!"
+	    },
+	    "signupForm":{
+	    	"headingTag": "h3",
+	        "headingClass": "signup-heading",
+	        "headingTxt":"Sign up below",
+	        "headingSubtxt":"",
+
+	        "formFields":[
+				{
+					"class": "",				
+					"label": "First Name",
+					"id": "firstName",
+					"textInput": {
+						"inputParentClass":"col-md-6",
+						"attributes": [
+							{
+								"name": "id",
+								"value": "firstName"
+							},
+							{
+								"name": "autoComplete",
+								"value": "off"
+							},
+							{
+								"name": "class",
+								"value": "form-control"
+							},
+							{
+								"name": "placeholder",
+								"value": "FIRST NAME"
+							},
+							{
+								"name": "type",
+								"value": "text"
+							},
+							{
+								"name": "data-minlength",
+								"value": "2"
+							},
+							{
+								"name": "data-minlength-error",
+								"value": "Invalid First Name"
+							},
+							{
+								"name": "maxlength",
+								"value": "60"
+							},
+							{
+								"name": "aria-label",
+								"value": "First Name"
+							}
+						],
+						"required": {
+							"errorMessage": "First Name is required"
+						}
+					}
+				},
+				{
+					"class": "",
+					"label": "Last Name",
+					"id": "lastName",
+					"textInput": {
+						"inputParentClass":"col-md-6",
+						"attributes": [
+							{
+								"name": "id",
+								"value": "lastName"
+							},
+							{
+								"name": "autoComplete",
+								"value": "off"
+							},
+							{
+								"name": "class",
+								"value": "form-control"
+							},
+							{
+								"name": "placeholder",
+								"value": "LAST NAME"
+							},
+							{
+								"name": "type",
+								"value": "text"
+							},
+							{
+								"name": "data-minlength",
+								"value": "2"
+							},
+							{
+								"name": "data-minlength-error",
+								"value": "Invalid Last Name"
+							},
+							{
+								"name": "maxlength",
+								"value": "60"
+							},
+							{
+								"name": "aria-label",
+								"value": "Last Name"
+							}
+						],
+						"required": {
+							"errorMessage": "Last Name is required"
+						}
+					}
+				},
+				{
+					"class": "",
+					"label": "Email",
+					"id": "email",
+					"textInput": {
+						"inputParentClass":"col-md-6",
+						"attributes": [
+							{
+								"name": "id",
+								"value": "email"
+							},
+							{
+								"name": "autoComplete",
+								"value": "off"
+							},
+							{
+								"name": "class",
+								"value": "form-control"
+							},
+							{
+								"name": "placeholder",
+								"value": "TITLE"
+							},
+							{
+								"name": "type",
+								"value": "text"
+							},
+							{
+								"name": "data-minlength",
+								"value": "2"
+							},
+							{
+								"name": "data-minlength-error",
+								"value": "Invalid Email"
+							},
+							{
+								"name": "maxlength",
+								"value": "60"
+							},
+							{
+								"name": "aria-label",
+								"value": "Email"
+							}
+						],
+						"required": {
+							"errorMessage": "Email is required"
+						}
+					}
+				},			
+				{
+					"class": "",
+					"label": "Email",
+					"id": "email",
+					"textInput": {
+						"inputParentClass":"col-md-6",
+						"attributes": [
+							{
+								"name": "id",
+								"value": "email"
+							},
+							{
+								"name": "autoComplete",
+								"value": "off"
+							},
+							{
+								"name": "class",
+								"value": "form-control"
+							},
+							{
+								"name": "placeholder",
+								"value": "COMPANY"
+							},
+							{
+								"name": "type",
+								"value": "text"
+							},
+							{
+								"name": "data-minlength",
+								"value": "2"
+							},
+							{
+								"name": "data-minlength-error",
+								"value": "Invalid Email"
+							},
+							{
+								"name": "maxlength",
+								"value": "60"
+							},
+							{
+								"name": "aria-label",
+								"value": "Email"
+							}
+						],
+						"required": {
+							"errorMessage": "Email is required"
+						}
+					}
+				},
+				
+				{
+					"class": "",
+					"label": "Email",
+					"id": "email",
+					"textInput": {
+						"inputParentClass":"col-md-6",
+						"attributes": [
+							{
+								"name": "id",
+								"value": "email"
+							},
+							{
+								"name": "autoComplete",
+								"value": "off"
+							},
+							{
+								"name": "class",
+								"value": "form-control"
+							},
+							{
+								"name": "placeholder",
+								"value": "EMAIL ADDRESS"
+							},
+							{
+								"name": "type",
+								"value": "email"
+							},
+							{
+								"name": "data-minlength",
+								"value": "2"
+							},
+							{
+								"name": "data-minlength-error",
+								"value": "Invalid Email"
+							},
+							{
+								"name": "maxlength",
+								"value": "60"
+							},
+							{
+								"name": "aria-label",
+								"value": "Email"
+							}
+						],
+						"required": {
+							"errorMessage": "Email is required"
+						}
+					}
+				},
+				
+				{
+					"class": "",
+					"label": "Email",
+					"id": "email",
+					"textInput": {
+						"inputParentClass":"col-md-6",
+						"attributes": [
+							{
+								"name": "id",
+								"value": "email"
+							},
+							{
+								"name": "autoComplete",
+								"value": "off"
+							},
+							{
+								"name": "class",
+								"value": "form-control"
+							},
+							{
+								"name": "placeholder",
+								"value": "PHONE NUMBER"
+							},
+							{
+								"name": "type",
+								"value": "text"
+							},
+							{
+								"name": "data-minlength",
+								"value": "2"
+							},
+							{
+								"name": "data-minlength-error",
+								"value": "Invalid Email"
+							},
+							{
+								"name": "maxlength",
+								"value": "60"
+							},
+							{
+								"name": "aria-label",
+								"value": "Email"
+							}
+						],
+						"required": {
+							"errorMessage": "Email is required"
+						}
+					}
+				}
+			],
+			"bottomField":{
+				"headingTag": "h3",
+		        "headingClass": "",
+		        "headingTxt":"Let us know what you need",
+		        "headingSubtxt":"",
+		        "formFields":[
+					{
+						"label": "Select Menu",
+						"action": "Change",
+						"selectField": {
+							"attributes": [{
+									"name": "id",
+									"value": "selectMenu"
+								},
+								{
+									"name": "class",
+									"value": "select-menu"
+								}
+							],
+							"options": [{
+									"name": "Customer Experience Design",
+									"value": "Customer Experience Design",
+									"selected": "selected"
+								},
+								{
+									"name": "dummy text",
+									"value": "dummy text"
+								},
+								{
+									"name": "dummy text",
+									"value": "dummy text"
+								}
+							]
+						}
+					}
+				]
+			},
+			"button": {
+				"buttonText": "SUBMIT",
+				"buttonType": "button",
+				"buttonClass": "form-btn"
+			},
+			"checkBox": {
+				"type": "checkbox",
+				"checkid": "contact-checkbox",
+				"label": "Send me emails containing marketing messages from epsion and our affiliates",
+				"ariaLabel": "Conteant"
+			}
+	    }
+	}
+}

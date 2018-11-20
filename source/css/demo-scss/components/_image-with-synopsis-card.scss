@@ -1,0 +1,48 @@
+.image-with-synopsis-card {
+  min-height: rem(340px);
+  overflow: hidden;
+
+  img {
+    max-width: rem(290px);
+    width: 100%;
+    margin: auto;
+  }
+
+  .image-synopsis {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    margin-top:rem(17px);
+    text-align: center;
+
+    h3, a {
+      font-size: rem(20px);
+      font-weight: 500;
+      color: $color-brand-astronaut;
+    }
+    p {
+      color: $color-gray-84;
+      font-size: rem(14px);
+      letter-spacing: rem(0.1px);
+    }
+    span {
+      font-weight: 500;
+      color: $color-brand-astronaut;
+      font-size: rem(14px);
+      letter-spacing: rem(0.1px);
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    img {
+      max-width: rem(320px);
+    }
+
+    .image-synopsis {
+      text-align: left;
+    }
+  }
+}

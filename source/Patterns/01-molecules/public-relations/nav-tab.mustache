@@ -1,0 +1,28 @@
+<div class="nav-tabs-container">
+  <ul class="nav nav-tabs" role="tablist">
+    {{#tabNamesList}}
+    <li class="nav-item">
+      <a class="nav-link {{activeClass}}" id="{{listId}}" data-toggle="tab"
+        href="{{listHref}}" role="tab" aria-controls="{{ariaControls}}"
+        aria-selected="true">{{tabName}}</a>
+    </li>
+    {{/tabNamesList}}
+  </ul>
+  <div class="tab-content">
+    {{#tabsContentList}}
+    <div class="tab-pane fade {{activeClass}}" id="{{contentId}}" role="tabpanel" aria-labelledby="{{ariaLabelledby}}">
+      <h3 class="content-head">{{contentHead}}</h3>
+      <p class="content-text text-uppercase">{{contentTextTop}}</p>
+      <p class="content-text">{{contentTextBottom}}</p>
+      {{# button}}
+      {{> atoms-button:btn-blue}}
+      {{/ button}}
+      {{# tabFooterInfo}}
+        <div class="tab-footer-info">{{footerText}}</div>
+      {{/ tabFooterInfo}}
+    </div>
+
+    {{/tabsContentList}}
+  </div>
+
+</div>

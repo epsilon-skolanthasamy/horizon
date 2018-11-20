@@ -1,0 +1,151 @@
+/*---
+	Accordion Wrapper Style
+---*/
+.accordion-wrapper{
+	padding: rem(50px 0px);
+	@include media-breakpoint-down(sm) {
+		padding: rem(15px 0px);
+	}
+}
+/*---
+	Accordion Header Style
+---*/
+.card-header{
+	border-top: solid rem(1px) $color-gray-65;
+	.btn{
+		max-width: 100%;
+	    background: transparent;
+	    border: 0px;
+	    text-align: left;
+	    text-decoration: none;
+	    color: $color-brand-astronaut;
+	    font: rem(32px) MuseoSansBold;
+	    height: auto;
+	    text-transform: capitalize;
+	    padding: rem(20px 2px);
+
+	    .icon{
+	    	font-size: rem(20px);
+	    	&:before{
+	    		top: rem(-2px);
+			    position: relative;
+			    margin-right: rem(10px);
+	    	}
+	    }
+
+	    &[aria-expanded="false"]{
+	    	.fa-plus{
+	    		display: inline-block;
+	    	}
+	    }
+	    &[aria-expanded="true"]{
+	    	.fa-plus{
+	    		display: none;
+	    	}
+	    	.fa-minus{
+	    		display: inline-block;
+	    	}
+	    }
+	    .fa-minus{
+	    	display: none;
+	    }
+	    @include media-breakpoint-down(sm) {
+	    	font-size: rem(20px);
+	    	word-wrap: break-word;
+    		white-space: normal;
+	    }
+	}
+}
+
+/*---
+	Accordion Body Style
+---*/
+.accodion-body{
+	&.show{
+		border-top: solid rem(1px) $color-gray-65; 
+	}
+}
+
+.card:first-child{
+	.card-header{
+		border-top: 0px;
+	}
+}
+
+/*---
+	toggle Icon style
+---*/
+.card-header{
+	.btn{
+		&.collapsed{
+			.fa-minus{
+				display: none;
+			}
+			.fa-plus{
+				display: inline-block;
+			}
+		}
+	}
+}
+.card-body{
+	padding: rem(35px 10px);
+
+	p{
+		font: rem(16px) MuseoSansNormal;
+		color: #535353;
+		padding-bottom: rem(20px);
+
+		@include media-breakpoint-down(sm) {
+			font-size: rem(12px);
+		}
+	}
+	@include media-breakpoint-down(sm) {
+		padding: rem(15px 10px);
+	}
+}
+
+/*---
+	List Style
+---*/
+.card-body > ul{
+	padding-left: rem(20px);
+	li{
+		font: rem(16px) MuseoSansNormal;
+		color: #535353;
+		list-style-type: disc;
+		padding-left: rem(15px);
+		line-height: rem(35px);
+
+		@include media-breakpoint-down(sm) {
+			font-size: rem(12px);
+			line-height: rem(25px);
+		}
+	}
+	ul{
+		padding-left: rem(5px);
+		li{
+			list-style-type: none;
+			padding-left: 0px;
+			&:before{
+				content: "";
+				display: inline-block;
+				height: rem(2px);
+				width: rem(9px);
+				margin-right: rem(15px);
+				position: relative;
+			    top: -3px;
+			    background-color: $color-gray-84;
+			}	
+		}
+	}
+}
+/*---
+	Info Banner Style
+---*/
+.info-banner{
+	p{
+		@include media-breakpoint-down(sm) {
+			font-size: rem(13px);
+		}
+	}
+}

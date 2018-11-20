@@ -1,0 +1,40 @@
+{{# twoColumnContent }}
+	<section class="full-width two-column-content-with-image {{ bgClass }}">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-7">
+					<div class="left-column">
+						<h2>{{ sectionHead }}</h2>
+
+						<p>{{description}}</p>
+
+						{{# inputCTAForm }}
+							<div class="find-agent-form">
+								{{> molecules-input-with-cta }}
+							</div>
+						{{/ inputCTAForm }}
+
+						{{# appDownload }}
+							<div class="apps-to-download">
+								{{> molecules-app-download-imgs }}
+							</div>
+						{{/ appDownload }}
+					</div>
+				</div>
+
+        {{# imagePaths }}
+				<div class="col-md-5">
+					<div class="right-column">
+						<img aria-hidden="true" alt="{{alt}}" class="d-block d-sm-block d-md-none" src="{{ imagePaths.small }}"
+							srcset="{{ imagePaths.small }} 1x, {{ imagePaths.small@2x }} 2x" />
+						<img aria-hidden="true" alt="{{alt}}" class="d-none d-sm-none d-md-block" src="{{ imagePaths.large }}"
+							srcset="{{ imagePaths.large }} 1x, {{ imagePaths.large@2x }} 2x" />
+					</div>
+				</div>
+        {{/ imagePaths }}
+
+			</div>
+		</div>
+	</section>
+{{/ twoColumnContent }}

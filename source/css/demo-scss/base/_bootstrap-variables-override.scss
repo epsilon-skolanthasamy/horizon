@@ -1,0 +1,23 @@
+//////////////////////////////////////
+// BOOTSTRAP CUSTOMIZATION
+//////////////////////////////////////
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 769px,
+  lg: 992px,
+  xl: $page-width
+);
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:                12;
+$grid-gutter-width:           27px;

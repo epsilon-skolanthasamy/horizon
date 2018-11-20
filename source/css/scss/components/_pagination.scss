@@ -1,0 +1,33 @@
+.pagination-wrap{
+	margin: 0 auto;
+	ul{
+		list-style-type: none;
+		padding-left: 0;
+		li{
+			display: inline-block;
+			margin:0 5px;
+			i{
+				margin-left: 8px;
+			}
+			a{
+				padding: 5px 10px;
+				color: $base-color;
+				text-decoration:none;
+				display: block;
+				&.active{
+					color: $color-white;
+					background-color:$base-color; 
+					pointer-events: none;
+					cursor: default;
+				}
+			}
+			
+		}
+	}
+}
+/*Template level css*/
+.pagination{
+	background-color: $color-gray-42;
+	padding: 60px 20px 10px;
+	border-radius: 0;
+}

@@ -1,0 +1,25 @@
+{{>organisms-header}}
+
+{{#blogData}}
+	{{>organisms-hero-banner-insight}}
+	<section class="blogsWrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					{{>organisms-blogList-main}}
+					<section class="pagination">
+						{{>organisms-pagination}}
+					</section>
+				</div>
+				<div class="col-md-4">
+					<div class="sidebar">
+						{{>organisms-subscribe-form}}
+						{{>molecules-sidebarBlogs}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{{/blogData}}
+
+{{>organisms-footer}}

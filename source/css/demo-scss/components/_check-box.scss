@@ -1,0 +1,30 @@
+.custom-checkbox {
+  input {
+    width: rem(12px);
+    height: rem(20px);
+  }
+
+  .custom-control-label {
+    font-size: rem(10px);
+
+    a {
+      font-family: "MuseoSansNormal";
+      font-size: rem(10px);
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: rem(0.7px);
+      text-decoration: underline;
+      color: $color-brand-dodger-blue;
+    }
+  }
+
+  .custom-control-label::before {
+    border-radius: rem(0px);
+    border: solid 0.8px $color-gray-84;
+  }
+
+  .custom-control-input:checked~.custom-control-label::before {
+    background-color: $color-gray-84;
+  }
+}

@@ -1,0 +1,11 @@
+<form class="login-form {{ styleModifier }}" id="forgotPwdForm" data-toggle="validator" novalidate="true">
+  <h3 class="login-head">Password Reset</h3>
+ {{# forgotPwdData}} 
+  <div class="form-group">
+    {{> atoms-text-field}}
+    <div class="help-block with-errors"></div>
+  </div> 
+    
+  	{{> atoms-button:btn-blue }} 
+  {{/ forgotPwdData}} 
+</form>

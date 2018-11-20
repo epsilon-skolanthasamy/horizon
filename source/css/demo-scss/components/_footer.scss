@@ -1,0 +1,112 @@
+/*------------------------------------*\
+#FOOTER
+\*------------------------------------*/
+
+
+/*
+* Footer - molecules styling
+*/
+
+.foot-links {
+  padding: rem(20px) 0;
+
+  @include media-breakpoint-down(sm) {
+    padding: rem(10px) rem(20px) rem(25px);
+  }
+}
+
+
+/*
+* Footer - Organism styling
+*/
+
+footer {
+  padding: rem(45px) 0;
+
+  @include media-breakpoint-down(sm) {
+    padding: rem(25px) 0;
+  }
+
+  .footer-nav {
+    padding-bottom: rem(50px);
+    overflow: hidden;
+
+  > div:last-child {
+    .foot-head:after {
+      width: 100%;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 0;
+  }
+  }
+
+  .foot-head {
+    letter-spacing: rem(0.2px);
+    font-weight: 300;
+    padding-bottom: rem(15px);
+    color: $color-white;
+    position: relative;
+    font-size: rem(20px);
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      height: rem(1px);
+      width: 320%;
+      background: $color-white;
+      left: 0;
+
+      @include media-breakpoint-down(md) {
+        width: 120%;
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      .footer-nav .col-md-4.col-lg-2:last-child .foot-head:after {
+        overflow: hidden;
+        width: 100%;
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      font-size: rem(18px);
+
+    &:after {
+      width: 100%;
+      }
+    }
+  }
+
+  .foot-link {
+    font-size: rem(14px);
+    line-height: rem(24px);
+    color: $color-white;
+  }
+
+  // Footer Social Icons
+  .footer-social a {
+    color: $color-white;
+    margin: 0 0 0 rem(15px);
+
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+
+  .footer-social i {
+    font-size: rem(25px);
+
+    @include media-breakpoint-down(sm) {
+      font-size: rem(28px);
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .footer-social {
+    padding: rem(30px) 0;
+  }
+}

@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+
+/**
+ * Body base styles
+ */
+body {
+	background: $color-white;
+	color: $color-text;
+
+	/**
+   * These values will not show up in content, but can be
+   * queried by JavaScript to know which breakpoint is active.
+   */
+  &:before {
+    content: "small";
+    display: none; /* Prevent from displaying. */
+  }
+  @include media-breakpoint-up(md) {
+    &:before {
+      content: "medium";
+    }
+  }
+}
+
+* {
+	font-family: $font;
+	font-size: rem(16px);
+	box-sizing: border-box;
+}

@@ -1,0 +1,96 @@
+
+/*
+ * Quote - Molecule styling
+ */
+
+.get-quote-link {
+    border: rem(1px) solid $color-gray-39;
+    background: $color-white;
+    text-align: center;
+    border-radius: 50%;
+    margin: rem(10px) rem(5px);
+    display: inline-block;
+    height: rem(125px);
+    width: rem(125px);
+    padding: rem(30px) 0;
+
+    &:hover {
+        background: $color-brand-dodger-blue;
+        text-decoration: none;
+    }
+
+    i {
+        font-size: rem(42px);
+    }
+
+    span {
+        display: block;
+        font: rem(15px) MuseoSansNormal;
+        padding-top: rem(5px);
+        max-width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; color: $color-brand-astronaut;
+    }
+
+    img{
+        margin: 0 auto;
+        max-width: 50px;
+    }
+
+    &:hover i, &:hover span {
+        color: $color-white;
+    }
+
+    @include media-breakpoint-up(sm) {
+        height: rem(145px);
+        width: rem(145px);
+        padding: rem(40px) 0;
+        margin: rem(10px);
+
+        i{
+            font-size: rem(50px);
+        }
+        span{
+            font-size: rem(18px);
+            padding-top: rem(5px);
+        }
+        img{
+            max-width: none;
+        }
+    }
+}
+
+.get-quote-img, 
+.get-quote-hover-img, 
+.get-quote-link:hover 
+.get-quote-img{
+    display: none;
+}
+
+.get-quote-link:hover .get-quote-hover-img, 
+.get-quote-link .get-quote-img{
+    display: block;
+}
+
+/*
+ * Get Quote - Organism styling
+ */
+
+
+.get-quote-wrapper {
+    padding: rem(50px) 0 rem(30px);
+
+    @include media-breakpoint-up(sm) {
+        padding: rem(70px) 0;
+    }
+}
+
+.get-quote-list {
+    text-align: center;
+    padding: rem(30px) 0;
+    li {
+        padding: rem(10px);
+    }
+}

@@ -1,0 +1,26 @@
+<section class="full-width four-column-container">
+	{{# fourColumnImageContent }}
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="four-column-head">{{sectionHead}}</h2>
+			</div>
+			<div class="col-md-12">
+				<div class="col-blok-content row">
+					{{# fourColumnImageContent.imageItemsList }}
+					<div class="col-md-3 p-0">
+						<img alt="{{imageAlt}}" aria-hidden="{{ariaLabel}}" class="img-fluid four-column-container-image"
+							src="{{imagePath}}" srcset="{{imagePath}} 1x, {{imagePath@2x}} 2x">
+						<div class="type-content">
+							<h3 class="sub-head">{{head}}</h3>
+							<a class="link" href="#">{{link}}</a>
+						</div>
+					</div>
+					{{/ fourColumnImageContent.imageItemsList }}
+
+				</div>
+			</div>
+		</div>
+	</div>
+	{{/ fourColumnImageContent }}
+</section>

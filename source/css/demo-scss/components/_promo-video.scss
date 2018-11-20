@@ -1,0 +1,34 @@
+.video-content {
+	padding: rem(35px) 0;
+
+	h2{
+		padding-bottom: rem(10px);
+	}
+
+	p{
+		max-width: rem(580px);
+		margin: 0 auto;
+	}
+
+	.video-wrapper {
+	    display: block;
+	    padding: rem(25px) 0 rem(35px);
+
+	    video {
+	    	max-width: rem(600px);
+		    width: 100%;
+	    }
+	}
+
+	.promo-video {
+
+	}
+	@include media-breakpoint-up(md) {
+		padding: rem(70px) 0;
+
+		.video-wrapper {
+			padding: rem(50px) 0 rem(70px);
+		}
+	}
+}
+

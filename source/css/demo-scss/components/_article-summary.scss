@@ -1,0 +1,78 @@
+/*
+ * Article - Molecule styling
+ */
+
+.articleList {
+    background: $color-white;
+    box-shadow:  rem(1px) rem(1px) rem(3px) 0 rgba(0, 0, 0, 0.25);
+    max-width: rem(1015px);
+    margin-bottom: rem(30px);
+    text-align: left;
+
+    img {
+        width: 100%;
+    }
+    .media{
+        display: block;
+    }
+    .media-body {
+        text-align: center;
+        padding: rem(25px) rem(15px) rem(20px);
+
+        a {
+            padding-top: rem(10px);
+            display: inline-block;
+            color:  $color-brand-dodger-blue;
+            font-size: rem(16px);
+            font-weight: 500;
+        }
+        p {
+            font-size: rem(13px);
+            max-width: 100%;
+            color:  $color-brand-astronaut;
+            letter-spacing: rem(0.3px);
+        }
+        h3{
+            padding-bottom: rem(10px);
+        }
+    }
+    @include media-breakpoint-up(sm) {
+        margin-bottom: rem(35px);
+        
+        img{
+            width: rem(235px);
+        }
+        .media{
+            display: flex;
+        }
+        .media-body{
+            text-align: left;
+            padding: rem(35px);
+            p{
+                font-size: rem(16px);
+                max-width: rem(580px);
+            }
+        }
+    }
+}
+
+/*
+ * Article - Organism styling
+ */
+
+.press-release-wrapper {
+    padding: rem(55px) 0;
+    
+    h2{
+        padding-bottom: rem(25px);
+    }
+
+    @include media-breakpoint-up(sm) {
+        padding: rem(42px) 0;
+        
+        h2{
+            padding-bottom: rem(35px);
+        }
+    }
+}
+    

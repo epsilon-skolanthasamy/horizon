@@ -1,0 +1,15 @@
+{{# quoteFormField }}
+
+  <div class="form-inline {{ customClass }}">
+    {{#description}}
+      <p>{{ desc }}</p>
+      <div class="form-group">
+        {{> atoms-select-dropdown:dropdown-blue|quote-form-dropdown-container }}
+      </div>
+    {{/description}}
+    {{#description2}}
+      <p>{{ desc }}</p>
+    {{/description2}}
+  </div>
+
+{{/ quoteFormField }}

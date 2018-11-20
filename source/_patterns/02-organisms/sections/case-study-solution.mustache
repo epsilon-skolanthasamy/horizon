@@ -1,0 +1,27 @@
+{{#caseStudy}}
+	<section class="cs-solution">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					{{#caseStudySolution}}
+						{{>atoms-headings}}
+						<img src="{{csSolutionLogo}}" alt="{{csSolutionAltTxt}}">
+						<p>{{csSolutionContent}}</p>
+					{{/caseStudySolution}}
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="cs-results">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					{{#caseStudyResults}}
+						{{>atoms-headings}}
+						<p>{{csResultsContent}}</p>
+					{{/caseStudyResults}}
+				</div>
+			</div>
+		</div>
+	</section>
+{{/caseStudy}}

@@ -1,0 +1,24 @@
+{{#header}}
+<div class="header">
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <i class="fa fa-bars"></i>
+      </button>
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">{{>atoms-logo}}</a>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+        	{{#navList}}
+	          <li class="nav-item">
+	            {{>atoms-links}}
+	          </li>
+          {{/navList}}
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+{{/header}}

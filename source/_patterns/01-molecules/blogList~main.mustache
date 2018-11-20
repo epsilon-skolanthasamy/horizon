@@ -1,0 +1,17 @@
+{{#mainBlogs}}
+<ul class="mainBlogs">
+	{{#blogList}}
+	<li>
+		{{>atoms-images}}
+		<div class="blog-content">
+			{{>atoms-headings}}
+			<p class="blog-author">Author: <span>{{blogAuthor}}</span></p>
+			<p class="blog-date">{{blogDate}}</p>
+			<p>{{blogContent}}</p>
+			{{>atoms-links-icon}}
+			<p class="blog-tags">Tags: <span>{{blogTags}}</span></p>
+		</div>
+	</li>
+	{{/blogList}}
+</ul>
+{{/mainBlogs}}

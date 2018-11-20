@@ -1,0 +1,17 @@
+{{# videoWithCaption }}
+	<div class="video-with-caption">
+		<div class="row">
+			<div class="col-md-12">
+				{{> atoms-video }}
+
+				{{# videoTitle }}
+					<h3 class="video-sub-title">{{ videoTitle }}</h3>
+				{{/ videoTitle }}
+
+				{{# videoDescription }}
+					<p>{{ videoDescription }}</p>
+				{{/ videoDescription }}
+			</div>
+		</div>
+	</div>
+{{/ videoWithCaption }}

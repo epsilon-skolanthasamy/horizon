@@ -1,0 +1,69 @@
+/*------------------------------------*\
+# Two Column content with image
+\*------------------------------------*/
+
+
+/*
+* Two Column Content with Image - Organism styling
+*/
+
+
+.two-column-content-with-image {
+  .left-column {
+    padding-top: rem(40px);
+    text-align: center;
+
+    h2{
+      max-width: none;
+    }
+
+    p {
+      max-width: rem(460px);
+      font: rem(13px) MuseoSansLight;
+      margin: rem(15px) auto rem(20px);
+      letter-spacing: rem(0.3px);
+    }
+  }
+  .find-agent-form, .app-download {
+    margin-bottom: rem(30px);
+  }
+
+  .right-column {
+    img {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    height: rem(400px);
+
+    .container-fluid,
+    .container-fluid .row,
+    .container-fluid .row > div
+    {
+      height: 100%;
+    }
+
+    .left-column {
+      text-align: left;
+      padding-top: rem(75px);
+
+      h2{
+        max-width: rem(310px);
+      }
+
+      p {
+        font-size: rem(16px);
+        margin: rem(10px) 0 rem(40px);
+        max-width: none;
+      }
+    }
+
+    .right-column {
+      display: flex;
+      height: 100%;
+      align-items: flex-end;
+    }
+  }
+}

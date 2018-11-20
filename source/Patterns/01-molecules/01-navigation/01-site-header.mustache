@@ -1,0 +1,46 @@
+<div class="utilities-nav-container">
+	<div class="container">
+
+		<div class="utilities-nav-links nav-pr-links">
+			{{# headerData.utilitiesNav.publicRelationsLinks }}
+				<a class="utilities-nav-item" href="{{ headerLinkItem.url }}">{{ headerLinkItem.label }}</a>
+			{{/ headerData.utilitiesNav.publicRelationsLinks }}
+		</div>
+
+		<div class="utilities-nav-links nav-utilities">
+			{{# headerData.utilitiesNav.helpLinks }}
+				<a class="utilities-nav-item" href="{{ headerLinkItem.url }}">{{ headerLinkItem.label }}</a>
+			{{/ headerData.utilitiesNav.helpLinks }}
+
+			<div class="change-language-wrapper utilities-nav-item">
+				<span class="language-name">{{ headerData.utilitiesNav.languageControl.label }} - </span>
+				<a id="languageControl" class="language-control dropdown-toggle" aria-label="Change language" href="#"
+					role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					({{ headerData.utilitiesNav.languageControl.action }})
+				</a>
+
+				<div class="dropdown-menu language-selector" aria-labelledby="languageControl">
+					<ul>
+						{{# headerData.utilitiesNav.languageOptions }}
+							<li><a class="language-selector-link" href="{{ url }}">{{ language }}</a></li>
+						{{/ headerData.utilitiesNav.languageOptions }}
+					</ul>
+				</div>
+			</div>
+
+			<div class="utilities-search">
+				{{# headerData.utilitiesNav.search.searchIcon }}
+					{{> atoms-font-awesome-icon }}
+				{{/ headerData.utilitiesNav.search.searchIcon }}
+				<input type="text" name="search" placeholder="Search" class="input-search" aria-label="Search on the site">
+				{{# headerData.utilitiesNav.search }}
+					{{> atoms-button:btn-blue }}
+				{{/ headerData.utilitiesNav.search }}
+        {{# loggedIn }}
+          {{> molecules-search-auto-complete }}
+        {{/ loggedIn }}
+			</div>
+		</div>
+
+	</div>
+</div>

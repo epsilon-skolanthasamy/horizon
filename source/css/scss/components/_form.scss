@@ -1,0 +1,113 @@
+/*Molecules Styles*/
+.list-wrap{
+	h3{
+		margin-bottom: 30px;
+		font-weight: 700;
+	}
+	p{
+		font-size: 19px;
+	}
+	.bullet-list{
+		margin-left: 40px;
+		li{
+			font-size: 19px;
+		}
+	}
+	p.bottom-txt{
+		text-align: center;
+		margin-top: 20px;
+	}
+}
+
+.subscribe-form{
+	background-color: $base-color;
+	padding: 20px;
+	margin-bottom: 20px;
+	h3{
+		color: $color-white;
+	}
+	input{
+		color: $color-white;
+		background-color: transparent;
+		border: 1px solid $color-white;
+		margin-bottom: 20px;
+		&:focus, &:active{
+			background-color:transparent;
+			box-shadow: none;
+			color: $color-white;
+		}
+	}
+	.form-btn{
+		background-color: transparent;
+		border: 1px solid $color-white;
+		margin-bottom: 15px;
+		color: $color-white;
+		padding: 8px 20px;
+		margin-top: 10px;
+	}
+}
+.signup-form{
+	.block-div{
+		display: block;
+	}
+	.signup-heading{
+		position: relative;
+		margin-bottom: 40px;
+		&:after{
+			position:absolute;
+			top:100%;
+			left: 0;
+			width:100px;
+			background-color: #69e3a8;
+			height: 6px;
+			content: "";
+			margin-top: 5px;
+		}
+	}
+	.form-fields{
+		display: flex;
+		flex-wrap: wrap;
+		flex: 1 1 0;
+		margin-top: 20px;
+		input{
+			padding: 15px;
+			margin-bottom: 20px;
+		}
+		
+	}
+	.bottom-form-fields{
+		select{
+			padding: 15px;
+			margin-bottom: 20px;
+			width: 100%;
+			border: 1px solid #ced4da;
+		}
+		.form-btn{
+			padding: 10px 25px;
+			background-color: $violet-bg;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 16px;
+			text-decoration:none;
+			display: block;
+			margin: 50px auto 20px;
+			color: $color-white;
+			letter-spacing: 1px;
+		}
+	}
+	h3{
+		display: block;
+	}
+
+}
+/*Template styles - Contact page*/
+.contact-banner{
+	margin-bottom: 50px;
+	img{
+		width: 100%;
+	}
+}
+.contact-form{
+	margin-bottom: 20px;
+	margin-top: 30px;
+}

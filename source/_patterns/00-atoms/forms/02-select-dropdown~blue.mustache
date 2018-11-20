@@ -1,0 +1,11 @@
+<div class="select-dropdown-container dropdown-blue">
+  {{# selectField }}
+    <select {{# attributes }}{{ name }}="{{ value }}" {{/ attributes }}
+     {{# required }}required data-required-error="{{ errorMessage }}"{{/ required }} >
+      {{# options }}
+        <option value="{{ value }}" {{# selected }}selected{{/ selected }}>{{ name }}</option>
+      {{/ options }}
+    </select>
+  {{/ selectField }}
+  <div class="help-block with-errors"></div>
+</div>

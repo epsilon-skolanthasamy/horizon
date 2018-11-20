@@ -1,0 +1,149 @@
+/*
+* Account-setup - Organism styling
+*/
+.account-setup-wrapper {
+	background: $color-gray-09;
+	padding: rem(15px 0 20px 0);
+	text-align: left;
+
+	.section-head {
+		color: $color-brand-astronaut;
+		padding: rem(36px 0 19px 0);
+		font-family: MuseoSansBold;
+		font-size: rem(32px);
+		text-align: center;
+		letter-spacing: rem(0.2px);
+	}
+
+	.account-setup-form {
+		background-color: white;
+		padding: 0;
+		border-radius: rem(16px);
+		box-shadow: rem(1px 2px 3px 0) rgba(0, 0, 0, 0.25);
+
+		.form-fieldset-wrapper {
+			padding: rem(24px 15px 53px 15px);
+		}
+
+		legend {
+			font-size: rem(12px);
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: rem(0.1px);
+			color: $color-brand-dodger-blue;
+			padding-bottom: rem(18px);
+			text-transform: uppercase;
+			padding-left: calc(#{$grid-gutter-width} / 2);
+		}
+
+		label {
+			font-family: "MuseoSansBold";
+			font-size: rem(18px);
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: rem(0.1px);
+			color: $color-gray-84;
+			margin-bottom: rem(11px);
+		}
+
+		.account-setup-buttons {
+			hr {
+				color: $color-gray-40;
+			}
+
+			.buttons {
+				padding: rem(33px) rem(32px) rem(68px) rem(25px);
+				text-align: center;
+
+				.btn-blue {
+					margin-bottom: rem(20px);
+				}
+			}
+		}
+	}
+	@include media-breakpoint-up(sm) {
+		background: $color-gray-09;
+		padding: rem(0px) rem(30px) rem(60px);
+		text-align: left;
+		margin: 0 auto;
+
+		.section-head {
+			color: $color-brand-astronaut;
+			padding: rem(57px) rem(0) rem(24px);
+			font-family: MuseoSansBold;
+			font-size: rem(32px);
+			text-align: left;
+			letter-spacing: rem(0.2px);
+		}
+
+		.account-setup-form {
+			background-color: white;
+			border-radius: rem(16px);
+			box-shadow: rem(1px) rem(2px) rem(3px) rem(0) rgba(0, 0, 0, 0.25);
+
+			.form-fieldset-wrapper {
+				padding: rem(32px 60px 53px 58px);
+			}
+
+			input {
+				border-radius: rem(5px);
+				border: solid 1px $color-gray-36;
+			}
+
+			input[type=email],
+			input[type=password],
+			input[type=text] {
+				color: $color-gray-70;
+				font-family: MuseoSansNormal;
+				font-size: rem(12px);
+			}
+
+			select {
+				padding: rem(7px) rem(0) rem(8px) rem(8px);
+				border-radius: rem(5px);
+				border: solid 1px $color-gray-36;
+				color: $color-gray-70;
+				font-family: MuseoSansNormal;
+				font-size: rem(12px);
+				letter-spacing: rem(0.8px);
+			}
+
+			select > option {
+				color: $color-gray-70;
+				font-family: MuseoSansNormal;
+				font-size: rem(12px);
+				letter-spacing: rem(0.8px);
+			}
+
+			[placeholder] {
+				text-align: left;
+				letter-spacing: rem(0.8px);
+			}
+
+			.account-setup-buttons {
+				hr {
+					color: $color-gray-40;
+				}
+
+				.buttons {
+					padding: rem(33px) rem(0) rem(38px);
+				}
+			}
+		}
+	}
+
+  @include media-breakpoint-up(md) {
+    .form-fieldset-wrapper {
+      .form-group {
+        margin-bottom: rem(30px);
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+}

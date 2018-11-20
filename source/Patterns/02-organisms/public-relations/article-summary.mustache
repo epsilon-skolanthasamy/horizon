@@ -1,0 +1,10 @@
+<section class="full-width press-release-wrapper bg-gray-09 text-center">
+	<h2 class="sectionHead">{{ articleData.sectionTitle }}</h2>
+
+	<div class="container-fluid">
+		{{# articleData.articleLists}}
+			{{> molecules-article-summary }}
+		{{/ articleData.articleLists}}
+
+	</div>
+</section>

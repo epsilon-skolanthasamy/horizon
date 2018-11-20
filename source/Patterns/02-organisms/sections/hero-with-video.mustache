@@ -1,0 +1,31 @@
+<section class="row full-width hero-container video-banner">
+	{{# heroComponentData }}
+
+  <div class="video-background">
+    <video preload="none" webkit-playsinline muted playsinline autoplay loop>
+      <source src="../../media/video_banner.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div aria-hidden="true" class="post-cover hero-banner-image mobile">
+    <img src="{{heroImageMobile}}" aria-hidden="true" alt="">
+	</div>
+
+	<div class="container-fluid hero-content">
+		<div class="row">
+				<div class="{{descriptionClass}}">
+					<div class="left-column">
+						<h1 class="hero-head">{{ sectionHead }}</h1>
+
+						<p class="hero-headline">{{description}}</p>
+						{{# button}}
+							<div class="button-group">
+								{{> atoms-anchor-button:btn-red }}
+							</div>
+						{{/ button}}
+					</div>
+				</div>
+		</div>
+	</div>
+	{{/ heroComponentData }}
+</section>

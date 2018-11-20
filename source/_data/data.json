@@ -1,0 +1,5068 @@
+{
+
+	"language": "en",
+	"title": "Surety Home Page",
+	"description": "Surety home page",
+	"pageTitle": "Page Title",
+	"htmlClass": "",
+	"bodyClass": "",
+	
+	"textButtonLabel": "Text Button",
+
+	"progress": true,
+	"max": "100",
+	"progressValue": "85",
+	"alertText": "An alert is messaging that tells the user some information. Alerts can be error, warning, success, or info messages",
+	"quoteText": "A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.",
+	"quoteSource": "<a href='https://en.wikipedia.org/wiki/Block_quotation'>Wikiepedia</a>",
+	"sectionTitle": "Section Title",
+	"number": "12",
+
+	"url": "#",
+	"form": true,
+	"field": {
+		"id": "field-id",
+		"label": "label",
+		"type": "text",
+		"placeholder": "Placeholder",
+		"value": "",
+		"fieldNote": ""
+	},
+	"year": "2016",
+	"fields": [{},
+		{}
+	],
+	"textarea": {
+		"label": "label"
+	},
+	"hero": true,
+	"alert": true,
+
+
+	"fontAwesomeIconClass": "fab fa-font-awesome",
+
+	"headerLinkItem": {
+		"label": "Lorem ipsum",
+		"url": "/"
+	},
+	"menuGroupLinkItem": {
+		"id": "id1",
+		"label": "Lorem ipsum",
+		"justifyContent": ""
+	},
+	"menuSubGroupsList": [{
+			"MenuSubGroupHead": "Lorem ipsum",
+			"MenuSubGroupHeadId": "MenuSubGroupHeadId1",
+			"MenuSubGroupList": [{
+					"label": "Lorem ipsum 1.1",
+					"url": "/"
+				},
+				{
+					"label": "Lorem ipsum 1.2",
+					"url": "/"
+				},
+				{
+					"label": "Lorem ipsum 1.3",
+					"url": "/"
+				},
+				{
+					"label": "Lorem ipsum 1.4",
+					"url": "/"
+				}
+			]
+		},
+		{
+			"MenuSubGroupHead": "Lorem ipsum",
+			"MenuSubGroupHeadId": "MenuSubGroupHeadId2",
+			"MenuSubGroupList": [{
+					"label": "Lorem ipsum 2.1",
+					"url": "/"
+				},
+				{
+					"label": "Lorem ipsum 2.2",
+					"url": "/"
+				},
+				{
+					"label": "Lorem ipsum 2.3",
+					"url": "/"
+				}
+			]
+		}
+	],
+
+	"headerData": {
+		"utilitiesNav": {
+			"publicRelationsLinks": [{
+					"headerLinkItem": {
+						"label": "Our Blog",
+						"url": "/"
+					}
+				},
+				{
+					"headerLinkItem": {
+						"label": "Press Releases",
+						"url": "/"
+					}
+				}
+			],
+			"helpLinks": [{
+					"headerLinkItem": {
+						"label": "Find an Agent",
+						"url": "/"
+					}
+				},
+				{
+					"headerLinkItem": {
+						"label": "Contact Us",
+						"url": "/"
+					}
+				}
+			],
+			"languageControl": {
+				"label": "English",
+				"action": "Change",
+				"selectField": {
+					"attributes": [{
+							"name": "id",
+							"value": "languageControlMenu"
+						},
+						{
+							"name": "class",
+							"value": "language-selector-dropdown"
+						}
+					],
+					"options": [{
+							"name": "English",
+							"value": "en",
+							"selected": "selected"
+						},
+						{
+							"name": "Spanish",
+							"value": "es"
+						},
+						{
+							"name": "Japanese",
+							"value": "ja"
+						}
+					]
+				}
+			},
+			"languageOptions": [{
+					"language": "Spanish",
+					"url": "/"
+				},
+				{
+					"language": "Japanese",
+					"url": "/"
+				}
+			],
+			"search": {
+				"searchIcon": {
+					"fontAwesomeIconClass": "fas fa-search"
+				},
+				"button": {
+					"buttonType": "submit",
+					"buttonText": "enter"
+				}
+			}
+		},
+		"menuItems": [{
+				"menuGroupLinkItem": {
+					"id": "navbarDropdownMenuLink1",
+					"label": "Insurance"
+				},
+				"menuSubGroupsList": [{
+						"MenuSubGroupHead": "Life",
+						"MenuSubGroupHeadId": "life",
+						"MenuSubGroupList": [{
+								"label": "Term Life",
+								"url": "/"
+							},
+							{
+								"label": "Whole Life",
+								"url": "/"
+							},
+							{
+								"label": "Universal Life",
+								"url": "/"
+							},
+							{
+								"label": "Compare Plans",
+								"url": "/"
+							}
+						]
+					},
+					{
+						"MenuSubGroupHead": "Auto",
+						"MenuSubGroupHeadId": "auto",
+						"MenuSubGroupList": [{
+								"label": "Collision",
+								"url": "/"
+							},
+							{
+								"label": "Comprehensive",
+								"url": "/"
+							},
+							{
+								"label": "Liability",
+								"url": "/"
+							}
+						]
+					},
+					{
+						"MenuSubGroupHead": "Home",
+						"MenuSubGroupHeadId": "home",
+						"MenuSubGroupList": [{
+								"label": "Earthquake",
+								"url": "/"
+							},
+							{
+								"label": "Flood",
+								"url": "/"
+							},
+							{
+								"label": "Fire",
+								"url": "/"
+							}
+						]
+					},
+					{
+						"MenuSubGroupHead": "Motorcycle",
+						"MenuSubGroupHeadId": "motorcycle",
+						"MenuSubGroupList": [{
+								"label": "Collision",
+								"url": "/"
+							},
+							{
+								"label": "Comprehensive",
+								"url": "/"
+							},
+							{
+								"label": "Liability",
+								"url": "/"
+							}
+						]
+					},
+					{
+						"MenuSubGroupHead": "Business",
+						"MenuSubGroupHeadId": "business",
+						"MenuSubGroupList": [{
+								"label": "Fire",
+								"url": "/"
+							},
+							{
+								"label": "Theft",
+								"url": "/"
+							},
+							{
+								"label": "Liability Umbrella",
+								"url": "/"
+							},
+							{
+								"label": "Earthquake",
+								"url": "/"
+							}
+						]
+					},
+					{
+						"MenuSubGroupHead": "Renters",
+						"MenuSubGroupHeadId": "renters",
+						"MenuSubGroupList": [{
+								"label": "Fire",
+								"url": "/"
+							},
+							{
+								"label": "Personal Liability",
+								"url": "/"
+							}
+						]
+					},
+					{
+						"MenuSubGroupHead": "Other",
+						"MenuSubGroupHeadId": "other",
+						"MenuSubGroupList": [{
+								"label": "Recreational Vehicle",
+								"url": "/"
+							},
+							{
+								"label": "Personal Liability Umbrella",
+								"url": "/"
+							},
+							{
+								"label": "Disability",
+								"url": "/"
+							}
+						]
+					}
+				]
+			},
+			{
+				"menuGroupLinkItem": {
+					"id": "navbarDropdownMenuLink2",
+					"label": "Get a Quote",
+					"isQuoteMenu": true
+				},
+				"menuSubGroupsList": [{
+						"MenuSubGroupHead": "Quote 1",
+						"MenuSubGroupHeadId": "Quote1",
+						"MenuSubGroupList": [{
+								"label": "Quote 1.1",
+								"url": "/"
+							},
+							{
+								"label": "Quote 1.2",
+								"url": "/"
+							},
+							{
+								"label": "Quote 1.3",
+								"url": "/"
+							},
+							{
+								"label": "Quote 1.4",
+								"url": "/"
+							}
+						]
+					},
+					{
+						"MenuSubGroupHead": "Quote 2",
+						"MenuSubGroupHeadId": "Quote2",
+						"MenuSubGroupList": [{
+								"label": "Quote 2.1",
+								"url": "/"
+							},
+							{
+								"label": "Quote 2.1",
+								"url": "/"
+							},
+							{
+								"label": "Quote 2.1",
+								"url": "/"
+							}
+						]
+					},
+					{
+						"MenuSubGroupHead": "Quote 3",
+						"MenuSubGroupHeadId": "Quote3",
+						"MenuSubGroupList": [{
+								"label": "Quote 3.1",
+								"url": "/"
+							},
+							{
+								"label": "Quote 3.1",
+								"url": "/"
+							},
+							{
+								"label": "Quote 3.1",
+								"url": "/"
+							}
+						]
+					}
+				]
+			}
+		],
+		"accountMenu": {
+			"menuGroupLinkItem": {
+				"id": "accountAccessLink",
+				"justifyContent": "justify-content-end"
+			},
+			"menuSubGroupsList": [{
+					"MenuSubGroupHead": "Pay Bill",
+					"MenuSubGroupList": []
+				},
+				{
+					"MenuSubGroupHead": "Edit Account",
+					"MenuSubGroupList": [{
+							"label": "Account Info",
+							"url": "/"
+						},
+						{
+							"label": "Change Address",
+							"url": "/"
+						},
+						{
+							"label": "Go Paperless",
+							"url": "/"
+						}
+					]
+				},
+				{
+					"MenuSubGroupHead": "Policies",
+					"MenuSubGroupList": [{
+							"label": "File a Claim",
+							"url": "/"
+						},
+						{
+							"label": "Manage a Claim",
+							"url": "/"
+						},
+						{
+							"label": "Claims Help & Info",
+							"url": "/"
+						},
+						{
+							"label": "Change Coverage",
+							"url": "/"
+						}
+					]
+				}
+			]
+		},
+		"loginForm": {
+			"button": {
+				"buttonType": "submit",
+				"buttonText": "Log in"
+			}
+		}
+	},
+
+	"quoteType": {
+		"fontAwesomeIconClass": "fab fa-font-awesome",
+		"link": "/",
+		"quoteTypeLabel": "Lorem",
+		"img": "../../../quote.jpg",
+		"imgHover": "../../../quotehover.jpg"
+	},
+	"getQuoteData": {
+		"sectionTitle": "Lorem ipsum",
+		"quoteTypeList": [{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		]
+	},
+
+	"footerNavSectionHead": "Lorem ipsum",
+	"footerSubNavList": [{
+			"label": "Lorem ipsum",
+			"url": "/"
+		},
+		{
+			"label": "Lorem ipsum",
+			"url": "/"
+		}
+	],
+	"footerData": {
+		"footerNavList": [{
+				"footerNavSectionHead": "About Us",
+				"footerSubNavList": [{
+						"label": "Contact Us",
+						"url": "/google"
+					},
+					{
+						"label": "Privacy Policy",
+						"url": "/yahoo"
+					},
+					{
+						"label": "Cookie Policy",
+						"url": "/yahoo"
+					},
+					{
+						"label": "Site Map",
+						"url": "/"
+					}
+				]
+			},
+			{
+				"footerNavSectionHead": "Insurance",
+				"footerSubNavList": [{
+						"label": "Find an Agent",
+						"url": "/"
+					},
+					{
+						"label": "Get a quote",
+						"url": "/"
+					}
+				]
+			},
+			{
+				"footerNavSectionHead": "Industry News",
+				"footerSubNavList": [{
+						"label": "Blog",
+						"url": "/"
+					},
+					{
+						"label": "Press Release",
+						"url": "/"
+					}
+				]
+			}
+		],
+		"disclaimerCopy": [{
+				"disclaimerText": "© Surety Insurance Group suretyinsurance.com"
+			},
+			{
+				"disclaimerText": "We offer insurance by phone, online and through independent agents. Prices vary based on how you buy."
+			},
+			{
+				"disclaimerText": "*National average annual car insurance savings by new customers surveyed who saved with Surety in 2017."
+			},
+			{
+				"disclaimerText": "Surety Home Advantage® policies are placed through Surety Specialty Insurance Agency, Inc. with affiliated and third-party insurers who are solely responsible for claims, and pay PSIA commission for policies sold. Prices, coverages, privacy policies, and PSIA's commission vary among these insurers. How you buy (phone, online, mobile, or independent agent/broker) determines which insurers are available to you. A quote from one of the insurers can be provided through this site. Click here for a quote from other insurers or here for more information about PSIA's commission. Discounts not available in all states and situations."
+			}
+		],
+		"socialLinks": [{
+				"fontAwesomeIconClass": "fab fa-linkedin",
+				"link": "fb.com",
+				"label": "LinkedIn page"
+			},
+			{
+				"fontAwesomeIconClass": "fab fa-google-plus-g",
+				"link": "fb.com",
+				"label": "Google Plus  page"
+			},
+			{
+				"fontAwesomeIconClass": "fab fa-twitter",
+				"link": "fb.com",
+				"label": "Twitter  page"
+			},
+			{
+				"fontAwesomeIconClass": "fab fa-facebook-square",
+				"link": "fb.com",
+				"label": "Facebook  page"
+			},
+			{
+				"fontAwesomeIconClass": "fab fa-instagram",
+				"link": "fb.com",
+				"label": "Instagram  page"
+			}
+		]
+	},
+
+	"articleList": {
+		"Title": "Lorem ipsum",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+		"src": "../../images/fpo_square.png",
+		"alt": "Lorem",
+		"href": "/"
+	},
+	"articleData": {
+		"sectionTitle": "Lorem ipsum",
+		"articleLists": [{},
+			{},
+			{}
+		]
+	},
+
+	"textInput": {
+		"attributes": [{
+				"name": "id",
+				"value": "exampleId"
+			},
+			{
+				"name": "autoComplete",
+				"value": "off"
+			},
+			{
+				"name": "class",
+				"value": "form-control"
+			},
+			{
+				"name": "placeholder",
+				"value": "Lorem ipsum"
+			},
+			{
+				"name": "type",
+				"value": "text"
+			}
+		],
+		"required": {
+			"errorMessage": "Lorem Ipsum"
+		}
+	},
+
+	"selectField": {
+		"attributes": [{
+				"name": "id",
+				"value": "exampleSelectMenu"
+			},
+			{
+				"name": "class",
+				"value": "form-control"
+			}
+		],
+		"options": [{
+				"name": "Choose..",
+				"value": ""
+			},
+			{
+				"name": "Option 1",
+				"value": "1",
+				"selected": "selected"
+			},
+			{
+				"name": "Option 2",
+				"value": "2"
+			}
+		],
+		"required": {
+			"errorMessage": "Please select an Option"
+		}
+	},
+
+	"inputCTAForm": {
+		"action": "/",
+		"method": "POST"
+	},
+
+	"appDownload": {
+		"appStore": "../../../images/appStore.png",
+		"appStore@2x": "../../../images/appStore@2x.png",
+		"googlePlay": "../../../images/googlePlay.png",
+		"googlePlay@2x": "../../../images/googlePlay@2x.png"
+	},
+
+	"twoColumnWithLinks": {
+		"bgClass": "bg-gray-09",
+		"sectionHead": "Lorem ipsum",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+		"buttonType": "submit",
+		"imagePaths": {
+			"small": "../../../images/bitmap.png",
+			"small@2x": "../../../images/bitmap@2x.png",
+			"large": "../../../images/bitmap.png",
+			"large@2x": "../../../images/bitmap@2x.png"
+		}
+	},
+
+	"findAgentData": {
+		"twoColumnContent": {
+			"bgClass": "bg-pattern",
+			"sectionHead": "Lorem ipsum",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+
+			"appDownload": "",
+
+			"alt": "thinking woman",
+
+			"imagePaths": {
+				"small": "../../../images/thinking-woman-small.png",
+				"small@2x": "../../../images/thinking-woman-small@2x.png",
+				"large": "../../../images/thinking-woman-large.png",
+				"large@2x": "../../../images/thinking-woman-large@2x.png"
+			}
+		}
+	},
+
+	"moreFeaturesData": {
+		"twoColumnContent": {
+			"bgClass": "bg-gray-09",
+			"sectionHead": "Lorem ipsum",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+
+			"inputCTAForm": "",
+
+			"appDownload": {
+				"appStore": "../../../images/appStore.png",
+				"appStore@2x": "../../../images/appStore@2x.png",
+				"googlePlay": "../../../images/googlePlay.png",
+				"googlePlay@2x": "../../../images/googlePlay@2x.png"
+			},
+
+			"alt": "Mobile Image",
+
+			"imagePaths": {
+				"small": "../../../images/bitmap.png",
+				"small@2x": "../../../images/bitmap@2x.png",
+				"large": "../../../images/bitmap.png",
+				"large@2x": "../../../images/bitmap@2x.png"
+			}
+		}
+	},
+
+	"heroComponentData": {
+		"visible-hero-btn": false,
+		"descriptionClass": "col-md-7",
+		"sectionHead": "Lorem Ipsum is simply dummy text of the printing.",
+		"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+		"button": {
+			"buttonType": "submit",
+			"buttonText": "Lorem Ipsum"
+		},
+		"heroImage": "../../../images/fpo_hero.png",
+		"heroImageMobile": "../../../images/fpo_hero-sm.png"
+	},
+
+	"fourColumnImageContent": {
+		"sectionHead": "Lorem Ipsum is simply dummy text of the printing",
+		"imageItemsList": [{
+				"imagePath": "../../../images/fpo_square.png",
+				"imagePath@2x": "../../../images/fpo_square.png",
+				"imagePathLg": "../../../images/fpo_square.png",
+				"imagePathLg@2x": "../../../images/fpo_square.png",
+				"head": "Lorem Ipsum",
+				"link": "Lorem Ipsum",
+				"imageAlt": "",
+				"ariaLabel": true
+			},
+			{
+				"imagePath": "../../../images/fpo_square.png",
+				"imagePath@2x": "../../../images/fpo_square.png",
+				"imagePathLg": "../../../images/fpo_square.png",
+				"imagePathLg@2x": "../../../images/fpo_square.png",
+				"head": "Lorem Ipsum",
+				"link": "Lorem Ipsum",
+				"imageAlt": "",
+				"ariaLabel": true
+			},
+			{
+				"imagePath": "../../../images/fpo_square.png",
+				"imagePath@2x": "../../../images/fpo_square.png",
+				"imagePathLg": "../../../images/fpo_square.png",
+				"imagePathLg@2x": "../../../images/fpo_square.png",
+				"head": "Lorem Ipsum",
+				"link": "Lorem Ipsum",
+				"imageAlt": "",
+				"ariaLabel": true
+			},
+			{
+				"imagePath": "../../../images/fpo_square.png",
+				"imagePath@2x": "../../../images/fpo_square.png",
+				"imagePathLg": "../../../images/fpo_square.png",
+				"imagePathLg@2x": "../../../images/fpo_square.png",
+				"head": "Lorem Ipsum",
+				"link": "Lorem Ipsum",
+				"imageAlt": "",
+				"ariaLabel": true
+			}
+		]
+	},
+
+	"insuranceTypesData": {},
+
+	"privacyPolicyData": {
+		"sectionHead": "Get insurance for almost anything you need 123",
+		"policyInfo": [{
+			"head": "Lorem ipsum dolor sit amet",
+			"cardId": "collapseOne",
+			"aria-expanded": "true",
+			"collapseIcon": {
+				"fontAwesomeIconClass": "fa fa-minus icon"
+			},
+			"expandIcon": {
+				"fontAwesomeIconClass": "fa fa-plus icon"
+			},
+			"collapseStatus": "",
+			"visibility": "show",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+			"policyLists": [{
+					"listItem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry1."
+				},
+				{
+					"listItem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry2.",
+					"policySubLists": [{
+							"sublist": "Lorem Ipsum is simply dummy text"
+						},
+						{
+							"sublist": "Lorem Ipsum is simply dummy text"
+						},
+						{
+							"sublist": "Lorem Ipsum is simply dummy text"
+						}
+					]
+
+				},
+				{
+					"listItem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry3."
+				}
+			]
+		}]
+	},
+
+	"infoBanner": {
+		"sectionHead": "Lorem ipsum",
+		"sectionSubHead": "Lorem ipsum Lorem ipsum",
+		"description": [{
+				"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+			},
+			{
+				"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+			},
+			{
+				"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+			}
+		]
+	},
+
+	"pagination": {
+		"pageList": [{
+				"pageNumbers": "1",
+				"pageLabel": "Page 1",
+				"pageNumberActive": "active",
+				"pageLink": "page-link-1"
+			},
+			{
+				"pageNumbers": "2",
+				"pageLabel": "Page 2",
+				"pageNumberActive": "",
+				"pageLink": "page-link-2"
+			},
+			{
+				"pageNumbers": "3",
+				"pageLabel": "Page 3",
+				"pageNumberActive": "",
+				"pageLink": "page-link-3"
+			}
+		],
+		"arrowDisplay": "arrow-hide",
+		"leftIcon": {
+			"fontAwesomeIconClass": "far fa-angle-left"
+		},
+		"rightIcon": {
+			"fontAwesomeIconClass": "far fa-angle-right"
+		}
+	},
+
+	"four-column-text": {
+		"image": "../../../images/fpo_avatar.png",
+		"iamgeHead": "Lorem ipsum dolor sit",
+		"imageDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+		"roleSubhead": "Lorem ipsum dolor"
+	},
+
+	"four-column-text-Data": {
+		"headerText": "Lorem ipsum dolor sit amet",
+		"columnDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+		"columnList": [{},
+			{},
+			{},
+			{}
+		]
+	},
+
+	"pressReleaseItemsList": [{},
+		{},
+		{},
+		{}
+	],
+
+	"mapLocations": [{
+		"name": "Lorem ipsum",
+		"phone": "555-555-5555",
+		"info": "Lorem ipsum do or sit amet, consectetur adipiscing elit",
+		"lat": 42.002707,
+		"long": -87.661236
+	}],
+
+	"searchHeader": {
+		"searchText": "Lorem ipsum",
+		"searchCount": "000"
+	},
+
+	"searchFilter": {
+		"filterTopicHead": "Lorem ipsum",
+		"filterTopics": [{
+				"filterTopic": "Lorem ipsum",
+				"filterTopicCount": "00"
+			},
+			{
+				"filterTopic": "Lorem ipsum",
+				"filterTopicCount": "00"
+			}
+		]
+	},
+
+	"video": {
+		"playIcon": "../../images/play-button.png",
+		"playIcon2x": "../../images/play-button@2x.png",
+		"sectionHead": "Lorem ipsum",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+		"videoId": "videoId1"
+	},
+
+	"searchListData": {
+		"searchListHead": "Lorem ipsum dolor sit",
+		"searchList": [{
+				"title": "Lorem ipsum dolor sit",
+				"date": "June 11, 2018",
+				"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+			},
+			{
+				"title": "Lorem ipsum dolor sit",
+				"date": "June 11, 2018",
+				"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+			}
+		]
+	},
+
+	"searchData": {
+		"fontAwesomeIconClass": "fa fa-angle-left",
+		"textInput": {
+			"attributes": [{
+					"name": "placeholder",
+					"value": "Lorem ipsum"
+				},
+				{
+					"name": "autoComplete",
+					"value": "off"
+				},
+				{
+					"name": "class",
+					"value": "form-control"
+				},
+				{
+					"name": "id",
+					"value": "searchInputText"
+				},
+				{
+					"name": "type",
+					"value": "text"
+				},
+				{
+					"name": "aria-label",
+					"value": "Lorem ipsum"
+				}
+			],
+			"required": {
+				"errorMessage": "Lorem ipsum"
+			}
+		},
+		"searchFilters": [{},
+			{}
+		],
+		"searchListDataContent": [{},
+			{}
+		]
+	},
+
+	"contentBlockData": {
+		"contentHead": "Lorem ipsum dolor sit amet",
+		"contentDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+		"showBlockSeparator": true,
+
+		"visible-button": false,
+		"contentLinkData": {
+			"getQuotetext": "Lorem ipsum dolor sit amet",
+			"getQuote-link": "Lorem ipsum",
+			"compare-policy-text": "Lorem ipsum dolor sit amet",
+			"compare-policy-link": "Lorem ipsum",
+			"compare-policy-only-link": "Lorem ipsum"
+		},
+
+		"contentListData": {
+			"contentListItems": [{
+					"list": "Lorem ipsum dolor sit amet"
+				},
+				{
+					"list": "Lorem ipsum dolor sit amet"
+				},
+				{
+					"list": "Lorem ipsum dolor sit amet"
+				}
+			]
+		},
+
+		"contentDetailsLink": {
+			"linkText": "Lorem Ipusm",
+			"linkPath": "/"
+		}
+	},
+
+
+	"blogListData": {
+		"sectionTitle": "Lorem ipsum",
+		"blogListItems": [{},
+			{},
+			{}
+		]
+	},
+
+	"thankyouWithMap": {
+		"twoColumnContent": {
+			"bgClass": "bg-gray-09",
+			"sectionHead": "Lorem ipsum",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+			"appDownload": "",
+			"imagePaths": ""
+		}
+	},
+
+	"contact-form": {
+		"formTitle": "Lorem ipsum",
+		"formFields": [{},
+			{},
+			{}
+		]
+	},
+
+	"contactUsData": {
+		"title": "Lorem ipsum",
+		"address": "Lorem ipsum dolor sit amet, consectetur adip",
+
+		"button": {
+			"buttonType": "submit",
+			"buttonText": "Button"
+		},
+		"socialLinks": [{},
+			{},
+			{},
+			{},
+			{}
+		],
+		"contact-address": [{},
+			{},
+			{}
+		],
+		"satelliteMapData": {
+			"mapData": {
+				"mapId": "locationSatelliteMap",
+				"zoom": 16,
+				"mapTypeId": "satellite",
+				"disableDefaultUI": true,
+				"setMapBounds": false,
+				"markerIcon": ""
+			}
+		},
+		"roadMapData": {
+			"mapData": {
+				"mapId": "locationExpandedMap",
+				"zoom": 8,
+				"mapTypeId": "roadmap",
+				"disableDefaultUI": false,
+				"setMapBounds": false,
+				"markerIcon": ""
+			}
+		}
+	},
+
+	"imageWithWrapText": {
+		"sectionHead": {
+			"headingText": "Lorem ipsum dolor sit amet",
+			"isHeadingLink": false
+		},
+		"subTitle": "Lorem ipsum",
+		"imageDetails": {
+			"image": "../../images/fpo_495x300.jpg",
+			"image@2x": "../../images/fpo_495x300.jpg",
+			"imageSmall": "../../images/fpo_290x300.jpg",
+			"imageSmall@2x": "../../images/fpo_290x300.jpg",
+			"alt": "",
+			"ariaHidden": true
+		},
+		"description": [{
+				"paragraphContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar fermentum diam eu maximus. Nam at efficitur turpis, ac sagittis neque. Ut a convallis mi. Sed ut pharetra magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ut arcu tempus, vestibulum eros eget, cursus libero. Nullam a eros a lectus vulputate aliquam eu ut dolor."
+			},
+			{
+				"paragraphContent": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis id mauris leo. Maecenas dapibus commodo nibh. Praesent interdum in magna sit amet tristique. Sed varius ultrices dolor non euismod. Mauris condimentum velit ex, bibendum fermentum mi rutrum in. Pellentesque sed tellus vehicula, ornare est sed, rhoncus enim. Duis vel erat ut ex ultrices elementum sit amet et nisl. Donec finibus leo ut lorem sodales, et aliquet turpis posuere."
+			},
+			{
+				"paragraphContent": "Pellentesque eget dignissim nisi. Praesent interdum vitae odio quis aliquet. Duis vitae vehicula libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi tempor in lorem vitae varius. Praesent risus massa, rhoncus id odio non, cursus euismod felis. Quisque mattis, turpis at euismod tristique, erat est convallis lorem, ut aliquam nisl ligula tristique nunc. Integer ut aliquam lacus. Mauris eu sem sed dui pretium tincidunt. Pellentesque ut efficitur augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin, tellus id pretium imperdiet, justo magna vestibulum eros, sit amet placerat lacus dolor eu libero. Phasellus id elit vel mauris cursus ullamcorper."
+			},
+			{
+				"paragraphContent": "Praesent maximus consectetur nisl bibendum gravida. Vivamus fringilla ligula sit amet eleifend accumsan. Curabitur blandit porta sagittis. Nam commodo at sapien in vulputate. Quisque quis ligula sagittis, laoreet sapien id, pretium enim. Vivamus sit amet nunc ac tortor placerat pretium eget in nibh. Maecenas in turpis velit. Proin lacinia, mi vitae accumsan faucibus, nunc odio lobortis nisl, eget sollicitudin mauris elit et quam. Pellentesque molestie sodales arcu non rutrum."
+			}
+		]
+	},
+
+	"videoWithCaption": {
+		"videoTitle": "Lorem ipsum dolor sit amet",
+		"videoDescription": "Pellentesque eget dignissim nisi. Praesent interdum vitae odio quis aliquet. Vivamus fringilla ligula sit amet eleifend accumsan. Duis vitae vehicula libero."
+	},
+
+	"blogDetailsData": {
+		"sectionHead": "Lorem ipsum",
+		"blogsList": [{}]
+	},
+	"mapData": {
+		"mapId": "demoMap",
+		"zoom": 4,
+		"mapTypeId": "roadmap",
+		"disableDefaultUI": false,
+		"markerIcon": "",
+		"setMapBounds": false
+	},
+
+	"findAgentDetailData": {
+		"sectionTitle": "Lorem ipsum",
+		"sectionSubTitle": "Lorem ipsum",
+
+		"mapData": {
+			"mapId": "agentMap",
+			"zoom": 4,
+			"mapTypeId": "roadmap",
+			"disableDefaultUI": false,
+			"setMapBounds": true,
+			"markerIcon": "/images/plus-with-circle.png"
+		},
+		"mapLocations": [{
+				"no": "1",
+				"name": "Lorem ipsum",
+				"phone": "555-555-5555",
+				"info": "Lorem ipsum do or sit amet, consectetur adipiscing elit",
+				"lat": 47.2511082,
+				"long": -123.1246773
+			},
+			{
+				"no": "2",
+				"name": "Lorem ipsum",
+				"phone": "555-555-6666",
+				"info": "Lorem ipsum do or sit amet, consectetur adipiscing elit",
+				"lat": 31.0909595,
+				"long": -104.5679834
+			},
+			{
+				"no": "3",
+				"name": "Lorem ipsum",
+				"phone": "666-555-6666",
+				"info": "Lorem ipsum do or sit amet, consectetur adipiscing elit",
+				"lat": 42.002707,
+				"long": -87.661236
+			}
+		]
+	},
+	"checkBox": {
+		"type": "checkbox",
+		"checkid": "gridCheck1",
+		"label": "Lorem ipsum do or sit amet",
+		"ariaLabel": "Conteant"
+	},
+	"inputfield": {
+		"formLabel": "Lorem ipsum"
+	},
+	"registrationForm": {
+		"formHeading": "Lorem ipsum do or sit amet",
+		"checkboxes": [
+
+			{
+				"checkBox": {
+					"type": "checkbox",
+					"checkid": "lorem2",
+					"label": "Lorem ipsum do or sit amet",
+					"ariaLabel": "ipsum"
+				}
+			},
+			{
+				"checkBox": {
+					"type": "checkbox",
+					"checkid": "lorem3",
+					"label": "Lorem ipsum do or sit amet",
+					"ariaLabel": "ipsum"
+				}
+			}
+		],
+		"button": {
+			"buttonText": "Lorem ipsum",
+			"buttonType": "Lorem ipsum"
+		},
+		"heroFormFields": [{
+				"formLabel": "Lorem ipsum1",
+				"textInput": {
+					"attributes": [{
+							"name": "id",
+							"value": "exampleId"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem ipsum"
+						},
+						{
+							"name": "type",
+							"value": "text"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Lorem ipsum"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Lorem ipsum"
+						}
+					],
+					"required": {
+						"errorMessage": "Lorem ipsum"
+					}
+				}
+			},
+			{
+				"formLabel": "Lorem ipsum2",
+				"textInput": {
+					"attributes": [{
+							"name": "id",
+							"value": "exampleId"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem ipsum"
+						},
+						{
+							"name": "type",
+							"value": "text"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Lorem ipsum"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Lorem ipsum"
+						}
+					],
+					"required": {
+						"errorMessage": "Lorem ipsum"
+					}
+				}
+			},
+			{
+				"formLabel": "Lorem ipsum3",
+				"textInput": {
+					"attributes": [{
+							"name": "id",
+							"value": "exampleId"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem ipsum"
+						},
+						{
+							"name": "type",
+							"value": "email"
+						},
+						{
+							"name": "maxlength",
+							"value": "100"
+						},
+						{
+							"name": "aria-label",
+							"value": "Lorem ipsum"
+						}
+					],
+					"required": {
+						"errorMessage": "Lorem ipsum"
+					}
+				}
+			},
+			{
+				"formLabel": "Lorem ipsum4",
+				"textInput": {
+					"attributes": [{
+							"name": "id",
+							"value": "exampleId"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem ipsum"
+						},
+						{
+							"name": "type",
+							"value": "text"
+						},
+						{
+							"name": "maxlength",
+							"value": "5"
+						},
+						{
+							"name": "data-minlength",
+							"value": "5"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Lorem ipsum"
+						},
+						{
+							"name": "data-zip-code",
+							"value": "zip-code"
+						},
+						{
+							"name": "aria-label",
+							"value": "Lorem ipsum"
+						}
+					],
+					"required": {
+						"errorMessage": "Lorem ipsum"
+					}
+				}
+			}
+		]
+	},
+	"forgotPwdData": {
+		"textInput": {
+			"attributes": [{
+					"name": "id",
+					"value": "forgotEmail"
+				},
+				{
+					"name": "autoComplete",
+					"value": "off"
+				},
+				{
+					"name": "class",
+					"value": "form-control input"
+				},
+				{
+					"name": "placeholder",
+					"value": "Email Address"
+				},
+				{
+					"name": "type",
+					"value": "email"
+				},
+				{
+					"name": "aria-label",
+					"value": "Email Address"
+				},
+        {
+          "name": "maxlength",
+          "value": "100"
+        },
+				{
+					"name" : "data-email-validator",
+					"value": "email-validator"
+				}
+			],
+			"required": {
+				"errorMessage": "Enter your email address"
+			}
+		},
+		"button": {
+			"buttonText": "Submit",
+			"buttonType": "submit"
+		}
+	},
+
+	"goBackHeader": {
+		"sectionHead": "Lorem Ipsum"
+	},
+
+	"quoteFormField": [{
+			"description": {
+				"desc": "Lorem ipsum"
+			},
+			"description2": {
+				"desc": "Lorem ipsum"
+			}
+		},
+		{
+			"description": {
+				"desc": "Lorem ipsum"
+			},
+			"description2": {
+				"desc": "Lorem ipsum"
+			}
+		}
+	],
+
+	"getQuoteFormHeaderData": {
+		"sectionHead": "Lorem Ipsum",
+		"sectionTitle": "Lorem ipsum",
+		"sectionSubTitle": "Lorem ipsum",
+		"backtext": "Back",
+		"quoteFormFields": [{
+			"quoteFormField": [{
+					"description": {
+						"desc": "I am a ",
+						"selectField": {
+							"attributes": [{
+									"name": "id",
+									"value": "gender"
+								},
+								{
+									"name": "class",
+									"value": "form-control "
+								},
+								{
+									"name": "aria-label",
+									"value": "Gender"
+								}
+							],
+							"options": [{
+									"name": "Select",
+									"value": ""
+								},
+								{
+									"name": "Man",
+									"value": "1"
+								},
+								{
+									"name": "Woman",
+									"value": "2"
+								}
+							],
+							"required": {
+								"errorMessage": "Please select an Option"
+							}
+						}
+					},
+					"description2": ""
+				},
+				{
+					"description": {
+						"desc": "Who is",
+						"selectField": {
+							"attributes": [{
+									"name": "id",
+									"value": "age"
+								},
+								{
+									"name": "class",
+									"value": "form-control "
+								},
+								{
+									"name": "aria-label",
+									"value": "Age"
+								}
+							],
+							"options": [{
+									"name": "Select",
+									"value": ""
+								},
+								{
+									"name": "18",
+									"value": "18"
+								},
+								{
+									"name": "19",
+									"value": "19"
+								},
+								{
+									"name": "20",
+									"value": "20"
+								},
+								{
+									"name": "21",
+									"value": "21"
+								},
+								{
+									"name": "22",
+									"value": "22"
+								},
+								{
+									"name": "23",
+									"value": "23"
+								},
+								{
+									"name": "24",
+									"value": "24"
+								},
+								{
+									"name": "25",
+									"value": "25"
+								},
+								{
+									"name": "26",
+									"value": "26"
+								},
+								{
+									"name": "27",
+									"value": "27"
+								},
+								{
+									"name": "28",
+									"value": "28"
+								},
+								{
+									"name": "29",
+									"value": "29"
+								},
+								{
+									"name": "30",
+									"value": "30"
+								},
+								{
+									"name": "31",
+									"value": "31"
+								},
+								{
+									"name": "32",
+									"value": "32"
+								},
+								{
+									"name": "33",
+									"value": "33"
+								},
+								{
+									"name": "34",
+									"value": "34"
+								},
+								{
+									"name": "35",
+									"value": "35"
+								},
+								{
+									"name": "36",
+									"value": "36"
+								},
+								{
+									"name": "37",
+									"value": "37"
+								},
+								{
+									"name": "38",
+									"value": "38"
+								},
+								{
+									"name": "39",
+									"value": "39"
+								},
+								{
+									"name": "40",
+									"value": "40"
+								},
+								{
+									"name": "41",
+									"value": "41"
+								},
+								{
+									"name": "42",
+									"value": "42"
+								},
+								{
+									"name": "43",
+									"value": "43"
+								},
+								{
+									"name": "44",
+									"value": "44"
+								},
+								{
+									"name": "45",
+									"value": "45"
+								},
+								{
+									"name": "46",
+									"value": "46"
+								},
+								{
+									"name": "47",
+									"value": "47"
+								},
+								{
+									"name": "48",
+									"value": "48"
+								},
+								{
+									"name": "49",
+									"value": "49"
+								},
+								{
+									"name": "50",
+									"value": "50"
+								},
+								{
+									"name": "51",
+									"value": "51"
+								},
+								{
+									"name": "52",
+									"value": "52"
+								},
+								{
+									"name": "53",
+									"value": "53"
+								},
+								{
+									"name": "54",
+									"value": "54"
+								},
+								{
+									"name": "55",
+									"value": "55"
+								},
+								{
+									"name": "56",
+									"value": "56"
+								},
+								{
+									"name": "57",
+									"value": "57"
+								},
+								{
+									"name": "58",
+									"value": "58"
+								},
+								{
+									"name": "59",
+									"value": "59"
+								},
+								{
+									"name": "60",
+									"value": "60"
+								},
+								{
+									"name": "61",
+									"value": "61"
+								},
+								{
+									"name": "62",
+									"value": "62"
+								},
+								{
+									"name": "63",
+									"value": "63"
+								},
+								{
+									"name": "64",
+									"value": "64"
+								},
+								{
+									"name": "65",
+									"value": "65"
+								},
+								{
+									"name": "66",
+									"value": "66"
+								},
+								{
+									"name": "67",
+									"value": "67"
+								},
+								{
+									"name": "68",
+									"value": "68"
+								},
+								{
+									"name": "69",
+									"value": "69"
+								},
+								{
+									"name": "70",
+									"value": "70"
+								},
+								{
+									"name": "71",
+									"value": "71"
+								},
+								{
+									"name": "72",
+									"value": "72"
+								},
+								{
+									"name": "73",
+									"value": "73"
+								},
+								{
+									"name": "74",
+									"value": "74"
+								},
+								{
+									"name": "75",
+									"value": "75"
+								},
+								{
+									"name": "76",
+									"value": "76"
+								},
+								{
+									"name": "77",
+									"value": "77"
+								},
+								{
+									"name": "78",
+									"value": "78"
+								},
+								{
+									"name": "79",
+									"value": "79"
+								},
+								{
+									"name": "80",
+									"value": "80"
+								},
+								{
+									"name": "81",
+									"value": "81"
+								},
+								{
+									"name": "82",
+									"value": "82"
+								},
+								{
+									"name": "83",
+									"value": "83"
+								},
+								{
+									"name": "84",
+									"value": "84"
+								},
+								{
+									"name": "85",
+									"value": "85"
+								},
+								{
+									"name": "86",
+									"value": "86"
+								},
+								{
+									"name": "87",
+									"value": "87"
+								},
+								{
+									"name": "88",
+									"value": "88"
+								},
+								{
+									"name": "89",
+									"value": "89"
+								},
+								{
+									"name": "90",
+									"value": "90"
+								},
+								{
+									"name": "91",
+									"value": "91"
+								},
+								{
+									"name": "92",
+									"value": "92"
+								},
+								{
+									"name": "93",
+									"value": "93"
+								},
+								{
+									"name": "94",
+									"value": "94"
+								},
+								{
+									"name": "95",
+									"value": "95"
+								},
+								{
+									"name": "96",
+									"value": "96"
+								},
+								{
+									"name": "97",
+									"value": "97"
+								},
+								{
+									"name": "98",
+									"value": "98"
+								},
+								{
+									"name": "99",
+									"value": "99"
+								}
+							],
+							"required": {
+								"errorMessage": "Please select an Option"
+							}
+						}
+					},
+					"description2": {
+						"desc": "Years old."
+					}
+				},
+				{
+					"description": {
+						"desc": "I live in",
+						"selectField": {
+							"attributes": [{
+									"name": "id",
+									"value": "state"
+								},
+								{
+									"name": "class",
+									"value": "form-control "
+								},
+								{
+									"name": "aria-label",
+									"value": "State"
+								}
+							],
+							"options": [{
+									"name": "Select",
+									"value": ""
+								},
+								{
+									"value": "AL",
+									"name": "Alabama"
+								},
+								{
+									"value": "AK",
+									"name": "Alaska"
+								},
+								{
+									"value": "AZ",
+									"name": "Arizona"
+								},
+								{
+									"value": "AR",
+									"name": "Arkansas"
+								},
+								{
+									"value": "CA",
+									"name": "California"
+								},
+								{
+									"value": "CO",
+									"name": "Colorado"
+								},
+								{
+									"value": "CT",
+									"name": "Connecticut"
+								},
+								{
+									"value": "DE",
+									"name": "Delaware"
+								},
+								{
+									"value": "DC",
+									"name": "District Of Columbia"
+								},
+								{
+									"value": "FL",
+									"name": "Florida"
+								},
+								{
+									"value": "GA",
+									"name": "Georgia"
+								},
+								{
+									"value": "HI",
+									"name": "Hawaii"
+								},
+								{
+									"value": "ID",
+									"name": "Idaho"
+								},
+								{
+									"value": "IL",
+									"name": "Illinois"
+								},
+								{
+									"value": "IN",
+									"name": "Indiana"
+								},
+								{
+									"value": "IA",
+									"name": "Iowa"
+								},
+								{
+									"value": "KS",
+									"name": "Kansas"
+								},
+								{
+									"value": "KY",
+									"name": "Kentucky"
+								},
+								{
+									"value": "LA",
+									"name": "Louisiana"
+								},
+								{
+									"value": "ME",
+									"name": "Maine"
+								},
+								{
+									"value": "MD",
+									"name": "Maryland"
+								},
+								{
+									"value": "MA",
+									"name": "Massachusetts"
+								},
+								{
+									"value": "MI",
+									"name": "Michigan"
+								},
+								{
+									"value": "MN",
+									"name": "Minnesota"
+								},
+								{
+									"value": "MS",
+									"name": "Mississippi"
+								},
+								{
+									"value": "MO",
+									"name": "Missouri"
+								},
+								{
+									"value": "MT",
+									"name": "Montana"
+								},
+								{
+									"value": "NE",
+									"name": "Nebraska"
+								},
+								{
+									"value": "NV",
+									"name": "Nevada"
+								},
+								{
+									"value": "NH",
+									"name": "New Hampshire"
+								},
+								{
+									"value": "NJ",
+									"name": "New Jersey"
+								},
+								{
+									"value": "NM",
+									"name": "New Mexico"
+								},
+								{
+									"value": "NY",
+									"name": "New York"
+								},
+								{
+									"value": "NC",
+									"name": "North Carolina"
+								},
+								{
+									"value": "ND",
+									"name": "North Dakota"
+								},
+								{
+									"value": "OH",
+									"name": "Ohio"
+								},
+								{
+									"value": "OK",
+									"name": "Oklahoma"
+								},
+								{
+									"value": "OR",
+									"name": "Oregon"
+								},
+								{
+									"value": "PA",
+									"name": "Pennsylvania"
+								},
+								{
+									"value": "RI",
+									"name": "Rhode Island"
+								},
+								{
+									"value": "SC",
+									"name": "South Carolina"
+								},
+								{
+									"value": "SD",
+									"name": "South Dakota"
+								},
+								{
+									"value": "TN",
+									"name": "Tennessee"
+								},
+								{
+									"value": "TX",
+									"name": "Texas"
+								},
+								{
+									"value": "UT",
+									"name": "Utah"
+								},
+								{
+									"value": "VT",
+									"name": "Vermont"
+								},
+								{
+									"value": "VA",
+									"name": "Virginia"
+								},
+								{
+									"value": "WA",
+									"name": "Washington"
+								},
+								{
+									"value": "WV",
+									"name": "West Virginia"
+								},
+								{
+									"value": "WI",
+									"name": "Wisconsin"
+								},
+								{
+									"value": "WY",
+									"name": "Wyoming"
+								}
+							],
+							"required": {
+								"errorMessage": "Please select an Option"
+							}
+						}
+					},
+					"description2": ""
+				},
+				{
+					"description": {
+						"desc": "and I",
+						"selectField": {
+							"attributes": [{
+									"name": "id",
+									"value": "tobaccoUsage"
+								},
+								{
+									"name": "class",
+									"value": "form-control "
+								},
+								{
+									"name": "aria-label",
+									"value": "Tobacco Usage"
+								}
+							],
+							"options": [{
+									"name": "Select",
+									"value": ""
+								},
+								{
+									"name": "Do",
+									"value": "1"
+								},
+								{
+									"name": "Do Not",
+									"value": "2"
+								}
+							],
+							"required": {
+								"errorMessage": "Please select an Option"
+							}
+						}
+					},
+					"description2": {
+						"desc": "Use Tobacco."
+					}
+				},
+				{
+					"description": {
+						"desc": "I need",
+						"selectField": {
+							"attributes": [{
+									"name": "id",
+									"value": "coverageLimit"
+								},
+								{
+									"name": "class",
+									"value": "form-control "
+								},
+								{
+									"name": "aria-label",
+									"value": "Coverage Limit"
+								}
+							],
+							"options": [{
+									"name": "Select",
+									"value": ""
+								},
+								{
+									"name": "$100,000",
+									"value": "100000"
+								},
+								{
+									"name": "$250,000",
+									"value": "250000"
+								},
+								{
+									"name": "$500,000",
+									"value": "500000"
+								},
+								{
+									"name": "$750,000",
+									"value": "750000"
+								},
+								{
+									"name": "$1,000,000",
+									"value": "1000000"
+								},
+								{
+									"name": "$1,500,000",
+									"value": "1500000"
+								}
+							],
+							"required": {
+								"errorMessage": "Please select an Option"
+							}
+						}
+					},
+					"description2": {
+						"desc": "of coverage."
+					},
+					"customClass": "justify-content-center"
+				},
+				{
+					"description": {
+						"desc": "I am in",
+						"selectField": {
+							"attributes": [{
+									"name": "id",
+									"value": "healthCondition"
+								},
+								{
+									"name": "class",
+									"value": "form-control "
+								},
+								{
+									"name": "aria-label",
+									"value": "healthCondition"
+								}
+							],
+							"options": [{
+									"name": "Select",
+									"value": ""
+								},
+								{
+									"name": "Poor",
+									"value": "1"
+								},
+								{
+									"name": "Fair",
+									"value": "2"
+								},
+								{
+									"name": "Good",
+									"value": "3"
+								},
+								{
+									"name": "Excellent",
+									"value": "4"
+								}
+							],
+							"required": {
+								"errorMessage": "Please select an Option"
+							}
+						}
+					},
+					"description2": {
+						"desc": "health."
+					},
+					"customClass": "justify-content-center"
+				}
+			]
+		}]
+	},
+	"heroFormText": [{
+			"formLabel": "Lorem ipsum1",
+			"textInput": {
+				"attributes": [{
+						"name": "id",
+						"value": "exampleId"
+					},
+					{
+						"name": "autoComplete",
+						"value": "off"
+					},
+					{
+						"name": "class",
+						"value": "form-control"
+					},
+					{
+						"name": "placeholder",
+						"value": "Lorem ipsum"
+					},
+					{
+						"name": "type",
+						"value": "text"
+					},
+					{
+						"name": "minlength",
+						"value": "2"
+					},
+					{
+						"name": "maxlength",
+						"value": "60"
+					},
+					{
+						"name": "aria-label",
+						"value": "Lorem ipsum"
+					}
+				],
+				"required": {
+					"errorMessage": "Lorem ipsum"
+				}
+			}
+		},
+		{
+			"formLabel": "Lorem ipsum2",
+			"textInput": {
+				"attributes": [{
+						"name": "id",
+						"value": "exampleId"
+					},
+					{
+						"name": "autoComplete",
+						"value": "off"
+					},
+					{
+						"name": "class",
+						"value": "form-control"
+					},
+					{
+						"name": "placeholder",
+						"value": "Lorem ipsum"
+					},
+					{
+						"name": "type",
+						"value": "text"
+					},
+					{
+						"name": "minlength",
+						"value": "2"
+					},
+					{
+						"name": "maxlength",
+						"value": "60"
+					},
+					{
+						"name": "aria-label",
+						"value": "Lorem ipsum"
+					}
+				],
+				"required": {
+					"errorMessage": "Lorem ipsum"
+				}
+			}
+		},
+		{
+			"formLabel": "Lorem ipsum3",
+			"textInput": {
+				"attributes": [{
+						"name": "id",
+						"value": "exampleId"
+					},
+					{
+						"name": "autoComplete",
+						"value": "off"
+					},
+					{
+						"name": "class",
+						"value": "form-control"
+					},
+					{
+						"name": "placeholder",
+						"value": "Lorem ipsum"
+					},
+					{
+						"name": "type",
+						"value": "text"
+					},
+					{
+						"name": "minlength",
+						"value": "2"
+					},
+					{
+						"name": "maxlength",
+						"value": "60"
+					},
+					{
+						"name": "aria-label",
+						"value": "Lorem ipsum"
+					}
+				],
+				"required": {
+					"errorMessage": "Lorem ipsum"
+				}
+			}
+		},
+		{
+			"formLabel": "Lorem ipsum4",
+			"textInput": {
+				"attributes": [{
+						"name": "id",
+						"value": "exampleId"
+					},
+					{
+						"name": "autoComplete",
+						"value": "off"
+					},
+					{
+						"name": "class",
+						"value": "form-control"
+					},
+					{
+						"name": "placeholder",
+						"value": "Lorem ipsum"
+					},
+					{
+						"name": "type",
+						"value": "text"
+					},
+					{
+						"name": "maxlength",
+						"value": "5"
+					},
+					{
+						"name": "data-minlength",
+						"value": "5"
+					},
+					{
+						"name": "aria-label",
+						"value": "Lorem ipsum"
+					}
+				],
+				"required": {
+					"errorMessage": "Lorem ipsum"
+				}
+			}
+		}
+	],
+
+	"tabNamesList": [{
+			"ariaControls": "tab1",
+			"listId": "tab1-tab",
+			"activeClass": "active",
+			"tabName": "years 10",
+			"listHref": "#tab1"
+		},
+		{
+			"ariaControls": "tab2",
+			"listId": "tab2-tab",
+			"activeClass": "",
+			"tabName": "years 20",
+			"listHref": "#tab2"
+		}
+	],
+	"tabsContentList": [{
+			"ariaLabelledby": "tab1-tab",
+			"contentId": "tab1",
+			"activeClass": "show active",
+			"tabName": "tab1",
+			"contentHead": "Lorem ipsum",
+			"contentTextTop": "Lorem ipsum Lorem ipsum",
+			"contentTextBottom": "$123.45 Annually"
+		},
+		{
+			"ariaLabelledby": "tab2-tab",
+			"contentId": "tab2",
+			"activeClass": "",
+			"tabName": "tab2",
+			"contentHead": "Lorem ipsum - 2",
+			"contentTextTop": "Lorem ipsum Lorem ipsum",
+			"contentTextBottom": "$123.45 Lorem"
+		}
+	],
+	"tabsContainerData": {
+		"tabBoxHead": "Lorem ipsum",
+		"tabHeading": "Lorem ipsum"
+	},
+	"compareInfoData": {
+		"tabsContainerData": {
+			"tabHeading": "Lorem ipsum",
+			"tabBoxHead": "Lorem ipsum do or sit"
+		},
+		"infoListHead": "Lorem ipsum do or sit amet, consectetur adipiscing elit",
+		"quoteConfirmationData": {
+			"headDescription": "Lorem ipsum do or sit amet, consectetur adipiscing elit Lorem ipsum do or sit amet, consectetur adipiscing elit",
+			"footerDescription": "Lorem ipsum do or sit amet, consectetur adipiscing elit Lorem ipsum do or sit amet, consectetur adipiscing elit, Lorem ipsum do or sit amet, consectetur adipiscing elit"
+		}
+	},
+
+	"tabInfoList": [{
+		"listData": "Lorem ipsum do or sit amet, consectetur adipiscing elit"
+	}, {
+		"listData": "Lorem ipsum do or sit amet, consectetur adipiscing elit"
+	}, {
+		"listData": "Lorem ipsum do or sit amet, consectetur adipiscing elit"
+	}],
+
+	"tabData": {
+		"tabs": [{
+				"tabInfoList": {
+					"listData": "Lorem ipsum do or sit amet, consectetur adipiscing elit"
+				}
+			},
+			{
+				"tabInfoList": {
+					"listData": "Lorem ipsum do or sit amet, consectetur adipiscing elit"
+				}
+			}
+		]
+	},
+
+	"progressBarList": {
+		"amountText": "$500,000",
+		"status": "completed"
+	},
+
+	"progressBarData": {
+		"headText": "Lorem ipsum",
+		"progressBarList": [{
+				"amountText": "$100,000",
+				"status": "completed"
+			},
+			{
+				"amountText": "$200,000",
+				"status": "completed"
+			},
+			{
+				"amountText": "$300,000",
+				"status": "completed"
+			},
+			{
+				"amountText": "$400,000",
+				"status": ""
+			},
+			{
+				"amountText": "$500,000",
+				"status": ""
+			},
+			{
+				"amountText": "$600,000",
+				"status": ""
+			},
+			{
+				"amountText": "$700,000",
+				"status": ""
+			},
+			{
+				"amountText": "$800,000",
+				"status": ""
+			}
+		]
+	},
+
+	"policyPrice": {
+		"insuranceType": "Lorem ipsum",
+		"insuranceDesc": "Lorem ipsum",
+		"insuranceHead": "Lorem ipsum",
+		"insuranceQuote": "Lorem ipsum",
+		"insuranceQuoteDesc": "Lorem ipsum ipsum",
+		"insuranceQuoteMonthly": "$ 00.00",
+		"insuranceQuoteAnnually": "$ 000.00",
+		"button": {
+			"buttonText": "Button",
+			"buttonType": "button"
+		}
+	},
+
+	"policyPriceData": {
+		"policyPrices": [{},
+			{},
+			{},
+			{}
+		],
+		"policyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
+	},
+
+	"heroComponentFormData": {
+		"descriptionClass": "col-md-5",
+		"sectionHead": "Lorem Ipsum is simply dummy text of the printing.",
+		"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+		"heroImage": "../../../images/fpo_hero.png",
+		"heroImageMobile": "../../../images/fpo_hero-sm.png"
+	},
+
+	"imageWithSynopsisCard": {
+		"title": "Lorem ipsum",
+		"date": "26, July 2018",
+		"description": "Lorem ipsum do or sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+		"colSpanModifier": "col-md-3",
+		"imageData": {
+			"attributes": [{
+					"name": "alt",
+					"value": ""
+				},
+				{
+					"name": "aria-hidden",
+					"value": true
+				}
+			],
+			"imagePaths": {
+				"small": "../../../images/fpo_290x215.jpg",
+				"small@2x": "../../../images/fpo_290x215.jpg",
+				"large": "../../../images/fpo_320x215.jpg",
+				"large@2x": "../../../images/fpo_320x215.jpg"
+			}
+		}
+	},
+
+  "accountSetupForm": {
+		"sectionTitle": "Account Setup",
+
+		"formFieldGroups":[
+			{
+				"groupHead": "Contact Info",
+				"formFields": [
+					{
+						"class": "col-md-3",
+						"label": "First Name",
+						"id": "firstName",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "firstName"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "First Name"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "2"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid First Name"
+								},
+								{
+									"name": "maxlength",
+									"value": "60"
+								},
+								{
+									"name": "aria-label",
+									"value": "First Name"
+								}
+							],
+							"required": {
+								"errorMessage": "First Name is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-3",
+						"label": "Middle Name",
+						"id": "middleName",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "middleName"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "Middle Name"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "2"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid Middle Name"
+								},
+								{
+									"name": "maxlength",
+									"value": "60"
+								},
+								{
+									"name": "aria-label",
+									"value": "Middle Name"
+								}
+							],
+							"required": {
+								"errorMessage": "Middle Name is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-3",
+						"label": "Last Name",
+						"id": "lastName",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "lastName"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "Last Name"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "2"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid Last Name"
+								},
+								{
+									"name": "maxlength",
+									"value": "60"
+								},
+								{
+									"name": "aria-label",
+									"value": "Last Name"
+								}
+							],
+							"required": {
+								"errorMessage": "Last Name is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-3 col-lg-2",
+						"label": "Date of Birth",
+						"id": "dateOfBirth",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "dateOfBirth"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "dd/mm/yyyy"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "10"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid Date"
+								},
+								{
+									"name": "maxlength",
+									"value": "10"
+								},
+								{
+									"name": "aria-label",
+									"value": "Date of Birth"
+								},
+								{
+									"name": "data-date-format-validator",
+									"value": "date-format-validator"
+								}
+
+							],
+							"required": {
+								"errorMessage": "Date of Birth is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-4 col-lg-3",
+						"label": "Street Address",
+						"id": "streetAddress",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "streetAddress"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "77 Main Street"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "2"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid Street Address"
+								},
+								{
+									"name": "maxlength",
+									"value": "255"
+								},
+								{
+									"name": "aria-label",
+									"value": "Street Address"
+								}
+							],
+							"required": {
+								"errorMessage": "Street Address is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-3",
+						"label": "City",
+						"id": "city",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "city"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "City"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "2"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid City"
+								},
+								{
+									"name": "maxlength",
+									"value": "100"
+								},
+								{
+									"name": "aria-label",
+									"value": "City"
+								}
+							],
+							"required": {
+								"errorMessage": "City is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-2 ",
+						"label": "State",
+						"id": "userState",
+						"textInput": "",
+						"selectField": {
+						  "attributes": [
+						    {
+						      "name": "id",
+						      "value": "userState"
+						    },
+						    {
+						      "name": "class",
+						      "value": "form-control"
+						    },
+						    {
+								"name": "aria-label",
+								"value": "Select State"
+							}
+						  ],
+						  "options": [
+						    {
+								"name": "State",
+						        "value": ""
+						    },
+						    {
+						        "name": "Alabama",
+						        "value": "Alabama"
+						    },
+						    {
+						        "name": "Alaska",
+						        "value": "Alaska"
+						    },
+						    {
+						        "name": "American Samoa",
+						        "value": "American Samoa"
+						    },
+						    {
+						        "name": "Arizona",
+						        "value": "Arizona"
+						    },
+						    {
+						        "name": "Arkansas",
+						        "value": "Arkansas"
+						    },
+						    {
+						        "name": "California",
+						        "value": "California"
+						    },
+						    {
+						        "name": "Colorado",
+						        "value": "Colorado"
+						    },
+						    {
+						        "name": "Connecticut",
+						        "value": "Connecticut"
+						    },
+						    {
+						        "name": "Delaware",
+						        "value": "Delaware"
+						    },
+						    {
+						        "name": "District Of Columbia",
+						        "value": "District Of Columbia"
+						    },
+						    {
+						        "name": "Federated States Of Micronesia",
+						        "value": "Federated States Of Micronesia"
+						    },
+						    {
+						        "name": "Florida",
+						        "value": "Florida"
+						    },
+						    {
+						        "name": "Georgia",
+						        "value": "Georgia"
+						    },
+						    {
+						        "name": "Guam Gu",
+						        "value": "Guam Gu"
+						    },
+						    {
+						        "name": "Hawaii",
+						        "value": "Hawaii"
+						    },
+						    {
+						        "name": "Idaho",
+						        "value": "Idaho"
+						    },
+						    {
+						        "name": "Illinois",
+						        "value": "Illinois"
+						    },
+						    {
+						        "name": "Indiana",
+						        "value": "Indiana"
+						    },
+						    {
+						        "name": "Iowa",
+						        "value": "Iowa"
+						    },
+						    {
+						        "name": "Kansas",
+						        "value": "Kansas"
+						    },
+						    {
+						        "name": "Kentucky",
+						        "value": "Kentucky"
+						    },
+						    {
+						        "name": "Louisiana",
+						        "value": "Louisiana"
+						    },
+						    {
+						        "name": "Maine",
+						        "value": "Maine"
+						    },
+						    {
+						        "name": "Marshall Islands",
+						        "value": "Marshall Islands"
+						    },
+						    {
+						        "name": "Maryland",
+						        "value": "Maryland"
+						    },
+						    {
+						        "name": "Massachusetts",
+						        "value": "Massachusetts"
+						    },
+						    {
+						        "name": "Michigan",
+						        "value": "Michigan"
+						    },
+						    {
+						        "name": "Minnesota",
+						        "value": "Minnesota"
+						    },
+						    {
+						        "name": "Mississippi",
+						        "value": "Mississippi"
+						    },
+						    {
+						        "name": "Missouri",
+						        "value": "Missouri"
+						    },
+						    {
+						        "name": "Montana",
+						        "value": "Montana"
+						    },
+						    {
+						        "name": "Nebraska",
+						        "value": "Nebraska"
+						    },
+						    {
+						        "name": "Nevada",
+						        "value": "Nevada"
+						    },
+						    {
+						        "name": "New Hampshire",
+						        "value": "New Hampshire"
+						    },
+						    {
+						        "name": "New Jersey",
+						        "value": "New Jersey"
+						    },
+						    {
+						        "name": "New Mexico",
+						        "value": "New Mexico"
+						    },
+						    {
+						        "name": "New York",
+						        "value": "New York"
+						    },
+						    {
+						        "name": "North Carolina",
+						        "value": "North Carolina"
+						    },
+						    {
+						        "name": "North Dakota",
+						        "value": "North Dakota"
+						    },
+						    {
+						        "name": "Northern Mariana Islands",
+						        "value": "Northern Mariana Islands"
+						    },
+						    {
+						        "name": "Ohio",
+						        "value": "Ohio"
+						    },
+						    {
+						        "name": "Oklahoma",
+						        "value": "Oklahoma"
+						    },
+						    {
+						        "name": "Oregon",
+						        "value": "Oregon"
+						    },
+						    {
+						        "name": "Palau",
+						        "value": "Palau"
+						    },
+						    {
+						        "name": "Pennsylvania",
+						        "value": "Pennsylvania"
+						    },
+						    {
+						        "name": "Puerto Rico",
+						        "value": "Puerto Rico"
+						    },
+						    {
+						        "name": "Rhode Island",
+						        "value": "Rhode Island"
+						    },
+						    {
+						        "name": "South Carolina",
+						        "value": "South Carolina"
+						    },
+						    {
+						        "name": "South Dakota",
+						        "value": "South Dakota"
+						    },
+						    {
+						        "name": "Tennessee",
+						        "value": "Tennessee"
+						    },
+						    {
+						        "name": "Texas",
+						        "value": "Texas"
+						    },
+						    {
+						        "name": "Utah",
+						        "value": "Utah"
+						    },
+						    {
+						        "name": "Vermont",
+						        "value": "Vermont"
+						    },
+						    {
+						        "name": "Virgin Islands",
+						        "value": "Virgin Islands"
+						    },
+						    {
+						        "name": "Virginia",
+						        "value": "Virginia"
+						    },
+						    {
+						        "name": "Washington",
+						        "value": "Washington"
+						    },
+						    {
+						        "name": "West Virginia",
+						        "value": "West Virginia"
+						    },
+						    {
+						        "name": "Wisconsin",
+						        "value": "Wisconsin"
+						    },
+						    {
+						        "name": "Wyoming",
+						        "value": "Wyoming"
+						    }
+						  ],
+						  "required": {
+						    "errorMessage": "Please select a State"
+						  }
+						}
+					},
+					{
+						"class": "col-md-3 col-lg-2",
+						"label": "Zip Code",
+						"id": "userZipCode",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "userZipCode"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "Zip Code"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "5"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid Zip Code"
+								},
+								{
+									"name": "maxlength",
+									"value": "5"
+								},
+								{
+									"name": "data-zip-code",
+									"value": "zip-code"
+								},
+								{
+									"name": "aria-label",
+									"value": "Zip Code"
+								},
+								{
+									"name": "data-numeric-value",
+									"value": "numeric-value"
+								}
+							],
+							"required": {
+								"errorMessage": "Zip Code is required"
+							}
+						},
+						"selectField": ""
+					}
+				]
+			},
+			{
+				"groupHead": "Email & Password",
+				"formFields": [
+					{
+						"class": "col-md-3",
+						"label": "Email Address",
+						"id": "userEmail",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "userEmail"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "Email Address"
+								},
+								{
+									"name": "type",
+									"value": "email"
+								},
+								{
+									"name": "maxlength",
+									"value": "100"
+								},
+								{
+									"name": "aria-label",
+									"value": "Email"
+								},
+								{
+									"name": "data-email-validator",
+									"value": "email-validator"
+								}
+							],
+							"required": {
+								"errorMessage": "Email Address is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-3",
+						"label": "Password",
+						"id": "userPassword",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "userPassword"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "Password"
+								},
+								{
+									"name": "type",
+									"value": "password"
+								},
+								{
+									"name": "data-minlength",
+									"value": "8"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Password must be 8 characters and include at least a letter, a number, and a special character"
+								},
+								{
+									"name": "maxlength",
+									"value": "25"
+								},
+								{
+									"name": "aria-label",
+									"value": "Password"
+								},
+								{
+									"name": "data-password-validator",
+									"value": "password-validator"
+								}
+							],
+							"required": {
+								"errorMessage": "Password is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-4 col-lg-3",
+						"label": "Confirm Password",
+						"id": "userConfirmPassword",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "userConfirmPassword"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "Password"
+								},
+								{
+									"name": "type",
+									"value": "password"
+								},
+								{
+									"name": "maxlength",
+									"value": "25"
+								},
+								{
+									"name": "data-confirm-password",
+									"value": "confirm-password"
+								},
+								{
+									"name": "aria-label",
+									"value": "Confirm Password"
+								}
+							],
+							"required": {
+								"errorMessage": "Please confirm the password"
+							}
+						},
+						"selectField": ""
+					}
+				]
+			},
+			{
+				"groupHead": "Payment Info",
+				"formFields": [
+					{
+						"class": "col-md-4 col-lg-3",
+						"label": "Credit Card Number",
+						"id": "userCCNumber",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "userCCNumber"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "8888 8888 8888 8888"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-card-validator",
+									"value": "card-validator"
+								},
+								{
+									"name": "data-minlength",
+									"value": "18"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Card number must be minimum of 15 characters."
+								},
+								{
+									"name": "maxlength",
+									"value": "19"
+								},
+								{
+									"name": "aria-label",
+									"value": "Credit Card Number"
+								}
+							],
+							"required": {
+								"errorMessage": "Credit Card Number is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-2 ",
+						"label": "Expiration",
+						"id": "userCCExpiration",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "userCCExpiration"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "00/0000"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "7"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid Expiration date"
+								},
+								{
+									"name": "maxlength",
+									"value": "7"
+								},
+								{
+									"name": "data-card-expiry",
+									"value": "card-expiry"
+								},
+								{
+									"name": "aria-label",
+									"value": "Card Expiration"
+								}
+							],
+							"required": {
+								"errorMessage": "Expiration date is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-3 col-lg-2",
+						"label": "Security Code",
+						"id": "userCCCode",
+						"textInput": {
+							"attributes": [
+								{
+									"name": "id",
+									"value": "userCCCode"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "123"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "3"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid Security Code"
+								},
+								{
+									"name": "maxlength",
+									"value": "4"
+								},
+								{
+									"name": "aria-label",
+									"value": "Security Code"
+								},
+								{
+									"name": "data-numeric-value",
+									"value": "numeric-value"
+								}
+							],
+							"required": {
+								"errorMessage": "Security Code is required"
+							}
+						},
+						"selectField": ""
+					}
+				]
+			}
+		]
+	},
+
+	"accountSummaryForm": {
+		"sectionTitle": "Account Summary",
+		"fontAwesomeIconClass": "fas fa-pencil-alt",
+
+		"formFieldGroups": [{
+				"groupHead": "Address",
+				"groupSubHead": {
+					"desc1": {
+						"data": "55 Main Street, Hometown, ST 55555"
+					},
+					"desc2": ""
+				},
+				"editAriaLabel": "Edit address",
+				"formFields": [{
+						"class": "col-md-3",
+						"label": "Street Address",
+						"id": "streetAddress",
+						"textInput": {
+							"attributes": [{
+									"name": "id",
+									"value": "streetAddress"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "77 Main Street"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "2"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid Street Address"
+								},
+								{
+									"name": "maxlength",
+									"value": "255"
+								}
+							],
+							"required": {
+								"errorMessage": "Street Address is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-3",
+						"label": "City",
+						"id": "city",
+						"textInput": {
+							"attributes": [{
+									"name": "id",
+									"value": "city"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "City"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "2"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid City"
+								},
+								{
+									"name": "maxlength",
+									"value": "100"
+								}
+							],
+							"required": {
+								"errorMessage": "City is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-2 ",
+						"label": "State",
+						"id": "userState",
+						"textInput": "",
+						"selectField": {
+							"attributes": [{
+									"name": "id",
+									"value": "userState"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								}
+							],
+							"options": [{
+									"name": "State",
+									"value": ""
+								},
+								{
+									"name": "Alabama",
+									"value": "Alabama"
+								},
+								{
+									"name": "Alaska",
+									"value": "Alaska"
+								},
+								{
+									"name": "American Samoa",
+									"value": "American Samoa"
+								},
+								{
+									"name": "Arizona",
+									"value": "Arizona"
+								},
+								{
+									"name": "Arkansas",
+									"value": "Arkansas"
+								},
+								{
+									"name": "California",
+									"value": "California"
+								},
+								{
+									"name": "Colorado",
+									"value": "Colorado"
+								},
+								{
+									"name": "Connecticut",
+									"value": "Connecticut"
+								},
+								{
+									"name": "Delaware",
+									"value": "Delaware"
+								},
+								{
+									"name": "District Of Columbia",
+									"value": "District Of Columbia"
+								},
+								{
+									"name": "Federated States Of Micronesia",
+									"value": "Federated States Of Micronesia"
+								},
+								{
+									"name": "Florida",
+									"value": "Florida"
+								},
+								{
+									"name": "Georgia",
+									"value": "Georgia"
+								},
+								{
+									"name": "Guam Gu",
+									"value": "Guam Gu"
+								},
+								{
+									"name": "Hawaii",
+									"value": "Hawaii"
+								},
+								{
+									"name": "Idaho",
+									"value": "Idaho"
+								},
+								{
+									"name": "Illinois",
+									"value": "Illinois"
+								},
+								{
+									"name": "Indiana",
+									"value": "Indiana"
+								},
+								{
+									"name": "Iowa",
+									"value": "Iowa"
+								},
+								{
+									"name": "Kansas",
+									"value": "Kansas"
+								},
+								{
+									"name": "Kentucky",
+									"value": "Kentucky"
+								},
+								{
+									"name": "Louisiana",
+									"value": "Louisiana"
+								},
+								{
+									"name": "Maine",
+									"value": "Maine"
+								},
+								{
+									"name": "Marshall Islands",
+									"value": "Marshall Islands"
+								},
+								{
+									"name": "Maryland",
+									"value": "Maryland"
+								},
+								{
+									"name": "Massachusetts",
+									"value": "Massachusetts"
+								},
+								{
+									"name": "Michigan",
+									"value": "Michigan"
+								},
+								{
+									"name": "Minnesota",
+									"value": "Minnesota"
+								},
+								{
+									"name": "Mississippi",
+									"value": "Mississippi"
+								},
+								{
+									"name": "Missouri",
+									"value": "Missouri"
+								},
+								{
+									"name": "Montana",
+									"value": "Montana"
+								},
+								{
+									"name": "Nebraska",
+									"value": "Nebraska"
+								},
+								{
+									"name": "Nevada",
+									"value": "Nevada"
+								},
+								{
+									"name": "New Hampshire",
+									"value": "New Hampshire"
+								},
+								{
+									"name": "New Jersey",
+									"value": "New Jersey"
+								},
+								{
+									"name": "New Mexico",
+									"value": "New Mexico"
+								},
+								{
+									"name": "New York",
+									"value": "New York"
+								},
+								{
+									"name": "North Carolina",
+									"value": "North Carolina"
+								},
+								{
+									"name": "North Dakota",
+									"value": "North Dakota"
+								},
+								{
+									"name": "Northern Mariana Islands",
+									"value": "Northern Mariana Islands"
+								},
+								{
+									"name": "Ohio",
+									"value": "Ohio"
+								},
+								{
+									"name": "Oklahoma",
+									"value": "Oklahoma"
+								},
+								{
+									"name": "Oregon",
+									"value": "Oregon"
+								},
+								{
+									"name": "Palau",
+									"value": "Palau"
+								},
+								{
+									"name": "Pennsylvania",
+									"value": "Pennsylvania"
+								},
+								{
+									"name": "Puerto Rico",
+									"value": "Puerto Rico"
+								},
+								{
+									"name": "Rhode Island",
+									"value": "Rhode Island"
+								},
+								{
+									"name": "South Carolina",
+									"value": "South Carolina"
+								},
+								{
+									"name": "South Dakota",
+									"value": "South Dakota"
+								},
+								{
+									"name": "Tennessee",
+									"value": "Tennessee"
+								},
+								{
+									"name": "Texas",
+									"value": "Texas"
+								},
+								{
+									"name": "Utah",
+									"value": "Utah"
+								},
+								{
+									"name": "Vermont",
+									"value": "Vermont"
+								},
+								{
+									"name": "Virgin Islands",
+									"value": "Virgin Islands"
+								},
+								{
+									"name": "Virginia",
+									"value": "Virginia"
+								},
+								{
+									"name": "Washington",
+									"value": "Washington"
+								},
+								{
+									"name": "West Virginia",
+									"value": "West Virginia"
+								},
+								{
+									"name": "Wisconsin",
+									"value": "Wisconsin"
+								},
+								{
+									"name": "Wyoming",
+									"value": "Wyoming"
+								}
+							],
+							"required": {
+								"errorMessage": "Please select a State"
+							}
+						}
+					},
+					{
+						"class": "col-md-2 ",
+						"label": "Zip Code",
+						"id": "userZipCode",
+						"textInput": {
+							"attributes": [{
+									"name": "id",
+									"value": "userZipCode"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "Zip Code"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "5"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid Zip Code"
+								},
+								{
+									"name": "maxlength",
+									"value": "5"
+								},
+								{
+									"name": "data-zip-code",
+									"value": "zip-code"
+								},
+							],
+							"required": {
+								"errorMessage": "Zip Code is required"
+							}
+						},
+						"selectField": ""
+					}
+				]
+			},
+			{
+				"groupHead": "Email & Password",
+				"groupSubHead": {
+					"desc1": {
+						"data": "john.smith@gmail.com"
+					},
+					"desc2": {
+						"data": "*********"
+					}
+				},
+				"editAriaLabel": "Edit address",
+				"formFields": [{
+						"class": "col-md-3",
+						"label": "Email Address",
+						"id": "userEmail",
+						"textInput": {
+							"attributes": [{
+									"name": "id",
+									"value": "userEmail"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "Email Address"
+								},
+								{
+									"name": "type",
+									"value": "email"
+								},
+								{
+									"name": "maxlength",
+									"value": "100"
+								},
+								{
+									"name": "data-email-validator",
+									"value": "email-validator"
+								}
+							],
+							"required": {
+								"errorMessage": "Email Address is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-3",
+						"label": "Password",
+						"id": "userPassword",
+						"textInput": {
+							"attributes": [{
+									"name": "id",
+									"value": "userPassword"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "Password"
+								},
+								{
+									"name": "type",
+									"value": "password"
+								},
+								{
+									"name": "data-minlength",
+									"value": "8"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Password must be 8 characters and include at least a letter, a number, and a special character"
+								},
+								{
+									"name": "maxlength",
+									"value": "25"
+								},
+								{
+									"name": "data-password-validator",
+									"value": "password-validator"
+								}
+							],
+							"required": {
+								"errorMessage": "Password is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-3",
+						"label": "Confirm Password",
+						"id": "userConfirmPassword",
+						"textInput": {
+							"attributes": [{
+									"name": "id",
+									"value": "userConfirmPassword"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "Password"
+								},
+								{
+									"name": "type",
+									"value": "password"
+								},
+								{
+									"name": "maxlength",
+									"value": "25"
+								},
+								{
+									"name": "data-confirm-password",
+									"value": "confirm-password"
+								}
+							],
+							"required": {
+								"errorMessage": "Please confirm the password"
+							}
+						},
+						"selectField": ""
+					}
+				]
+			},
+			{
+				"groupHead": "Payment Info",
+				"groupSubHead": {
+					"desc1": {
+						"data": "************6543"
+					},
+					"desc2": ""
+				},
+				"editAriaLabel": "Edit address",
+				"formFields": [{
+						"class": "col-md-4 col-lg-3",
+						"label": "Credit Card Number",
+						"id": "userCCNumber",
+						"textInput": {
+							"attributes": [{
+									"name": "id",
+									"value": "userCCNumber"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "8888 8888 8888 8888"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-card-validator",
+									"value": "card-validator"
+								},
+								{
+									"name": "data-minlength",
+									"value": "18"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Card number must be minimum 15 characters."
+								},
+								{
+									"name": "maxlength",
+									"value": "19"
+								}
+							],
+							"required": {
+								"errorMessage": "Credit Card Number is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-2 ",
+						"label": "Expiration",
+						"id": "userCCExpiration",
+						"textInput": {
+							"attributes": [{
+									"name": "id",
+									"value": "userCCExpiration"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "00/0000"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "7"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid Expiration date"
+								},
+								{
+									"name": "maxlength",
+									"value": "7"
+								},
+								{
+									"name": "data-card-expiry",
+									"value": "card-expiry"
+								}
+							],
+							"required": {
+								"errorMessage": "Expiration date is required"
+							}
+						},
+						"selectField": ""
+					},
+					{
+						"class": "col-md-3 col-lg-2",
+						"label": "Security Code",
+						"id": "userCCCode",
+						"textInput": {
+							"attributes": [{
+									"name": "id",
+									"value": "userCCCode"
+								},
+								{
+									"name": "autoComplete",
+									"value": "off"
+								},
+								{
+									"name": "class",
+									"value": "form-control"
+								},
+								{
+									"name": "placeholder",
+									"value": "123"
+								},
+								{
+									"name": "type",
+									"value": "text"
+								},
+								{
+									"name": "data-minlength",
+									"value": "3"
+								},
+								{
+									"name": "data-minlength-error",
+									"value": "Invalid Security Code"
+								},
+								{
+									"name": "maxlength",
+									"value": "4"
+								},
+								{
+									"name": "data-numeric-value",
+									"value": "numeric-value"
+								}
+							],
+							"required": {
+								"errorMessage": "Security Code is required"
+							}
+						},
+						"selectField": ""
+					}
+				]
+			}
+		]
+	},
+
+
+
+
+
+
+
+    "company": {
+        "name": "CrownPeak - Epsilon",
+        "url": "/"
+    },
+
+    "button": {
+		"buttonText": "Button",
+		"buttonType": "button",
+		"buttonClass": ""
+	},
+	"links": {
+		"link" : "#",
+		"linkClass" : "",
+		"linkTxt" : "Read More"
+	},	
+    
+    "headingTag": "h1",
+    "headingClass": "bloghead",
+    "headingTxt":"This is heading",
+    "headingSubtxt":"This is sub text",
+
+    "imageList" : {
+    	"imgPath" : "../../images/cs-1.jpg",
+	    "imgAlttxt":"alt text",
+	    "imgLink":"#",
+	    "linkClass":""
+    },
+    "listItem": "List Item", 
+
+    "header": {
+    	"navList" : [    		
+    		{
+    			"links": {
+	    			"link" : "#",
+					"linkClass" : "nav-link active",
+					"linkTxt" : "Home"
+				}
+    		},
+    		{
+    			"links": {
+	    			"link" : "#",
+					"linkClass" : "nav-link",
+					"linkTxt" : "About us"
+				}
+    		},
+    		{
+    			"links": {
+	    			"link" : "#",
+					"linkClass" : "nav-link",
+					"linkTxt" : "Case studies"
+				}
+    		},
+    		{
+    			"links": {
+	    			"link" : "#",
+					"linkClass" : "nav-link",
+					"linkTxt" : "insights"
+				}
+    		},
+    		{
+    			"links": {
+	    			"link" : "#",
+					"linkClass" : "nav-link contact-button",
+					"linkTxt" : "Contact us"
+				}
+    		}
+    	]
+    },
+    "paginationBlog":{
+    	"paginationList":[
+    		{
+    			"links": {
+	    			"link" : "#",
+					"linkClass" : "pagination-btn btn-1 active",
+					"linkTxt" : "1"
+				}
+	    	},
+	    	{
+	    		"links": {
+	    			"link" : "#",
+					"linkClass" : "pagination-btn btn-2",
+					"linkTxt" : "2"
+				}
+	    	}
+	    ]
+    },
+    "contentBlock":{
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+	    "button": {
+			"buttonText": "Lorem",
+			"buttonType": "button",
+			"buttonClass": "contentBlock-btn",
+			"buttonIcon" : "external-link"
+		}
+    },
+    "caseStudy":{
+        
+
+    	"imageLists" : [
+    		{},
+		    {},
+		    {},
+		    {},
+		    {},
+		    {},
+		    {},
+		    {}
+    	],  		    
+	    
+	
+	    "headingTag": "h3",
+        "headingClass": "bloghead",
+
+
+        "caseStudyStory": {
+            "caseStudyStoryHead": [
+                {
+                    "title": "Project",
+                    "desc": "Targeting"
+                },
+                {
+                    "title": "Services",
+                    "desc": "Data, analytics and modeling Strategic mapping"
+                },
+                {
+                    "title": "Industry",
+                    "desc": "Nonprofit"
+                }
+            ]
+        },
+        "caseStudyStoryDetail": {
+            "title": "The story",
+            "desc": "The Leukemia & Lymphoma Society (LLS) wanted to help its local chapters expand their School & Youth Programs’ fundraising efforts. They asked Epsilon to develop an analytics-based targeting strategy to help the chapters identify high-potential schools and improve their marketing effectiveness."
+        },
+        "caseStudySolution":{
+        	"headingTag": "h3",
+            "headingClass": "bloghead",
+		    "headingTxt": "The Solution",
+		    "headingSubtxt": "",
+		    "csSolutionLogo": "../../images/al-logo.png",
+		    "csSolutionAltTxt": "al-logo",
+		    "csSolutionContent": "Epsilon's Loyalty platform supports and routs data for each Balance Rewards member interaction, including online/in-store enrollments, online purchases and activity uploads from devices lnk FitBit. We also integrated Web services support real-time enrollment through multiple channels."
+        },
+        "caseStudyResults":{
+        	"headingTag": "h3",
+            "headingClass": "bloghead",
+		    "headingTxt": "The Results",
+		    "headingSubtxt": "",
+		    "csResultsContent":"more than 150 million people have enrolled in the Balance Rewards program. The system processes 4M+ purchase transactions per day and 4B+ loyalty requests per year."
+        }
+    },
+    "moreCaseStudy":{
+    	"headingTag": "h3",
+        "headingClass": "bloghead",
+	    "headingTxt":"More Case Studies",
+	    "headingSubtxt":"",
+    	"imageLists" : [
+    		{
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-1.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-2.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-3.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-4.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    }
+		  
+    	],
+    	"links": {
+			"link" : "#",
+			"linkClass" : "more-cs-btn",
+			"linkTxt" : "View More Work"
+		}		    
+    },
+
+    
+    "blogList": {
+        "headingTag": "h4",
+        "headingTxt":"Lorem Ipsum is simply dummy text of the print",
+        "headingSubtxt":"",
+        "blogContent":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "links": {
+            "linkTxt": "Lorem ",
+            "linkClass": "blog-btn",
+            "linkIcon" : "chevron-right",
+            "link": "#"
+        }
+    },
+    
+    "blogs" :{
+		"headingTag": "h3",
+        "headingClass": "bloghead",
+	    "headingTxt":"Lorem",
+	    "headingSubtxt":" dummy text of the print",	
+		"blogLists": [
+			{},
+			{}
+		]    	 	
+    },
+    "footer" : {
+    	"ctaSection" :{
+    		"imageList":{
+	    		"imgPath" : "../../images/footer-img.jpg",
+			    "imgAlttxt":"alt text",
+			    "imgLink":"#"
+    		},	    	
+		    "headingTag": "h2",
+		    "headingTxt":"Let’s get together. Crownpeak Empower 2018",
+		    "headingSubtxt":"",
+		    "links": {
+				"linkTxt": "Contact us",
+				"linkClass": "footer-cta-btn",
+				"linkIcon" : "chevron-right",
+				"link": "#"
+			}
+    	},
+    	"aboutContent":{
+    		"epsilonURL": "#",
+    		"twitterURL":"#",
+    		"privacyURL":"#",
+    		"preferenceURL":"#"
+    	},
+    	"copyright":{
+    		"privacyURL":"#",
+    		"privacyTxt":"Privacy Policy",
+    		"termsURL" : "#",
+    		"termsTxt":"Terms & Conditions",
+    		"copyTxt": "Copyright © 2018 Epsilon Data Management LLC. All rights reserved." 
+    	}
+    },
+    "testimonialBanner":{
+    	"links": {
+				"linkTxt": "watch client testimonial",
+				"linkClass": "testimonial-cta-btn",
+				"link": "#"
+			},
+    	"testimonialImg":"../../images/testimonial-banner.jpeg",
+    	"testimonialAltTxt":"Testimonial image",
+    	"testimonial":"We were able to launch a [loyalty] program in a few short months... we wouldn't have been able to do it without Epsilon and the partnership we've built.",
+    	"testimonialAuthor": "Kelly Smolinksi, Director, Customer Systems, Walgreens",
+    	
+		"headingTag": "h1",
+        "headingClass": "bloghead",
+	    "headingTxt":"4M+",
+	    "headingSubtxt":"pruchase transactions/day"
+    },
+    "mainBlogs":{
+		"blogList":	[
+			{
+				"headingTag": "h3",
+                "headingClass": "bloghead",
+			    "headingTxt":"Why your data strategy and loyalty program do belong together",
+			    "headingSubtxt":"",
+				"blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
+				"blogAuthor":"Jackie Marquis",
+				"blogDate":"Oct 11, 2018",
+				"blogTags":"Loyalty, Loyalty Marketing, Strategy, Data",
+				"links": {
+					"linkTxt": "View Post",
+					"linkClass": "blog-btn",
+					"linkIcon" : "chevron-right",
+					"link": "#"
+				},
+				"imageList" : {
+			    	"imgPath" : "../../images/blog-1.png",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#"
+			    }  
+			},
+			{
+				"headingTag": "h3",
+                "headingClass": "bloghead",
+			    "headingTxt":"Understanding the value of the catalog in the digital age",
+			    "headingSubtxt":"",
+				"blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
+				"blogAuthor":"Jackie Marquis",
+				"blogDate":"Oct 11, 2018",
+				"blogTags":"Loyalty, Loyalty Marketing, Strategy, Data",
+				"links": {
+					"linkTxt": "View Post",
+					"linkClass": "blog-btn",
+					"linkIcon" : "chevron-right",
+					"link": "#"
+				},
+				"imageList" : {
+			    	"imgPath" : "../../images/blog-2.png",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#"
+			    }
+			}
+		]   
+    },
+    "subscribeForm":{
+    	"groupHead": "Subscribe",
+		"formFields": [
+			{
+				"class": "",
+				"label": "First Name",
+				"id": "firstName",
+				"textInput": {
+					"attributes": [
+						{
+							"name": "id",
+							"value": "firstName"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem ipsum"
+						},
+						{
+							"name": "type",
+							"value": "text"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid First Name"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "First Name"
+						}
+					],
+					"required": {
+						"errorMessage": "First Name is required"
+					}
+				}
+			},
+			{
+				"class": "",
+				"label": "Last Name",
+				"id": "lastName",
+				"textInput": {
+					"attributes": [
+						{
+							"name": "id",
+							"value": "lastName"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem Ipsum"
+						},
+						{
+							"name": "type",
+							"value": "text"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Last Name"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Last Name"
+						}
+					],
+					"required": {
+						"errorMessage": "Last Name is required"
+					}
+				}
+			},
+			{
+				"class": "",
+				"label": "Email",
+				"id": "email",
+				"textInput": {
+					"attributes": [
+						{
+							"name": "id",
+							"value": "email"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem Ipsum"
+						},
+						{
+							"name": "type",
+							"value": "email"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Email"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Email"
+						}
+					],
+					"required": {
+						"errorMessage": "Email is required"
+					}
+				}
+			}
+		],
+		"button":{
+			"buttonClass":"form-btn",
+			"buttonType":"button",
+			"buttonText":"Submit"
+		}
+	},
+	"sidebarBlogs":{
+		"sbBlogList":[
+			{
+				"blogHeader":"Top Pics",
+				"blogImg":"../../images/sb-blog-1.jpg",
+				"blogImgAltTxt":"alt",
+				"sbBlogAuthor":"Epsilon Marketing",
+				"sbBlogHeading":"What millennials want from QSR loyalty programs",
+				"sbBlogDate":"Jan 10, 2017",
+				"links": {
+					"linkTxt": "View post",
+					"linkClass": "sb-blog-btn",
+					"linkIcon" : "chevron-right",
+					"link": "#"
+				}
+			},
+			{
+				"blogHeader":"Go Deep",
+				"blogImg":"../../images/sb-blog-2.jpg",
+				"blogImgAltTxt":"alt",
+				"sbBlogAuthor":"Epsilon Marketing",
+				"sbBlogHeading":"What millennials want from QSR loyalty programs",
+				"sbBlogDate":"Jan 10, 2017",
+				"links": {
+					"linkTxt": "View post",
+					"linkClass": "sb-blog-btn",
+					"linkIcon" : "chevron-right",
+					"link": "#"
+				}
+			}
+		]
+	},
+
+    "homePageData": {
+        "heroBanner": {
+            "bannerClass": "landing-page",
+            "bannerImg": {
+                "url": "../../images/banner1.jpg",
+                "alt": "Lorem"
+            },
+            "homeBanner" : {
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit "
+            },
+            "blogBanner": "",
+            "insightBanner": "" 
+        }
+    },
+    "listWrap":{
+    	"headingTag": "h3",
+        "headingClass": "",
+        "headingSubtxt":"",
+        "listHeading":"This is heading",
+        "listClass":"bullet-list",
+        "listItems":[
+        	{},
+        	{},
+        	{}
+        ],
+        "bottomTxt":"Dummy text"
+    },
+    "signupForm":{
+    	"headingTag": "h3",
+        "headingClass": "signup-heading",
+        "headingSubtxt":"",
+
+        "formFields":[
+			{
+				"class": "",				
+				"label": "First Name",
+				"id": "firstName",
+				"textInput": {
+					"inputParentClass":"col-md-6",
+					"attributes": [
+						{
+							"name": "id",
+							"value": "firstName"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem ipsum"
+						},
+						{
+							"name": "type",
+							"value": "text"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid First Name"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "First Name"
+						}
+					],
+					"required": {
+						"errorMessage": "First Name is required"
+					}
+				}
+			},
+			{
+				"class": "",
+				"label": "Last Name",
+				"id": "lastName",
+				"textInput": {
+					"inputParentClass":"col-md-6",
+					"attributes": [
+						{
+							"name": "id",
+							"value": "lastName"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem Ipsum"
+						},
+						{
+							"name": "type",
+							"value": "text"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Last Name"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Last Name"
+						}
+					],
+					"required": {
+						"errorMessage": "Last Name is required"
+					}
+				}
+			},
+			{
+				"class": "",
+				"label": "Email",
+				"id": "email",
+				"textInput": {
+					"inputParentClass":"col-md-6",
+					"attributes": [
+						{
+							"name": "id",
+							"value": "email"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem Ipsum"
+						},
+						{
+							"name": "type",
+							"value": "email"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Email"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Email"
+						}
+					],
+					"required": {
+						"errorMessage": "Email is required"
+					}
+				}
+			},			
+			{
+				"class": "",
+				"label": "Email",
+				"id": "email",
+				"textInput": {
+					"inputParentClass":"col-md-6",
+					"attributes": [
+						{
+							"name": "id",
+							"value": "email"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem Ipsum"
+						},
+						{
+							"name": "type",
+							"value": "email"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Email"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Email"
+						}
+					],
+					"required": {
+						"errorMessage": "Email is required"
+					}
+				}
+			},
+			
+			{
+				"class": "",
+				"label": "Email",
+				"id": "email",
+				"textInput": {
+					"inputParentClass":"col-md-6",
+					"attributes": [
+						{
+							"name": "id",
+							"value": "email"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem Ipsum"
+						},
+						{
+							"name": "type",
+							"value": "email"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Email"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Email"
+						}
+					],
+					"required": {
+						"errorMessage": "Email is required"
+					}
+				}
+			},
+			
+			{
+				"class": "",
+				"label": "Email",
+				"id": "email",
+				"textInput": {
+					"inputParentClass":"col-md-6",
+					"attributes": [
+						{
+							"name": "id",
+							"value": "email"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem Ipsum"
+						},
+						{
+							"name": "type",
+							"value": "email"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Email"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Email"
+						}
+					],
+					"required": {
+						"errorMessage": "Email is required"
+					}
+				}
+			}
+		],
+		"bottomField":{
+			"headingTag": "h3",
+	        "headingClass": "",
+	        "headingSubtxt":"",
+	        "formFields":[
+				{
+					"label": "Select Menu",
+					"action": "Change",
+					"selectField": {
+						"attributes": [{
+								"name": "id",
+								"value": "selectMenu"
+							},
+							{
+								"name": "class",
+								"value": "select-menu"
+							}
+						],
+						"options": [{
+								"name": "dummy text",
+								"value": "dummy text",
+								"selected": "selected"
+							},
+							{
+								"name": "dummy text",
+								"value": "dummy text"
+							},
+							{
+								"name": "dummy text",
+								"value": "dummy text"
+							}
+						]
+					}
+				}
+			]
+		},
+		"button": {
+			"buttonText": "Lorem",
+			"buttonType": "button",
+			"buttonClass": "form-btn"
+		}		
+    },
+    "blogData":{
+    	"heroBanner": {
+	        "bannerClass": "insightBanner",
+	        "bannerImg": "",
+	        "insightBanner" : {
+	            "heading": "A Brand New View",
+	            "description": "Welcome to our world! Here you'll find all the latest thinking in marketing along with news, case studies and other useful resources to support your programs"
+	        },
+	        "blogBanner": "",
+	        "homeBanner": "" 
+	    }
+    },
+    "contactPage":{
+    	"imageList":{
+    		"imgPath" : "../../images/blog-banner.jpg"
+    	}
+    }
+    
+
+
+
+}

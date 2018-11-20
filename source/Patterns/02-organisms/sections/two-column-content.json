@@ -1,0 +1,18 @@
+{
+	"twoColumnContent": {
+		"bgClass": "bg-pattern",
+		"sectionHead" : "Lorem ipsum",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+
+		"appDownload": "",
+
+		"alt": "thinking woman",
+
+		"imagePaths": {
+			"small": "../../../images/thinking-woman-small.png",
+			"small@2x": "../../../images/thinking-woman-small@2x.png",
+			"large": "../../../images/thinking-woman-large.png",
+			"large@2x": "../../../images/thinking-woman-large@2x.png"
+		}
+	}
+}

@@ -1,0 +1,79 @@
+//MuseoSans Font
+@font-face {
+  font-family: MuseoSansLighter;
+  src: url('../fonts/MuseoSans-100.otf') format('truetype');
+}
+
+@font-face {
+  font-family: MuseoSansLight;
+  src: url('../fonts/MuseoSans-300.otf') format('truetype');
+}
+
+@font-face {
+  font-family: MuseoSansNormal;
+  src: url('../fonts/MuseoSans-500.otf') format('truetype');
+}
+
+@font-face {
+  font-family: MuseoSansBold;
+  src: url('../fonts/MuseoSans-700.otf') format('truetype');
+}
+
+@font-face {
+  font-family: MuseoSansBolder;
+  src: url('../fonts/MuseoSans-900.otf') format('truetype');
+}
+
+//MuseoSans Italic Font
+@font-face {
+  font-family: MuseoSansItalicLighter;
+  src: url('../fonts/MuseoSans-100-Italic.otf') format('truetype');
+}
+
+@font-face {
+  font-family: MuseoSansItalicLight;
+  src: url('../fonts/MuseoSans-300-Italic.otf') format('truetype');
+}
+
+@font-face {
+  font-family: MuseoSansItalicNormal;
+  src: url('../fonts/MuseoSans-500-Italic.otf') format('truetype');
+}
+
+@font-face {
+  font-family: MuseoSansItalicBold;
+  src: url('../fonts/MuseoSans-700-Italic.otf') format('truetype');
+}
+
+@font-face {
+  font-family: MuseoSansItalicBolder;
+  src: url('../fonts/MuseoSans-900-Italic.otf') format('truetype');
+}
+
+@mixin font-MuseoSans($style: 'normal') {
+  @if $style == 'lighter' {
+    font-family: 'MuseoSansLighter';
+  } @else if $style == 'light' {
+    font-family: 'MuseoSansLight';
+  } @else if $style == 'normal' {
+    font-family: 'MuseoSansNormal';
+  } @else if $style == 'bold' {
+    font-family: 'MuseoSansBold';
+  } @else if $style == 'bolder' {
+    font-family: 'MuseoSansBolder';
+  }
+}
+
+@mixin font-MuseoSansItalic($style: 'normal') {
+  @if $style == 'lighter' {
+    font-family: 'MuseoSansItalicLighter';
+  } @else if $style == 'light' {
+    font-family: 'MuseoSansItalicLight';
+  } @else if $style == 'normal' {
+    font-family: 'MuseoSansItalicNormal';
+  } @else if $style == 'bold' {
+    font-family: 'MuseoSansItalicBold';
+  } @else if $style == 'bolder' {
+    font-family: 'MuseoSansItalicBolder';
+  }
+}

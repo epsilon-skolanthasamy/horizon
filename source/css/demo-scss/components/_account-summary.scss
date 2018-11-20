@@ -1,0 +1,177 @@
+/*
+* Account-summary - Organism styling
+*/
+.account-summary-wrapper {
+	background: $color-gray-09;
+	text-align: left;
+	.col-md-12 {
+		padding: rem(0);
+	}
+	.section-head {
+		color: $color-brand-astronaut;
+		padding: rem(36px 0 28px 0);
+		font-family: MuseoSansBold;
+		font-size: rem(32px);
+		text-align: center;
+		letter-spacing: rem(0.2px);
+	}
+	.account-data-buttons, .form-edit{
+		display: none;
+	}
+	.account-data-form {
+		padding: 0;
+		padding: rem(0 17px);
+
+		legend {
+			font-size: rem(12px);
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: rem(0.1px);
+			color: $color-brand-dodger-blue;
+			padding-bottom: rem(18px);
+			text-transform: uppercase;
+		}
+		.summary-text {
+		    position: relative;
+		    display: table;
+		    padding-right: rem(15px);
+
+		    span{
+		    	padding-right: rem(20px);
+		    	font-size: rem(18px);
+		    }
+		    a {
+		    	position: absolute;
+			    right: 0;
+			    top: 0;
+			}
+		}
+
+		p {
+			font-size: rem(18px);
+			font-family: MuseoSansNormal;
+			letter-spacing: rem(0.1px);
+			color: $color-gray-84;
+		}
+		a {
+			padding-left: rem(15px);
+		}
+
+		label {
+			font-family: "MuseoSansBold";
+			font-size: rem(18px);
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: rem(0.1px);
+			color: $color-gray-84;
+			margin-bottom: rem(11px);
+		}
+		.form-control{
+			color: $color-gray-70;
+		}
+
+		.form-group {
+			margin-bottom: rem(30px);
+		}
+	}
+	.account-data-buttons {
+		.buttons {
+			padding: rem(33px) rem(0) rem(38px) rem(0);
+		}
+	}
+
+
+
+	.account-data-form  {
+		.account-data-buttons {
+			.buttons {
+				padding: rem(33px) rem(32px) rem(38px) rem(25px);
+				text-align: center;
+
+				.btn-blue {
+					padding-bottom: rem(20px);
+				}
+			}
+		}
+	}
+
+	@include media-breakpoint-up(sm) {
+		background: $color-gray-09;
+		padding: rem(0px) rem(30px) rem(60px) rem(30px);
+		text-align: left;
+		margin: 0 auto;
+
+		.section-head {
+			color: $color-brand-astronaut;
+			padding: rem(57px) rem(0) rem(24px) rem(0);
+			font-family: MuseoSansBold;
+			font-size: rem(32px);
+			text-align: left;
+			letter-spacing: rem(0.2px);
+		}
+		.form-edit{
+  		padding-top: rem(10px);
+  	}
+  	.account-data-buttons, .form-edit{
+  		display: none;
+  	}
+		.account-data-form {
+			padding: rem(0) rem(0) rem(0) rem(0);
+			.accountDataFields {
+				padding: rem(15px) rem(60px) rem(30px) rem(58px);
+
+				input {
+					border-radius: rem(5px);
+					border: solid 1px $color-gray-36;
+				}
+				input[type=text], input[type=email], input[type=password] {
+					color: $color-gray-70;
+					font-family: MuseoSansNormal;
+					font-size: rem(12px);
+				}
+				p {
+					font-size: rem(18px);
+					font-family: MuseoSansNormal;
+					letter-spacing: rem(0.1px);
+					color: $color-gray-84;
+				}
+				a {
+					padding-left: rem(15px);
+				}
+
+				select {
+					width: rem(100px);
+					padding: rem(7px) rem(0) rem(7px) rem(8px);
+					padding-bottom: rem(8px);
+					border-radius: rem(5px);
+					border: solid 1px $color-gray-36;
+					color: $color-gray-70;
+					font-family: MuseoSansNormal;
+					font-size: rem(12px);
+					letter-spacing: rem(0.8px);
+					background: $color-white;
+				}
+				select > option {
+					color: $color-gray-70;
+					font-family: MuseoSansNormal;
+					font-size: rem(12px);
+					letter-spacing: rem(0.8px);
+				}
+				[placeholder] {
+					text-align: left;
+					letter-spacing: rem(0.8px);
+				}
+
+			}
+
+		}
+
+	}
+	@include media-breakpoint-up(md) {
+		.account-edit-form fieldset .form-group {
+			margin-bottom: 0;
+		}
+	}
+}

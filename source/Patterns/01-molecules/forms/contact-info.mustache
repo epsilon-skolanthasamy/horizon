@@ -1,0 +1,31 @@
+ {{#registrationForm}}
+
+<form action="{{ inputCTAForm.action }}" class="contact-form" method="{{ inputCTAForm.method }}"
+	class="input-with-cta" data-toggle="validator">
+
+  <h3 class="contact-head">{{formHeading}}</h3>
+
+ {{#heroFormFields}}
+
+  <div class="form-group">
+    <label class="input-field-label">{{formLabel}}</label>
+    {{> atoms-text-field }}
+    <div class="help-block with-errors">
+    </div>
+  </div>
+   
+ {{/heroFormFields}}
+ 
+ <div class="checkbox-form form-group">
+  {{#checkboxes}}
+
+  {{> atoms-customcheckbox}}
+
+  {{/checkboxes}}
+  </div>
+
+  {{> atoms-button:btn-red|mt-2}}
+ 
+</form>
+
+{{/registrationForm}}

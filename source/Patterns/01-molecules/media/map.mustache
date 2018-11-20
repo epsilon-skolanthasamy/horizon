@@ -1,0 +1,24 @@
+{{# mapData }}
+  <div id="{{ mapId }}" class="location-map" data-map-identifier={{ mapId }}></div>
+
+  <script type="text/javascript">
+    locations = [];
+
+    locationIndex = 0;
+    {{# mapLocations }}
+      locations[locationIndex] =['{{{ info }}}', '{{ lat }}', '{{ long }}', locationIndex];
+      locationIndex++;
+    {{/ mapLocations }}
+
+    var mapLocations = mapLocations || [];
+    mapLocations['{{ mapId }}'] = [];
+    mapLocations['{{ mapId }}']['locations'] = locations;
+    mapLocations['{{ mapId }}']['zoom'] = {{ zoom }};
+    mapLocations['{{ mapId }}']['mapTypeId'] = '{{ mapTypeId }}';
+    mapLocations['{{ mapId }}']['disableDefaultUI'] = {{ disableDefaultUI }};
+    mapLocations['{{ mapId }}']['setMapBounds'] = {{ setMapBounds }};
+    {{# markerIcon }}
+    mapLocations['{{ mapId }}']['markerIcon'] = '{{{ markerIcon }}}';
+    {{/ markerIcon }}
+  </script>
+{{/ mapData }}

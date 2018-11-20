@@ -1,0 +1,16 @@
+{{# contact-form}}
+<form class="stay-in-touch-from" action="{{ inputCTAForm.action }}" method="{{ inputCTAForm.method }}" data-toggle="validator">
+    <h1>{{formTitle}}</h1>
+    <div class="form-fields">
+	    {{# formFields}}
+	    <div class="form-group">
+	        {{> atoms-text-field}}
+	        <div class="help-block with-errors"></div>
+	        </div>
+	    {{/ formFields}}
+    </div>
+    <div class="btn-submit">
+    	{{> atoms-button:btn-blue}}
+    </div>
+</form>
+{{/ contact-form}}

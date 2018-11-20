@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="400" viewBox="0 0 1440 400">
+    <defs>
+        <path id="a" d="M0 0h1440v400H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#a"/>
+        <g mask="url(#b)">
+            <g fill="#7086DB" opacity=".08">
+                <path d="M1350.952-30l98.972 166.755H1251.98z" style="mix-blend-mode:multiply"/>
+                <path d="M1263.57 21.222l68.572 115.533H1195z" style="mix-blend-mode:multiply"/>
+            </g>
+            <g fill="#7086DB" opacity=".1">
+                <path d="M1167.017 181l60.936 102.849h-121.871z" style="mix-blend-mode:multiply"/>
+                <path d="M1113.218 212.592l42.218 71.257H1071z" style="mix-blend-mode:multiply"/>
+            </g>
+            <g fill="#7086DB" opacity=".08">
+                <path d="M1396.596 291l80.342 135.8h-160.684z" style="mix-blend-mode:multiply"/>
+                <path d="M1325.663 332.714l55.664 94.087H1270z" style="mix-blend-mode:multiply"/>
+            </g>
+        </g>
+        <g mask="url(#b)">
+            <g fill="#7086DB" opacity=".08">
+                <path d="M222.952-30l98.972 166.755H123.98z" style="mix-blend-mode:multiply"/>
+                <path d="M135.57 21.222l68.572 115.533H67z" style="mix-blend-mode:multiply"/>
+            </g>
+            <g fill="#7086DB" opacity=".1">
+                <path d="M39.017 181l60.936 102.849H-21.918z" style="mix-blend-mode:multiply"/>
+                <path d="M-14.782 212.592l42.218 71.257H-57z" style="mix-blend-mode:multiply"/>
+            </g>
+            <g fill="#7086DB" opacity=".08">
+                <path d="M268.596 291l80.342 135.8H188.254z" style="mix-blend-mode:multiply"/>
+                <path d="M197.663 332.714l55.664 94.087H142z" style="mix-blend-mode:multiply"/>
+            </g>
+        </g>
+        <g mask="url(#b)">
+            <g fill="#7086DB" opacity=".08">
+                <path d="M766.952-30l98.972 166.755H667.98z" style="mix-blend-mode:multiply"/>
+                <path d="M679.57 21.222l68.572 115.533H611z" style="mix-blend-mode:multiply"/>
+            </g>
+            <g fill="#7086DB" opacity=".1">
+                <path d="M583.017 181l60.936 102.849H522.082z" style="mix-blend-mode:multiply"/>
+                <path d="M529.218 212.592l42.218 71.257H487z" style="mix-blend-mode:multiply"/>
+            </g>
+            <g fill="#7086DB" opacity=".08">
+                <path d="M812.596 291l80.342 135.8H732.254z" style="mix-blend-mode:multiply"/>
+                <path d="M741.663 332.714l55.664 94.087H686z" style="mix-blend-mode:multiply"/>
+            </g>
+        </g>
+    </g>
+</svg>

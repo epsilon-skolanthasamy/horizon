@@ -1,0 +1,44 @@
+<div class="container">
+  {{# contentBlockData }}
+    <div class="row justify-content-md-center content-block-wrapper">
+      <div class="col col-md-10">
+        <div class="row">
+
+          <div class="col-md-12 text-center">
+            <h2>{{ contentHead }}</h2>
+            {{# contentDescription }}
+              <p>{{ contentDescription }}</p>
+            {{/ contentDescription }}
+
+            {{# contentListData }}
+              <ul>
+                {{# contentListItems }}
+                  <li>{{list}}</li>
+                {{/ contentListItems }}
+              </ul>
+            {{/ contentListData }}
+
+            {{^visible-button}}
+              {{> atoms-button:btn-blue }}
+            {{/visible-button}}
+
+            {{# contentLinkData }}
+              <p><a href="">{{contentLinkData.getQuote-link}}</a> {{contentLinkData.getQuotetext}}</p>
+              <p>{{contentLinkData.compare-policy-text}} <a href="#">{{contentLinkData.compare-policy-link}}</a></p>
+            {{/ contentLinkData }}
+
+            {{^visible-content-Only-link}}
+            {{# contentDetailsLink }}
+              <p><a href="{{ linkPath }}">{{ linkText }}</a></p>
+            {{/ contentDetailsLink }}
+            {{/visible-content-Only-link}}
+          </div>
+
+        </div>
+      </div>
+    </div>
+    {{# showBlockSeparator }}
+      <hr>
+    {{/ showBlockSeparator }}
+  {{/ contentBlockData }}
+</div>

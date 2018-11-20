@@ -1,0 +1,24 @@
+ul.autocomplete-popup {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border: 1px solid $color-gray-95;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  background: $color-white;
+
+  > li a {
+    display: block;
+    color: $color-gray-84;
+    text-decoration: none;
+    font-size: rem(13px);
+    padding: rem(6px 6px 0);
+    line-height: 1;
+    margin-bottom: rem(6px);
+    b {
+      font-size: rem(13px);
+      font-family: "MuseoSansBold";
+    }
+  }
+}

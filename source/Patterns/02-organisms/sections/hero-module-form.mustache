@@ -1,0 +1,32 @@
+{{# heroComponentFormData }}
+<div class="hero-form-wrapper">
+
+<section class="row full-width hero-container">
+
+<div aria-hidden="true" class="post-cover hero-banner-image">
+  <img src="{{heroImage}}" aria-hidden="true" alt="">
+</div>
+<div aria-hidden="true" class="post-cover hero-banner-image mobile">
+  <img src="{{heroImageMobile}}" aria-hidden="true" alt="">
+</div>
+
+<div class="container-fluid hero-content ">
+    <div class="row ">
+            <div class="{{descriptionClass}}">
+                <div class="left-column">
+                    <h1 class="hero-head">{{ sectionHead }}</h1>
+
+                    <p class="hero-headline">{{description}}</p>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+</section>
+<div class="right-form-container">
+{{> molecules-contact-info }}
+</div>
+</div>
+
+    {{/ heroComponentFormData }}
