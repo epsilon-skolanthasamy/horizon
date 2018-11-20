@@ -1,0 +1,50 @@
+//MuseoSans Font
+@font-face {
+  font-family: 'Lora Bold', sans-serif;
+  src: url('../fonts/Lora-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lora Regular', sans-serif;
+  src: url('../fonts/Lora-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Bold', sans-serif;
+  src: url('../fonts/MuseoSans-500.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Medium', sans-serif;
+  src: url('../fonts/MuseoSans-700.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Regular', sans-serif;
+  src: url('../fonts/MuseoSans-900.otf') format('woff');
+}
+ 
+@font-face {
+  font-family: 'Roboto Semibold', sans-serif;
+  src: url('../fonts/MuseoSans-100-Italic.otf') format('woff');
+}
+ 
+@mixin font-lora($style: 'regular') {
+  @if $style == 'bold' {
+    font-family: 'Lora Bold', sans-serif;
+  } @else if $style == 'regular' {
+    font-family: 'Lora Regular', sans-serif;
+  } 
+}
+
+@mixin font-roboto($style: 'regular') {
+  @if $style == 'bold' {
+    font-family: 'Roboto Bold', sans-serif;
+  } @else if $style == 'medium' {
+    font-family: 'Roboto Medium', sans-serif;
+  } @else if $style == 'regular' {
+    font-family: 'Roboto Regular', sans-serif;
+  } @else if $style == 'semibold' {
+    font-family: 'Roboto Semibold', sans-serif;
+  } 
+}

@@ -53,6 +53,22 @@ $(document).ready(function(argument) {
     }
   });
 
+  $('.menu-btn').click(function () {
+    $(this).toggleClass('open');
+    $('.nav-bar').toggle();
+  });
+
+  $('.has-subnav > a').click(function () { 
+    $(this).siblings('.sub-nav').toggle();
+  });
+
+  $('.search-field .input-with-icon .fa').on('click',function () {
+    $('.logo').hide(); 
+    $('.search-field').find('input').show();
+  });
+
+ 
+
   // Mobile Menu show/hide Callbacks
   $(".navbar-collapse").on('shown.bs.collapse', function () {
     $('body').addClass('mobile-nav-expanded');

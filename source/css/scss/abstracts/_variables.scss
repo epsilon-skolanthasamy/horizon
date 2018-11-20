@@ -1,163 +1,82 @@
 /*------------------------------------*\
     #VARIABLES
 \*------------------------------------*/
-
-
-/*------------------------------------*\
-    #COLORS
-\*------------------------------------*/
-
-/*
- * 1) Color variables involve a two-tier system to keep colors in sync. The
- *    first tier defines the brand and neutral colors, and the second tier
- *    defines the application of those colors.
- */
-
-/*
- * Brand Colors
- * 1) Brand color variables use English names to define colors to make palettes easier to
- *    identify. Names are generated using this tool: http://chir.ag/projects/name-that-color/
- * 2) Brand color variables should typically not be used directly in Sass partials. Instead, use
- *    second-tier application colors.
- *
- */
- $color-brand-dodger-blue: #4169FB;
- $color-brand-astronaut: #293A7B;
- $color-brand-medium-carmine: #B73A3A;
- $color-brand-medium-carmine-dark: #993232;
-
-/*
- * Neutral Colors
- * 1) Neutral color variables use a numbered system to define variables for better maintainability.
- *    "$color-gray-10" means "10% gray", which is a gray closer to white than to black. For more info
- *    read https://medium.com/eightshapes-llc/color-in-design-systems-a1c80f65fa3#.brevrq67p
- */
-$color-white: #fff;
-
-$color-gray-10: #F4F4F4;
-$color-gray-20: #EEEEEE;
-$color-gray-36: #DBDBDB;
-$color-gray-39: #D8D8D8;
-$color-gray-40: #C0C0C0;
-
-$color-gray-65: #979797;
-$color-gray-70: #868686;
-
-$color-gray-85: #646464;
-$color-gray-95: #232323;
-
-
-/**
- * Utility Colors
- * 1) Utility colors are colors used to provide feedback, such as alert messages,
- * form validation, etc.
- */
- $color-utility-warning: $color-brand-medium-carmine;
- $color-utility-info: $color-brand-astronaut;
-
- /*
-  * Text Colors
-  * 1) These are non-linked text colors, such as body copy.
-  */
-  $color-text: $color-brand-astronaut;
-  $color-text-light-blue: $color-brand-dodger-blue;
-
-
-/*
- * Heading Colors
- * 1) These are non-linked heading colors, such as h2, h3, etc.
- */
-
-/*
- * Text Link Colors
- * 1) These are for linked text, such as a link found within an article,
- *    navigation link, footer link, etc.
- */
-
-/*
- * Border Colors
- * 1) Border colors are used as decoration or dividers, such as as a seperator
- *    for navigation items, block borders, etc.
- */
-
-
-
-
-
+  
+$white-color: #fff;
+$black-color: #000;
+$base-grey-color: #58585B;
+$base-blue-color: #2E3191;
+ 
  /*------------------------------------*\
      #TYPOGRAPHY
  \*------------------------------------*/
- $font: "MuseoSansNormal";
-
-
-
-
-
-
-
+ $font: 'Roboto Regular', sans-serif;
+ 
  /*------------------------------------*\
      #LAYOUT
  \*------------------------------------*/
 
   // Page Content width
-  $page-width: 1440px;
-  $content-width: 1044px;
+  $page-width: 930px;
+  $content-width: 1044px; 
 
- /**
-  * Spacing Defaults
+ 
+  $color-brand-dodger-blue: #4169FB;
+  $color-brand-astronaut: #293A7B;
+  $color-brand-medium-carmine: #B73A3A;
+  $color-brand-medium-carmine-dark: #993232;
+
+  /*
+ * Neutral Colors
+ * 1) Neutral color variables use a numbered system to define variables for better maintainability.
+ *    "$color-gray-10" means "10% gray", which is a gray closer to white than to black. For more info
+ *    read https://medium.com/eightshapes-llc/color-in-design-systems-a1c80f65fa3#.brevrq67p
+ */
+  $color-white: #fff;
+
+  $color-gray-10: #F4F4F4;
+  $color-gray-20: #EEEEEE;
+  $color-gray-36: #DBDBDB;
+  $color-gray-39: #D8D8D8;
+  $color-gray-40: #C0C0C0;
+
+  $color-gray-65: #979797;
+  $color-gray-70: #868686;
+
+  $color-gray-85: #646464;
+  $color-gray-95: #232323;
+
+
+  /**
+ * Utility Colors
+ * 1) Utility colors are colors used to provide feedback, such as alert messages,
+ * form validation, etc.
+ */
+  $color-utility-warning: $color-brand-medium-carmine;
+  $color-utility-info: $color-brand-astronaut;
+
+  /*
+  * Text Colors
+  * 1) These are non-linked text colors, such as body copy.
   */
+  $color-text: $color-brand-astronaut;
+  $color-text-light-blue: $color-brand-dodger-blue;
+  
 
+  /*Our variables*/
+  $base-color: #000000;
+  $btn-blue: #0080b6;
+  $link-gray: #b1aeae;
+  $color-gray-84: #666666;
+  $blue-border-btn : #003b5a;
+  $footer-gray : #8c8c8c;
+  $color-gray-09: #f3f3f5;
+  $blue-header: #427098;
+  $violet-bg: #262b48;
+  $color-gray-42: #D1D1D1;
+  $heading-gray: #58585B;
+  $sub-heading-gray: #767676;
+  $btn-gray:#E4E4EE;
 
-
-
-
- /*------------------------------------*\
-     #BORDERS
- \*------------------------------------*/
-
- /**
-  * Border Width
-  */
-
-
- /**
-  * Border Radius
-  */
-
-$border-rad-lite : 4px;
-
-
-
-
- /*------------------------------------*\
-     #ANIMATION
- \*------------------------------------*/
-
- /**
-  * Animation Duration
-  */
-
-
- /**
-  * Animation Easing
-  */
-
-
-
-/*Our variables*/
-$base-color: #000000;
-$btn-blue: #0080b6;
-$link-gray: #b1aeae;
-$color-gray-84: #666666;
-$blue-border-btn : #003b5a;
-$footer-gray : #8c8c8c;
-$color-gray-09: #f3f3f5;
-$blue-header: #427098;
-$violet-bg: #262b48;
-$color-gray-42: #D1D1D1;
-$heading-gray: #58585B;
-$sub-heading-gray: #767676;
-$btn-gray:#E4E4EE;
-
-/*Horizon Variables*/
-$social-blue:#2e3191;
+  /*Horizon Variables*/
+  $social-blue:#2e3191;

@@ -5,10 +5,10 @@
 		"linkTxt" : "Lorem Ipsum"
 	},	
     "search":{
-    	"searchWrapperClass":"",
-    	"searchFieldClass":"",
-    	"searchFieldPlaceholder":"search",
-    	"searchIcon":"search"
+    	"wrapperClass": "header-search",
+    	"inputClass": "",
+    	"inputPlaceholder":"search", 
+		"fontAwesomeIconClass": "fa fa-search"
     },
     "button": {
 		"buttonText": "Button",
@@ -133,8 +133,15 @@
 
 
     "listItem": "List Item", 
-
-    "header": {
+	"header":{
+		 "search": {
+		   "wrapperClass": "header-search",
+		   "inputClass": "",
+		   "inputPlaceholder": "Search",
+		   "fontAwesomeIconClass": "fa fa-search"
+		 }
+	},
+    "header1": {
     	"navList" : [    		
     		{
     			"links": {

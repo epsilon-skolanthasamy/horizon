@@ -1,0 +1,96 @@
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+
+/**
+ * Body base styles
+ */
+body {
+	background: $white-color;
+	color: $base-grey-color; 
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+* {
+	font-family: $font;
+	font-size: rem(16px);
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.visible-mobile{
+  display: block;
+  @media (min-width: 801px) {
+    display: none;
+  }
+}
+
+.visible-desktop {
+  display: none; 
+  @media (min-width: 801px) {
+    display: block;
+  }
+}
+ 
+
+.menu-btn { 
+   width: 35px;
+   height: 25px; 
+   transition-duration: 0.5s;
+
+  .icon {  
+     transition-duration: 0.5s;
+     position: absolute;
+     height: 4px;
+     width: 35px;
+     top: 23px;
+     background-color: $base-grey-color;
+
+    &:before { 
+      transition-duration: 0.5s;
+      position: absolute;
+      width: 35px;
+      height: 4px;
+      background-color: $base-grey-color;
+      content: "";
+      top: -10px;
+    }
+
+    &:after { 
+      transition-duration: 0.5s;
+      position: absolute;
+      width: 35px;
+      height: 4px;
+      background-color: $base-grey-color;
+      content: "";
+      top: 10px;
+    }
+  }
+
+  &.open {
+    .icon {
+      transition-duration: 0.5s;
+      background: transparent;
+
+      &:before {
+        transform: rotateZ(45deg) scaleX(1) translate(5px, 5px);
+      }
+
+      &:after {
+        transform: rotateZ(-45deg) scaleX(1) translate(9px, -9px);
+      }
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
