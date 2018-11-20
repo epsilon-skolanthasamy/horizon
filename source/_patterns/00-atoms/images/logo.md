@@ -2,4 +2,4 @@
 title: Logo Image
 ---
 
-Sutety Logo Image
+Cystinosis Logo Image
