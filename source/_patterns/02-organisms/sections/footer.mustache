@@ -1,0 +1,25 @@
+{{#footer}}
+<footer class="{{footerWrapperClass}}">
+	<div class="row {{flexDirection}}">
+		<div class="col-md-6 left-col">
+			{{>atoms-images}}
+			<p>{{copyrightTxt1}}</p>
+			<p>{{copyrightTxt2}}</p>
+			<p>{{copyrightTxt3}}</p>
+			<p>{{copyrightTxt4}}</p>
+		</div>	
+		<div class="col-md-6">
+			<div class="d-flex">
+				<p>{{disclaimerTxt}}</p>
+				<ul class="{{footListClass}}">
+					{{#footLinks}}
+					<li>
+						{{>atoms-links}}
+					</li>
+					{{/footLinks}}
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+{{/footer}}

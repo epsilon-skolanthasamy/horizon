@@ -32,7 +32,21 @@
 @import "scss/components/social-media";
 @import 'scss/components/hero-banner';
 @import 'scss/components/cta';
+<<<<<<< Updated upstream
+@import 'scss/components/top-navigation';
+@import 'scss/components/sticky-header';
+@import 'scss/components/search';
+@import 'scss/components/right-rail-section-nav';
+//@import 'scss/components/content-block';
+//@import 'scss/components/case-study';
+//@import 'scss/components/blog-list';
+//@import 'scss/components/footer';
+//@import 'scss/components/testimonial-banner';
+//@import 'scss/components/form';
+//@import 'scss/components/pagination';
+=======
 @import 'scss/components/image-tile';
 @import 'scss/components/footer';
 @import 'scss/components/video';
 
+>>>>>>> Stashed changes

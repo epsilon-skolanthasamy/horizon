@@ -1,0 +1,61 @@
+.video-wrapper{
+	position: relative;
+	display: inline-block;
+	.video-play-button{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		img{
+			width: auto;
+		}
+	}
+}
+/*Organism Styles*/
+.video-box-wrap{
+	border-bottom: 1px solid #58585B;
+	box-shadow: 1px 1px 5px #BBBBBB;
+	position: relative;
+	h1{
+		font-size: 2.2rem;
+		font-weight: bold;
+		color: $base-grey-color;
+		font-family: "Roboto Condensed", sans-serif;
+	}
+	.video-box{
+		background-color: $white-color;
+		.video-description{
+			padding: 20px 15px;
+			h2{
+				font-size: 2.2rem;
+				font-weight: bold;
+				color: $base-grey-color;
+				font-family: "Roboto Condensed", sans-serif;
+			}
+			a{
+				color: $base-blue-color;
+				display: block;
+				margin: 5px 0 15px;
+				font-weight: bold;
+				font-family: "Roboto Condensed", sans-serif;
+				i{
+					margin-left: 10px;
+					font-weight: 400;
+				}
+				&.content-shown{
+					i.fa-plus:before{
+						content:"\f068";
+					}
+				}
+			}
+
+			.videobox-hidden-content{
+				display: none;
+			}
+		}
+		iframe{
+			width: 100%;
+			height: 330px
+		}
+	}
+}

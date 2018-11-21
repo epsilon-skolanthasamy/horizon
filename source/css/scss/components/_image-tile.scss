@@ -1,0 +1,27 @@
+.image-tile-wrap{
+	img{
+		margin-bottom: 15px;
+	}
+	.content-wrap{
+		padding: 10px 10px;
+		a{
+			font-size: 22px;
+			color: $base-blue-color;
+		}
+	}
+}
+.cards-2-column-wrapper, .cards-3-column-wrapper, .featured-tile-wrap{
+	display: flex;
+	flex: 1 1 0;
+	flex-wrap: wrap;
+	position: relative;
+}
+.featured-content-wrapper{
+	.staticLeftColumn{
+		.image-tile-wrap {
+			position: -webkit-sticky; /* Safari */
+		    position: sticky;
+		    top: 0;
+		}
+	}	
+}

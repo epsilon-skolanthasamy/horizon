@@ -1,0 +1,19 @@
+{{#videoBoxWrap}}
+<div class="video-box-wrap">
+	{{>atoms-headings}}
+	<p>{{contentDesc}}</p>
+	{{#videoBox}}
+	<div class="video-box">
+		{{>atoms-video-vimeo}}
+		<div class="video-description">
+			{{>atoms-headings}}
+			<p>{{videoBoxContent}}</p>
+			{{>atoms-links-icon}}
+			<div class="videobox-hidden-content">
+				<p>{{videoBoxHiddenContent}}</p>
+			</div>
+		</div>
+	</div>
+	{{/videoBox}}
+</div>
+{{/videoBoxWrap}}

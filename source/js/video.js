@@ -5,4 +5,11 @@ $(document).ready(function() {
 		video.setAttribute('controls', 'controls');
 		$(this).hide();
 	});
+
+
+// Video Content
+	$(".video-show-content").click(function(){
+		$(".videobox-hidden-content").toggle();
+		$(this).toggleClass("content-shown");
+	});
 });
