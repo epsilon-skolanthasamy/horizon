@@ -21,8 +21,8 @@
     $BASE
 /*------------------------------------*/
 
- @import "scss/base/fonts";
- @import "scss/base/body";
+@import "scss/base/fonts";
+@import "scss/base/body";
 
 /*------------------------------------*\
     $COMPONENTS
@@ -32,7 +32,11 @@
 @import "scss/components/social-media";
 @import 'scss/components/hero-banner';
 @import 'scss/components/cta';
+@import 'scss/components/top-navigation';
+@import 'scss/components/sticky-header';
+@import 'scss/components/search';
+@import 'scss/components/right-rail-section-nav'; 
+@import 'scss/components/content-box';
 @import 'scss/components/image-tile';
 @import 'scss/components/footer';
 @import 'scss/components/video';
-

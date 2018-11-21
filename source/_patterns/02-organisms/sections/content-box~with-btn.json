@@ -1,0 +1,10 @@
+{
+  "contentBox": {
+    "contentHeader": "Lorem ipsum",
+    "imageOnly": "",
+    "contentWithLink": "",
+    "contentWithBtn": {
+        "contentDesc1": "Lorem ipsum"
+    }
+  }
+}

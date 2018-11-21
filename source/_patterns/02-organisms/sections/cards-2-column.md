@@ -1,5 +1,6 @@
 ---
-title: Cards -2 Column
+title: Cards-2 Column
+state: complete
 ---
 
-Cards -2 Column image tile
+Cards-2 Column image tile

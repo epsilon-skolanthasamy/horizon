@@ -1,0 +1,25 @@
+{{#contentBox}}
+<div class="content-box">
+ <h4>{{contentHeader}}</h4>
+ {{#contentWithLink}}
+    <p>{{contentDesc1}}</p>
+    <div>
+        {{>atoms-links}}
+    </div>
+    <p>{{contentDesc2}}</p>
+ {{/contentWithLink}}
+
+ {{#imageOnly}}
+    <div>
+        {{>atoms-images}}
+    </div>
+ {{/imageOnly}}
+
+ {{#contentWithBtn}}
+    <p>{{contentDesc1}}</p>
+    <div>
+        {{>atoms-button}}
+    </div>
+ {{/contentWithBtn}}
+</div>
+{{/contentBox}}
