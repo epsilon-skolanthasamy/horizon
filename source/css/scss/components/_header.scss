@@ -1,6 +1,7 @@
 /** Page **/
 
 .header {
+  position: relative;
   font-family: $font;
   font-size: 12px;
   border-top: 1px solid $base-blue-color;
@@ -10,52 +11,12 @@
     width: 100%;
     padding: 10px 10px;
 
-    @media (min-width: 801px) {
+    @media (min-width: $desktop-breakpoint) {
       width: $page-width;
       padding: 0;
       margin: 0 auto;
     }
-  }
-
-  ul.connect {
-    float: right;
-    padding: 10px 0 20px;
-    margin-right: -10px;
-    margin-left: -10px;
-
-    li {
-      float: left;
-      list-style: none;
-      line-height: 12px;
-
-      a {
-        padding: 0 10px;
-        border-right: 1px solid $base-grey-color;
-        font-size: 11px;
-        color: $base-grey-color;
-        font-weight: 700;
-
-        &:hover,
-        &:focus,
-        &:active {
-          color: $base-blue-color;
-        }
-      }
-
-      &:only-child {
-        a {
-          border-right: 0;
-        }
-      }
-
-      &:last-child {
-        a {
-          border-right: 0;
-        }
-      }
-    }
-
-  }
+  } 
 
   .logo {
     float: left;
@@ -70,22 +31,21 @@
     }
   }
 
-  .nav-bar {
-
-
-    @media (min-width: 801px) {
+  .nav-bar { 
+    @media (min-width: $desktop-breakpoint) {
       display: block;
       float: left;
       padding-left: 20px;
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: $mobile-breakpoint) {
       display: none;
       position: absolute;
       top: 63px;
       left: 0;
       right: 0;
       z-index: 1000;
+
       &.show {
         display: block;
       }
@@ -93,156 +53,24 @@
 
   }
 
-  ul.nav-links {
-
-    >li {
-      position: relative;
-      float: left;
-      border-bottom: 5px solid transparent;
-
-      @media (max-width: 800px) {
-        float: none;
-        border-bottom: 1px solid #E3E3ED;
-      }
-
-      >a {
-        position: relative;
-        z-index: 5;
-        display: block;
-        text-decoration: none;
-        font-size: 13px;
-        color: $base-grey-color;
-        font-weight: 700;
-        padding: 0 20px;
-        width: 120px;
-        text-align: center;
-
-        @media (max-width: 800px) {
-          width: 100%;
-          padding: 15px;
-          text-align: left;
-          color: $base-blue-color;
-          font-size: 15px;
-        }
-      }
-
-      @media (min-width: 801px) {
-
-        &.has-subnav {
-          >a {
-            &:after {
-              content: '';
-              position: absolute;
-              right: 13px;
-              bottom: 1px;
-              border: 5px solid transparent;
-              border-top-color: $base-blue-color;
-            }
-          }
-        }
-
-        &:hover,
-        &:focus,
-        &:active {
-          border-bottom-color: $base-blue-color;
-
-          a {
-            color: $base-blue-color;
-          }
-
-          ul.sub-nav {
-            display: block;
-          }
-        }
-      }
-
-      &.has-subnav {
-        .fa {
-          display: block;
-          position: absolute;
-          right: 15px;
-          top: 20px;
-          z-index: 1;
-          color: $base-blue-color;
-
-          &.expanded {
-            -webkit-transform: rotate(45deg);
-            -moz-transform: rotate(45deg);
-            transform: rotate(45deg);
-          }
-
-          @media (min-width: 801px) {
-            display: none;
-          }
-        }
-
-      }
-
-      ul.sub-nav {
-        display: none;
-        position: absolute;
-        top: 114%;
-        left: 0;
-        width: 300px;
-        border: 1px solid #E1E1E1;
-        border-top: 1px solid $base-blue-color;
-        box-shadow: 1px 5px 10px $base-grey-color;
-
-        @media (max-width: 800px) {
-          position: relative;
-          top: initial;
-          left: initial;
-          width: auto;
-          border: 0;
-          box-shadow: none;
-          padding-left: 15px;
-        }
-
-        li {
-          float: none;
-
-          a {
-            display: block;
-            text-decoration: none;
-            color: $base-blue-color;
-            font-size: 15px;
-            padding: 10px 10px;
-
-            &:hover,
-            &:focus,
-            &:active {
-              font-weight: 700;
-
-              @media (max-width: 800px) {
-                font-weight: normal;
-              }
-            }
-
-            @media (max-width: 800px) {
-              padding-left: 15px;
-            }
-          }
-        }
-      }
-    }
-  }
-
   .search-field {
     float: right;
 
-    @media (max-width: 1024px) { 
-      padding-right: 15px;
+    @media (max-width: $mobile-breakpoint) {
+      padding-right: 45px;
     }
-    &.full-width{
-      @media (max-width: 1024px) {
-        width: 93%; 
+
+    &.full-width {
+      @media (max-width: $mobile-breakpoint) {
+        width: 100%;
       }
     }
+
     input {
       width: 100%;
       padding: 10px 40px 7px 0;
 
-      @media (min-width: 1024px) {
+      @media (min-width: $desktop-breakpoint) {
         width: 220px;
         padding: 10px 0 0;
       }
@@ -251,13 +79,12 @@
     a.search-btn {
       top: 1px;
       right: 0px;
-      color: $base-grey-color;
 
       i.fa {
         font-size: 34px;
       }
 
-      @media (min-width: 1024px) {
+      @media (min-width: $desktop-breakpoint) {
         top: 4px;
         right: 0;
 
@@ -269,7 +96,10 @@
   }
 
   .hamburger {
-    float: right;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    z-index: 50;
     line-height: 16px;
 
     span {
@@ -277,46 +107,7 @@
       font-weight: bold;
       display: block;
       line-height: 12px;
-      margin-top: 4px;
     }
   }
 
-}
-
-
-/** Molecules **/
-
-.input-with-icon {
-  width: 100%;
-  position: relative;
-
-  @media (min-width: 801px) {
-
-    &:hover,
-    &:focus {
-      input {
-        display: block;
-      }
-    }
-  }
-
-  input {
-    display: none;
-    width: 100%;
-    border: none;
-    font-size: 14px;
-    color: $base-grey-color;
-    padding-right: 30px;
-    outline: none;
-    border-bottom: 1px solid $base-blue-color;
-
-  }
-
-  a {
-    position: absolute;
-    top: 4px;
-    right: 6px;
-    cursor: pointer;
-  }
-
-}
+} 

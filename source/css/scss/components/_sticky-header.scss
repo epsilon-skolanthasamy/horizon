@@ -1,0 +1,133 @@
+  ul.nav-links {
+
+    >li {
+      position: relative;
+      float: left;
+      border-bottom: 5px solid transparent;
+
+      @media (max-width: $mobile-breakpoint) {
+        float: none;
+        border-bottom: 1px solid #E3E3ED;
+      }
+
+      >a {
+        position: relative;
+        z-index: 5;
+        display: block;
+        text-decoration: none;
+        font-size: 13px;
+        color: $base-grey-color;
+        font-weight: 700;
+        padding: 0 20px;
+        width: 120px;
+        text-align: center;
+
+        @media (max-width: $mobile-breakpoint) {
+          width: 100%;
+          padding: 15px;
+          text-align: left;
+          color: $base-blue-color;
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: $desktop-breakpoint) {
+
+        &.has-subnav {
+          >a {
+            &:after {
+              content: '';
+              position: absolute;
+              right: 13px;
+              bottom: 1px;
+              border: 5px solid transparent;
+              border-top-color: $base-blue-color;
+            }
+          }
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+          border-bottom-color: $base-blue-color;
+
+          a {
+            color: $base-blue-color;
+          }
+
+          ul.sub-nav {
+            display: block;
+          }
+        }
+      }
+
+      &.has-subnav {
+        .fa {
+          display: block;
+          position: absolute;
+          right: 15px;
+          top: 20px;
+          z-index: 1;
+          color: $base-blue-color;
+
+          &.expanded {
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+
+          @media (min-width: $desktop-breakpoint) {
+            display: none;
+          }
+        }
+
+      }
+
+      ul.sub-nav {
+        display: none;
+        position: absolute;
+        top: 114%;
+        left: 0;
+        width: 300px;
+        border: 1px solid #E1E1E1;
+        border-top: 1px solid $base-blue-color;
+        box-shadow: 1px 5px 10px $base-grey-color;
+
+        @media (max-width: $mobile-breakpoint) {
+          position: relative;
+          top: initial;
+          left: initial;
+          width: auto;
+          border: 0;
+          box-shadow: none;
+          padding-left: 15px;
+        }
+
+        li {
+          float: none;
+
+          a {
+            display: block;
+            text-decoration: none;
+            color: $base-blue-color;
+            font-size: 15px;
+            padding: 10px 10px;
+
+            &:hover,
+            &:focus,
+            &:active {
+              font-weight: 700;
+
+              @media (max-width: $mobile-breakpoint) {
+                font-weight: normal;
+              }
+            }
+
+            @media (max-width: $mobile-breakpoint) {
+              padding-left: 15px;
+            }
+          }
+        }
+      }
+    }
+  }

@@ -28,14 +28,14 @@ ul {
 
 .visible-mobile{
   display: block !important;
-  @media (min-width: 801px) {
+  @media (min-width: $desktop-breakpoint) {
     display: none !important;
   }
 }
 
 .visible-desktop {
   display: none !important;
-  @media (min-width: 801px) {
+  @media (min-width: $desktop-breakpoint) {
     display: block !important;
   }
 }
@@ -43,7 +43,7 @@ ul {
 .hidden-mobile {
   display: none !important;
 
-  @media (min-width: 801px) {
+  @media (min-width: $desktop-breakpoint) {
     display: block !important;
   }
 }
@@ -51,7 +51,7 @@ ul {
 .hidden-desktop {
   display: block !important;
 
-  @media (min-width: 801px) {
+  @media (min-width: $desktop-breakpoint) {
     display: none !important;
   }
 }
@@ -67,7 +67,7 @@ ul {
      position: absolute;
      height: 4px;
      width: 35px;
-     top: 23px;
+     top: 8px;
      background-color: $base-grey-color;
 
     &:before { 

@@ -1,0 +1,18 @@
+{{#navLinksWrapper}}
+<ul class="nav-links">
+  {{#navLinks}}
+  <li class="{{wrapperClass}}">
+    {{>atoms-links}}
+    {{#hasSubNav}} 
+        <i class="fa fa-plus"></i>
+        <ul class="sub-nav">
+            {{#subNav}}
+                <li>{{>atoms-links}}</li>
+            {{/subNav}}
+        </ul> 
+    {{/hasSubNav}}  
+   </li>
+  {{/navLinks}}
+</ul>
+{{/navLinksWrapper}}
+ 

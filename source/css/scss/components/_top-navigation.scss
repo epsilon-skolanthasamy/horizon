@@ -1,0 +1,39 @@
+ul.connect {
+  float: right;
+  padding: 10px 0 20px;
+  margin-right: -10px;
+  margin-left: -10px;
+
+  li {
+    float: left;
+    list-style: none;
+    line-height: 12px;
+
+    a {
+      padding: 0 10px;
+      border-right: 1px solid $base-grey-color;
+      font-size: 11px;
+      color: $base-grey-color;
+      font-weight: 700;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: $base-blue-color;
+      }
+    }
+
+    &:only-child {
+      a {
+        border-right: 0;
+      }
+    }
+
+    &:last-child {
+      a {
+        border-right: 0;
+      }
+    }
+  }
+
+}

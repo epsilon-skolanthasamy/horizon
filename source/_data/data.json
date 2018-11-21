@@ -5,9 +5,9 @@
 		"linkTxt" : "Lorem Ipsum"
 	},	
     "search":{
-    	"wrapperClass": "header-search",
+    	"wrapperClass": "",
     	"inputClass": "",
-    	"inputPlaceholder":"search", 
+    	"inputPlaceholder":"Lorem Ipsum", 
 		"fontAwesomeIconClass": "fa fa-search"
     },
     "button": {
@@ -26,7 +26,106 @@
 	    "imgLink":"#",
 	    "linkClass":""
     },
+	"topNavigation":{
+		"wrapperClass": "",
+		"topNavigationLinks":[
+		{},
+		{}]
+	},
 
+	"navLinksWrapper": {
+		"wrapperClass": "",
+		"navLinks": [
+			{
+				"wrapperClass": "",
+				"links": {
+					"link": "#",
+					"linkClass": "",
+					"linkTxt": "Lorem Ipsum"
+				},
+				"hasSubNav": false
+			},
+			{
+				"wrapperClass": "has-subnav",
+				"links": {
+					"link": "#",
+					"linkClass": "",
+					"linkTxt": "Lorem Ipsum"
+				},
+				"hasSubNav": true,
+				"subNav": [
+					{},
+					{},
+					{},
+					{},
+					{},
+					{}
+				]
+			},
+			{
+				"wrapperClass": "has-subnav",
+				"links": {
+					"link": "#",
+					"linkClass": "",
+					"linkTxt": "Lorem Ipsum"
+				},
+				"hasSubNav": true,
+				"subNav": [
+					{},
+					{},
+					{},
+					{}
+				]
+			},
+			{
+				"wrapperClass": "has-subnav",
+				"links": {
+					"link": "#",
+					"linkClass": "",
+					"linkTxt": "Lorem Ipsum"
+				},
+				"hasSubNav": true,
+				"subNav": [
+					{},
+					{}
+				]
+			},
+			{
+				"wrapperClass": "visible-mobile",
+				"links": {
+					"link": "#",
+					"linkClass": "",
+					"linkTxt": "Lorem Ipsum"
+				},
+				"hasSubNav": false
+			},
+			{
+				"wrapperClass": "visible-mobile",
+				"links": {
+					"link": "#",
+					"linkClass": "",
+					"linkTxt": "Lorem Ipsum"
+				},
+				"hasSubNav": false
+			}
+		]
+	},
+
+	"header": {
+		"topNavigation": {
+			"wrapperClass": "visible-desktop",
+			"topNavigationLinks": [
+				{},
+				{}
+			]
+		},
+		"search": {
+			"wrapperClass": "",
+			"inputClass": "",
+			"inputPlaceholder": "Search",
+			"fontAwesomeIconClass": "fa fa-search"
+		}
+	},
 
     "socialMedia":{
     	"wrapperClass":"",
@@ -133,14 +232,7 @@
 
 
     "listItem": "List Item", 
-	"header":{
-		 "search": {
-		   "wrapperClass": "header-search",
-		   "inputClass": "",
-		   "inputPlaceholder": "Search",
-		   "fontAwesomeIconClass": "fa fa-search"
-		 }
-	},
+	
     "header1": {
     	"navList" : [    		
     		{
