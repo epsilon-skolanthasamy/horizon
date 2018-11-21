@@ -53,19 +53,57 @@ $(document).ready(function(argument) {
     }
   });
 
+  // Toggling nav bar in mobile
+
   $('.menu-btn').click(function () {
     $(this).toggleClass('open');
-    $('.nav-bar').toggle();
+    $('.nav-bar').toggleClass('show');
+
+    if ($(this).hasClass('open')){
+      $('.search-field .search-btn').trigger('click');
+    } else {
+      $('.logo').removeClass('hidden-mobile');
+      $('.search-field').removeClass('full-width').find('input').removeClass('visible-mobile').val('');
+      // Hiding the expanded sub menu
+      $('.has-subnav > .fa').removeClass('expanded');
+      $('.sub-nav').removeClass('visible-mobile');
+    }
   });
 
+  // Search menu expanding in mobile
+
+  $('.search-field .search-btn').on('click', function () {
+  // Only for mobile
+   if($(window).width()<=1024)
+    {
+      //hiding the logo and showing the input field
+      $('.logo').addClass('hidden-mobile');
+     $('.search-field').addClass('full-width').find('input').addClass('visible-mobile');
+      // opening the menu 
+      $('.menu-btn').addClass('open');
+      $('.nav-bar').addClass('show');
+    }
+  });
+
+  // Sub menu toggling
   $('.has-subnav > a').click(function () { 
-    $(this).siblings('.sub-nav').toggle();
+    $(this).siblings('.fa').toggleClass('expanded');
+    $(this).siblings('.sub-nav').toggleClass('visible-mobile');
   });
 
-  $('.search-field .input-with-icon .fa').on('click',function () {
-    $('.logo').hide(); 
-    $('.search-field').find('input').show();
+  $(window).resize(function(e){
+    if ($(window).width() > 1024){
+      // Restoring back the action done to initial 
+      $('.logo').removeClass('hidden-mobile');
+      $('.search-field').removeClass('full-width').find('input').removeClass('visible-mobile').val('');
+      $('.menu-btn').removeClass('open');
+      $('.nav-bar').removeClass('show'); 
+      $('.has-subnav > .fa').removeClass('expanded');
+      $('.sub-nav').removeClass('visible-mobile');
+    }
   });
+
+  
 
  
 

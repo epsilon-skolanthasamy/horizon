@@ -27,19 +27,35 @@ ul {
 }
 
 .visible-mobile{
-  display: block;
+  display: block !important;
   @media (min-width: 801px) {
-    display: none;
+    display: none !important;
   }
 }
 
 .visible-desktop {
-  display: none; 
+  display: none !important;
   @media (min-width: 801px) {
-    display: block;
+    display: block !important;
   }
 }
  
+.hidden-mobile {
+  display: none !important;
+
+  @media (min-width: 801px) {
+    display: block !important;
+  }
+}
+
+.hidden-desktop {
+  display: block !important;
+
+  @media (min-width: 801px) {
+    display: none !important;
+  }
+}
+
 
 .menu-btn { 
    width: 35px;
@@ -94,3 +110,5 @@ ul {
     cursor: pointer;
   }
 }
+
+ 

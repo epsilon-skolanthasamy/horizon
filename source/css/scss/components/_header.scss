@@ -20,6 +20,8 @@
   ul.connect {
     float: right;
     padding: 10px 0 20px;
+    margin-right: -10px;
+    margin-left: -10px;
 
     li {
       float: left;
@@ -83,6 +85,10 @@
       top: 63px;
       left: 0;
       right: 0;
+      z-index: 1000;
+      &.show {
+        display: block;
+      }
     }
 
   }
@@ -96,10 +102,12 @@
 
       @media (max-width: 800px) {
         float: none;
+        border-bottom: 1px solid #E3E3ED;
       }
 
       >a {
         position: relative;
+        z-index: 5;
         display: block;
         text-decoration: none;
         font-size: 13px;
@@ -150,7 +158,19 @@
 
       &.has-subnav {
         .fa {
-          display: none;
+          display: block;
+          position: absolute;
+          right: 15px;
+          top: 20px;
+          z-index: 1;
+          color: $base-blue-color;
+
+          &.expanded {
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+
           @media (min-width: 801px) {
             display: none;
           }
@@ -190,15 +210,16 @@
 
             &:hover,
             &:focus,
-            &:active { 
+            &:active {
               font-weight: 700;
-               @media (max-width: 800px) {
-                 font-weight: normal;
-               }
+
+              @media (max-width: 800px) {
+                font-weight: normal;
+              }
             }
 
             @media (max-width: 800px) {
-              padding-left: 15px; 
+              padding-left: 15px;
             }
           }
         }
@@ -209,15 +230,41 @@
   .search-field {
     float: right;
 
+    @media (max-width: 1024px) { 
+      padding-right: 15px;
+    }
+    &.full-width{
+      @media (max-width: 1024px) {
+        width: 93%; 
+      }
+    }
     input {
-      width: 220px;
-      padding: 10px 0 0;
+      width: 100%;
+      padding: 10px 40px 7px 0;
+
+      @media (min-width: 1024px) {
+        width: 220px;
+        padding: 10px 0 0;
+      }
     }
 
-    i.fa {
-      top: 4px;
-      right: 6px;
-      font-size: 22px;
+    a.search-btn {
+      top: 1px;
+      right: 0px;
+      color: $base-grey-color;
+
+      i.fa {
+        font-size: 34px;
+      }
+
+      @media (min-width: 1024px) {
+        top: 4px;
+        right: 0;
+
+        i.fa {
+          font-size: 22px;
+        }
+      }
     }
   }
 
@@ -265,10 +312,11 @@
 
   }
 
-  i.fa {
+  a {
     position: absolute;
     top: 4px;
     right: 6px;
     cursor: pointer;
   }
+
 }
