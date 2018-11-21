@@ -1,1101 +1,1094 @@
 {
-	"links": {
-		"link" : "#",
-		"linkClass" : "",
-		"linkTxt" : "Lorem Ipsum"
-	},	
-    "search":{
-    	"wrapperClass": "",
-    	"inputClass": "",
-    	"inputPlaceholder":"Lorem Ipsum", 
-		"fontAwesomeIconClass": "fa fa-search"
+  "links": {
+    "link": "#",
+    "linkClass": "",
+    "linkTxt": "Lorem Ipsum" 
+  },
+  "search": {
+    "wrapperClass": "",
+    "inputClass": "",
+    "inputPlaceholder": "Lorem Ipsum",
+    "fontAwesomeIconClass": "fa fa-search"
+  },
+  "button": {
+    "buttonText": "Button",
+    "buttonClass": "cta-btn",
+    "fontAwesomeIconClass": "fa fa-caret-right"
+  },
+ 
+  "headingTag": "h1",
+  "headingClass": "",
+  "headingTxt": "This is heading",
+
+  "imageList": {
+    "imgPath": "https://via.placeholder.com/1312x532.jpg",
+    "imgAlttxt": "alt text",
+    "imgLink": "#",
+    "linkClass": ""
+  },
+  "topNavigation": {
+    "wrapperClass": "",
+    "topNavigationLinks": [{},
+      {}
+    ]
+  },
+
+  "navLinksWrapper": {
+    "wrapperClass": "",
+    "navLinks": [{
+        "wrapperClass": "",
+        "links": {
+          "link": "#",
+          "linkClass": "",
+          "linkTxt": "Lorem Ipsum"
+        },
+        "hasSubNav": false
+      },
+      {
+        "wrapperClass": "has-subnav",
+        "links": {
+          "link": "#",
+          "linkClass": "",
+          "linkTxt": "Lorem Ipsum"
+        },
+        "hasSubNav": true,
+        "subNav": [{},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "wrapperClass": "has-subnav",
+        "links": {
+          "link": "#",
+          "linkClass": "",
+          "linkTxt": "Lorem Ipsum"
+        },
+        "hasSubNav": true,
+        "subNav": [{},
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "wrapperClass": "has-subnav",
+        "links": {
+          "link": "#",
+          "linkClass": "",
+          "linkTxt": "Lorem Ipsum"
+        },
+        "hasSubNav": true,
+        "subNav": [{},
+          {}
+        ]
+      },
+      {
+        "wrapperClass": "visible-mobile",
+        "links": {
+          "link": "#",
+          "linkClass": "",
+          "linkTxt": "Lorem Ipsum"
+        },
+        "hasSubNav": false
+      },
+      {
+        "wrapperClass": "visible-mobile",
+        "links": {
+          "link": "#",
+          "linkClass": "",
+          "linkTxt": "Lorem Ipsum"
+        },
+        "hasSubNav": false
+      }
+    ]
+  },
+
+  "header": {
+    "topNavigation": {
+      "wrapperClass": "visible-desktop",
+      "topNavigationLinks": [{},
+        {}
+      ]
     },
-    "button": {
-		"buttonText": "Button",
-		"buttonClass": "cta-btn",
-		"fontAwesomeIconClass":"fa fa-caret-right"
-	},
-	
+    "search": {
+      "wrapperClass": "",
+      "inputClass": "",
+      "inputPlaceholder": "Search",
+      "fontAwesomeIconClass": "fa fa-search"
+    }
+  },
+
+  "socialMedia": {
+    "wrapperClass": "",
+    "socialIcons": [{
+        "links": {
+          "link": "#",
+          "linkClass": "",
+          "linkTxt": "",
+          "fontAwesomeIconClass": "fab fa-facebook-f"
+        }
+      },
+
+      {
+        "links": {
+          "link": "#",
+          "linkClass": "",
+          "linkTxt": "",
+          "fontAwesomeIconClass": "fab fa-twitter"
+        }
+      },
+      {
+        "links": {
+          "link": "#",
+          "linkClass": "",
+          "linkTxt": "",
+          "fontAwesomeIconClass": "fa fa-envelope"
+        }
+      }
+
+    ]
+  },
+  "heroBanner": {
+    "bannerClass": "hero-banner",
     "headingTag": "h1",
     "headingClass": "",
-    "headingTxt":"This is heading",
-
-    "imageList" : {
-    	"imgPath" : "https://via.placeholder.com/1312x532.jpg",
-	    "imgAlttxt":"alt text",
-	    "imgLink":"#",
-	    "linkClass":""
-    },
-	"topNavigation":{
-		"wrapperClass": "",
-		"topNavigationLinks":[
-		{},
-		{}]
-	},
-
-	"navLinksWrapper": {
-		"wrapperClass": "",
-		"navLinks": [
-			{
-				"wrapperClass": "",
-				"links": {
-					"link": "#",
-					"linkClass": "",
-					"linkTxt": "Lorem Ipsum"
-				},
-				"hasSubNav": false
-			},
-			{
-				"wrapperClass": "has-subnav",
-				"links": {
-					"link": "#",
-					"linkClass": "",
-					"linkTxt": "Lorem Ipsum"
-				},
-				"hasSubNav": true,
-				"subNav": [
-					{},
-					{},
-					{},
-					{},
-					{},
-					{}
-				]
-			},
-			{
-				"wrapperClass": "has-subnav",
-				"links": {
-					"link": "#",
-					"linkClass": "",
-					"linkTxt": "Lorem Ipsum"
-				},
-				"hasSubNav": true,
-				"subNav": [
-					{},
-					{},
-					{},
-					{}
-				]
-			},
-			{
-				"wrapperClass": "has-subnav",
-				"links": {
-					"link": "#",
-					"linkClass": "",
-					"linkTxt": "Lorem Ipsum"
-				},
-				"hasSubNav": true,
-				"subNav": [
-					{},
-					{}
-				]
-			},
-			{
-				"wrapperClass": "visible-mobile",
-				"links": {
-					"link": "#",
-					"linkClass": "",
-					"linkTxt": "Lorem Ipsum"
-				},
-				"hasSubNav": false
-			},
-			{
-				"wrapperClass": "visible-mobile",
-				"links": {
-					"link": "#",
-					"linkClass": "",
-					"linkTxt": "Lorem Ipsum"
-				},
-				"hasSubNav": false
-			}
-		]
-	},
-
-	"header": {
-		"topNavigation": {
-			"wrapperClass": "visible-desktop",
-			"topNavigationLinks": [
-				{},
-				{}
-			]
-		},
-		"search": {
-			"wrapperClass": "",
-			"inputClass": "",
-			"inputPlaceholder": "Search",
-			"fontAwesomeIconClass": "fa fa-search"
-		}
-	},
-
-    "socialMedia":{
-    	"wrapperClass":"",
-    	"socialIcons":[
-    		{
-	    		"links": {
-					"link" : "#",
-					"linkClass" : "",
-					"linkTxt" : "",
-					"fontAwesomeIconClass" : "fab fa-facebook-f"
-				}
-			},
-		
-	    	{
-	    		"links": {
-					"link" : "#",
-					"linkClass" : "",
-					"linkTxt" : "",
-					"fontAwesomeIconClass" : "fab fa-twitter"
-				}
-	    	},
-	    	{
-	    		"links": {
-					"link" : "#",
-					"linkClass" : "",
-					"linkTxt" : "",
-					"fontAwesomeIconClass" : "fa fa-envelope"
-				}
-	    	}
-	    	
-	    ]   	
-    },
-    "heroBanner":{
-    	"bannerClass":"hero-banner",
-    	"headingTag": "h1",
-	    "headingClass": "",
-	    "headingTxt":"This is dummy heading",
-	    "bannerContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-	    "links": {
-			"link" : "#",
-			"linkClass" : "",
-			"linkTxt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-		}	
-    },
-    "cta":{
-    	"headingTag": "h3",
-    	"ctaContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-    	"textInput": {
-			"inputParentClass":"email-input col-md-7",
-			"attributes": [
-				{
-					"name": "id",
-					"value": "email"
-				},
-				{
-					"name": "autoComplete",
-					"value": "off"
-				},
-				{
-					"name": "class",
-					"value": "form-control"
-				},
-				{
-					"name": "placeholder",
-					"value": "Lorem ipsum"
-				},
-				{
-					"name": "type",
-					"value": "email"
-				},
-				{
-					"name": "data-minlength",
-					"value": "2"
-				},
-				{
-					"name": "data-minlength-error",
-					"value": "Invalid First Name"
-				},
-				{
-					"name": "maxlength",
-					"value": "60"
-				},
-				{
-					"name": "aria-label",
-					"value": "Email"
-				}
-			],
-			"required": {
-				"errorMessage": "Email is required"
-			}
-		},
-		"button": {
-			"buttonText": "Button",
-			"buttonClass": "cta-btn",
-			"fontAwesomeIconClass":"fa fa-caret-right"
-		},
-		"imageList" : {
-	    	"imgPath" : "../../images/cta-bg.svg",
-		    "imgAlttxt":"alt text",
-	    }
-    },
-
-
-
-
-    "listItem": "List Item", 
-	
-    "header1": {
-    	"navList" : [    		
-    		{
-    			"links": {
-	    			"link" : "#",
-					"linkClass" : "nav-link active",
-					"linkTxt" : "Home"
-				}
-    		},
-    		{
-    			"links": {
-	    			"link" : "#",
-					"linkClass" : "nav-link",
-					"linkTxt" : "About us"
-				}
-    		},
-    		{
-    			"links": {
-	    			"link" : "#",
-					"linkClass" : "nav-link",
-					"linkTxt" : "Case studies"
-				}
-    		},
-    		{
-    			"links": {
-	    			"link" : "#",
-					"linkClass" : "nav-link",
-					"linkTxt" : "insights"
-				}
-    		},
-    		{
-    			"links": {
-	    			"link" : "#",
-					"linkClass" : "nav-link contact-button",
-					"linkTxt" : "Contact us"
-				}
-    		}
-    	]
-    },
-    "paginationBlog":{
-    	"paginationList":[
-    		{
-    			"links": {
-	    			"link" : "#",
-					"linkClass" : "pagination-btn btn-1 active",
-					"linkTxt" : "1"
-				}
-	    	},
-	    	{
-	    		"links": {
-	    			"link" : "#",
-					"linkClass" : "pagination-btn btn-2",
-					"linkTxt" : "2"
-				}
-	    	}
-	    ]
-    },
-    "contentBlock":{
-        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-	    "button": {
-			"buttonText": "Lorem",
-			"buttonType": "button",
-			"buttonClass": "contentBlock-btn",
-			"buttonIcon" : "external-link"
-		}
-    },
-    "caseStudy":{
-        
-
-    	"imageLists" : [
-    		{},
-		    {},
-		    {},
-		    {},
-		    {},
-		    {},
-		    {},
-		    {}
-    	],  		    
-	    
-	
-	    "headingTag": "h3",
-        "headingClass": "bloghead",
-
-
-        "caseStudyStory": {
-            "caseStudyStoryHead": [
-                {
-                    "title": "Project",
-                    "desc": "Targeting"
-                },
-                {
-                    "title": "Services",
-                    "desc": "Data, analytics and modeling Strategic mapping"
-                },
-                {
-                    "title": "Industry",
-                    "desc": "Nonprofit"
-                }
-            ]
-        },
-        "caseStudyStoryDetail": {
-            "title": "The story",
-            "desc": "The Leukemia & Lymphoma Society (LLS) wanted to help its local chapters expand their School & Youth Programs’ fundraising efforts. They asked Epsilon to develop an analytics-based targeting strategy to help the chapters identify high-potential schools and improve their marketing effectiveness."
-        },
-        "caseStudySolution":{
-        	"headingTag": "h3",
-            "headingClass": "bloghead",
-		    "headingTxt": "The Solution",
-		    "headingSubtxt": "",
-		    "csSolutionLogo": "../../images/al-logo.png",
-		    "csSolutionAltTxt": "al-logo",
-		    "csSolutionContent": "Epsilon's Loyalty platform supports and routs data for each Balance Rewards member interaction, including online/in-store enrollments, online purchases and activity uploads from devices lnk FitBit. We also integrated Web services support real-time enrollment through multiple channels."
-        },
-        "caseStudyResults":{
-        	"headingTag": "h3",
-            "headingClass": "bloghead",
-		    "headingTxt": "The Results",
-		    "headingSubtxt": "",
-		    "csResultsContent":"more than 150 million people have enrolled in the Balance Rewards program. The system processes 4M+ purchase transactions per day and 4B+ loyalty requests per year."
-        }
-    },
-    "moreCaseStudy":{
-    	"headingTag": "h3",
-        "headingClass": "bloghead",
-	    "headingTxt":"More Case Studies",
-	    "headingSubtxt":"",
-    	"imageLists" : [
-    		{
-    			"imageList" : {
-			    	"imgPath" : "../../images/cs-1.jpg",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#",
-				    "linkClass":""
-			    }  
-		    },
-		    {
-    			"imageList" : {
-			    	"imgPath" : "../../images/cs-2.jpg",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#",
-				    "linkClass":""
-			    }  
-		    },
-		    {
-    			"imageList" : {
-			    	"imgPath" : "../../images/cs-3.jpg",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#",
-				    "linkClass":""
-			    }  
-		    },
-		    {
-    			"imageList" : {
-			    	"imgPath" : "../../images/cs-4.jpg",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#",
-				    "linkClass":""
-			    }  
-		    }
-		  
-    	],
-    	"links": {
-			"link" : "#",
-			"linkClass" : "more-cs-btn",
-			"linkTxt" : "View More Work"
-		}		    
-    },
-
-    
-    "blogList": {
-        "headingTag": "h4",
-        "headingTxt":"Lorem Ipsum is simply dummy text of the print",
-        "headingSubtxt":"",
-        "blogContent":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "links": {
-            "linkTxt": "Lorem ",
-            "linkClass": "blog-btn",
-            "linkIcon" : "chevron-right",
-            "link": "#"
-        }
-    },
-    
-    "blogs" :{
-		"headingTag": "h3",
-        "headingClass": "bloghead",
-	    "headingTxt":"Lorem",
-	    "headingSubtxt":" dummy text of the print",	
-		"blogLists": [
-			{},
-			{}
-		]    	 	
-    },
-    "footer" : {
-    	"ctaSection" :{
-    		"imageList":{
-	    		"imgPath" : "../../images/footer-img.jpg",
-			    "imgAlttxt":"alt text",
-			    "imgLink":"#"
-    		},	    	
-		    "headingTag": "h2",
-		    "headingTxt":"Let’s get together. Crownpeak Empower 2018",
-		    "headingSubtxt":"",
-		    "links": {
-				"linkTxt": "Contact us",
-				"linkClass": "footer-cta-btn",
-				"linkIcon" : "chevron-right",
-				"link": "#"
-			}
-    	},
-    	"aboutContent":{
-    		"epsilonURL": "#",
-    		"twitterURL":"#",
-    		"privacyURL":"#",
-    		"preferenceURL":"#"
-    	},
-    	"copyright":{
-    		"privacyURL":"#",
-    		"privacyTxt":"Privacy Policy",
-    		"termsURL" : "#",
-    		"termsTxt":"Terms & Conditions",
-    		"copyTxt": "Copyright © 2018 Epsilon Data Management LLC. All rights reserved." 
-    	}
-    },
-    "testimonialBanner":{
-    	"links": {
-				"linkTxt": "watch client testimonial",
-				"linkClass": "testimonial-cta-btn",
-				"link": "#"
-			},
-    	"testimonialImg":"../../images/testimonial-banner.jpeg",
-    	"testimonialAltTxt":"Testimonial image",
-    	"testimonial":"We were able to launch a [loyalty] program in a few short months... we wouldn't have been able to do it without Epsilon and the partnership we've built.",
-    	"testimonialAuthor": "Kelly Smolinksi, Director, Customer Systems, Walgreens",
-    	
-		"headingTag": "h1",
-        "headingClass": "bloghead",
-	    "headingTxt":"4M+",
-	    "headingSubtxt":"pruchase transactions/day"
-    },
-    "mainBlogs":{
-		"blogList":	[
-			{
-				"headingTag": "h3",
-                "headingClass": "bloghead",
-			    "headingTxt":"Why your data strategy and loyalty program do belong together",
-			    "headingSubtxt":"",
-				"blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
-				"blogAuthor":"Jackie Marquis",
-				"blogDate":"Oct 11, 2018",
-				"blogTags":"Loyalty, Loyalty Marketing, Strategy, Data",
-				"links": {
-					"linkTxt": "View Post",
-					"linkClass": "blog-btn",
-					"linkIcon" : "chevron-right",
-					"link": "#"
-				},
-				"imageList" : {
-			    	"imgPath" : "../../images/blog-1.png",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#"
-			    }  
-			},
-			{
-				"headingTag": "h3",
-                "headingClass": "bloghead",
-			    "headingTxt":"Understanding the value of the catalog in the digital age",
-			    "headingSubtxt":"",
-				"blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
-				"blogAuthor":"Jackie Marquis",
-				"blogDate":"Oct 11, 2018",
-				"blogTags":"Loyalty, Loyalty Marketing, Strategy, Data",
-				"links": {
-					"linkTxt": "View Post",
-					"linkClass": "blog-btn",
-					"linkIcon" : "chevron-right",
-					"link": "#"
-				},
-				"imageList" : {
-			    	"imgPath" : "../../images/blog-2.png",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#"
-			    }
-			}
-		]   
-    },
-    "subscribeForm":{
-    	"groupHead": "Subscribe",
-		"formFields": [
-			{
-				"class": "",
-				"label": "First Name",
-				"id": "firstName",
-				"textInput": {
-					"attributes": [
-						{
-							"name": "id",
-							"value": "firstName"
-						},
-						{
-							"name": "autoComplete",
-							"value": "off"
-						},
-						{
-							"name": "class",
-							"value": "form-control"
-						},
-						{
-							"name": "placeholder",
-							"value": "Lorem ipsum"
-						},
-						{
-							"name": "type",
-							"value": "text"
-						},
-						{
-							"name": "data-minlength",
-							"value": "2"
-						},
-						{
-							"name": "data-minlength-error",
-							"value": "Invalid First Name"
-						},
-						{
-							"name": "maxlength",
-							"value": "60"
-						},
-						{
-							"name": "aria-label",
-							"value": "First Name"
-						}
-					],
-					"required": {
-						"errorMessage": "First Name is required"
-					}
-				}
-			},
-			{
-				"class": "",
-				"label": "Last Name",
-				"id": "lastName",
-				"textInput": {
-					"attributes": [
-						{
-							"name": "id",
-							"value": "lastName"
-						},
-						{
-							"name": "autoComplete",
-							"value": "off"
-						},
-						{
-							"name": "class",
-							"value": "form-control"
-						},
-						{
-							"name": "placeholder",
-							"value": "Lorem Ipsum"
-						},
-						{
-							"name": "type",
-							"value": "text"
-						},
-						{
-							"name": "data-minlength",
-							"value": "2"
-						},
-						{
-							"name": "data-minlength-error",
-							"value": "Invalid Last Name"
-						},
-						{
-							"name": "maxlength",
-							"value": "60"
-						},
-						{
-							"name": "aria-label",
-							"value": "Last Name"
-						}
-					],
-					"required": {
-						"errorMessage": "Last Name is required"
-					}
-				}
-			},
-			{
-				"class": "",
-				"label": "Email",
-				"id": "email",
-				"textInput": {
-					"attributes": [
-						{
-							"name": "id",
-							"value": "email"
-						},
-						{
-							"name": "autoComplete",
-							"value": "off"
-						},
-						{
-							"name": "class",
-							"value": "form-control"
-						},
-						{
-							"name": "placeholder",
-							"value": "Lorem Ipsum"
-						},
-						{
-							"name": "type",
-							"value": "email"
-						},
-						{
-							"name": "data-minlength",
-							"value": "2"
-						},
-						{
-							"name": "data-minlength-error",
-							"value": "Invalid Email"
-						},
-						{
-							"name": "maxlength",
-							"value": "60"
-						},
-						{
-							"name": "aria-label",
-							"value": "Email"
-						}
-					],
-					"required": {
-						"errorMessage": "Email is required"
-					}
-				}
-			}
-		],
-		"button":{
-			"buttonClass":"form-btn",
-			"buttonType":"button",
-			"buttonText":"Submit"
-		}
-	},
-	"sidebarBlogs":{
-		"sbBlogList":[
-			{
-				"blogHeader":"Top Pics",
-				"blogImg":"../../images/sb-blog-1.jpg",
-				"blogImgAltTxt":"alt",
-				"sbBlogAuthor":"Epsilon Marketing",
-				"sbBlogHeading":"What millennials want from QSR loyalty programs",
-				"sbBlogDate":"Jan 10, 2017",
-				"links": {
-					"linkTxt": "View post",
-					"linkClass": "sb-blog-btn",
-					"linkIcon" : "chevron-right",
-					"link": "#"
-				}
-			},
-			{
-				"blogHeader":"Go Deep",
-				"blogImg":"../../images/sb-blog-2.jpg",
-				"blogImgAltTxt":"alt",
-				"sbBlogAuthor":"Epsilon Marketing",
-				"sbBlogHeading":"What millennials want from QSR loyalty programs",
-				"sbBlogDate":"Jan 10, 2017",
-				"links": {
-					"linkTxt": "View post",
-					"linkClass": "sb-blog-btn",
-					"linkIcon" : "chevron-right",
-					"link": "#"
-				}
-			}
-		]
-	},
-
-    "homePageData": {
-        "heroBanner": {
-            "bannerClass": "landing-page",
-            "bannerImg": {
-                "url": "../../images/banner1.jpg",
-                "alt": "Lorem"
-            },
-            "homeBanner" : {
-                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit "
-            },
-            "blogBanner": "",
-            "insightBanner": "" 
-        }
-    },
-    "listWrap":{
-    	"headingTag": "h3",
-        "headingClass": "",
-        "headingSubtxt":"",
-        "listHeading":"This is heading",
-        "listClass":"bullet-list",
-        "listItems":[
-        	{},
-        	{},
-        	{}
-        ],
-        "bottomTxt":"Dummy text"
-    },
-    "signupForm":{
-    	"headingTag": "h3",
-        "headingClass": "signup-heading",
-        "headingSubtxt":"",
-
-        "formFields":[
-			{
-				"class": "",				
-				"label": "First Name",
-				"id": "firstName",
-				"textInput": {
-					"inputParentClass":"col-md-6",
-					"attributes": [
-						{
-							"name": "id",
-							"value": "firstName"
-						},
-						{
-							"name": "autoComplete",
-							"value": "off"
-						},
-						{
-							"name": "class",
-							"value": "form-control"
-						},
-						{
-							"name": "placeholder",
-							"value": "Lorem ipsum"
-						},
-						{
-							"name": "type",
-							"value": "text"
-						},
-						{
-							"name": "data-minlength",
-							"value": "2"
-						},
-						{
-							"name": "data-minlength-error",
-							"value": "Invalid First Name"
-						},
-						{
-							"name": "maxlength",
-							"value": "60"
-						},
-						{
-							"name": "aria-label",
-							"value": "First Name"
-						}
-					],
-					"required": {
-						"errorMessage": "First Name is required"
-					}
-				}
-			},
-			{
-				"class": "",
-				"label": "Last Name",
-				"id": "lastName",
-				"textInput": {
-					"inputParentClass":"col-md-6",
-					"attributes": [
-						{
-							"name": "id",
-							"value": "lastName"
-						},
-						{
-							"name": "autoComplete",
-							"value": "off"
-						},
-						{
-							"name": "class",
-							"value": "form-control"
-						},
-						{
-							"name": "placeholder",
-							"value": "Lorem Ipsum"
-						},
-						{
-							"name": "type",
-							"value": "text"
-						},
-						{
-							"name": "data-minlength",
-							"value": "2"
-						},
-						{
-							"name": "data-minlength-error",
-							"value": "Invalid Last Name"
-						},
-						{
-							"name": "maxlength",
-							"value": "60"
-						},
-						{
-							"name": "aria-label",
-							"value": "Last Name"
-						}
-					],
-					"required": {
-						"errorMessage": "Last Name is required"
-					}
-				}
-			},
-			{
-				"class": "",
-				"label": "Email",
-				"id": "email",
-				"textInput": {
-					"inputParentClass":"col-md-6",
-					"attributes": [
-						{
-							"name": "id",
-							"value": "email"
-						},
-						{
-							"name": "autoComplete",
-							"value": "off"
-						},
-						{
-							"name": "class",
-							"value": "form-control"
-						},
-						{
-							"name": "placeholder",
-							"value": "Lorem Ipsum"
-						},
-						{
-							"name": "type",
-							"value": "email"
-						},
-						{
-							"name": "data-minlength",
-							"value": "2"
-						},
-						{
-							"name": "data-minlength-error",
-							"value": "Invalid Email"
-						},
-						{
-							"name": "maxlength",
-							"value": "60"
-						},
-						{
-							"name": "aria-label",
-							"value": "Email"
-						}
-					],
-					"required": {
-						"errorMessage": "Email is required"
-					}
-				}
-			},			
-			{
-				"class": "",
-				"label": "Email",
-				"id": "email",
-				"textInput": {
-					"inputParentClass":"col-md-6",
-					"attributes": [
-						{
-							"name": "id",
-							"value": "email"
-						},
-						{
-							"name": "autoComplete",
-							"value": "off"
-						},
-						{
-							"name": "class",
-							"value": "form-control"
-						},
-						{
-							"name": "placeholder",
-							"value": "Lorem Ipsum"
-						},
-						{
-							"name": "type",
-							"value": "email"
-						},
-						{
-							"name": "data-minlength",
-							"value": "2"
-						},
-						{
-							"name": "data-minlength-error",
-							"value": "Invalid Email"
-						},
-						{
-							"name": "maxlength",
-							"value": "60"
-						},
-						{
-							"name": "aria-label",
-							"value": "Email"
-						}
-					],
-					"required": {
-						"errorMessage": "Email is required"
-					}
-				}
-			},
-			
-			{
-				"class": "",
-				"label": "Email",
-				"id": "email",
-				"textInput": {
-					"inputParentClass":"col-md-6",
-					"attributes": [
-						{
-							"name": "id",
-							"value": "email"
-						},
-						{
-							"name": "autoComplete",
-							"value": "off"
-						},
-						{
-							"name": "class",
-							"value": "form-control"
-						},
-						{
-							"name": "placeholder",
-							"value": "Lorem Ipsum"
-						},
-						{
-							"name": "type",
-							"value": "email"
-						},
-						{
-							"name": "data-minlength",
-							"value": "2"
-						},
-						{
-							"name": "data-minlength-error",
-							"value": "Invalid Email"
-						},
-						{
-							"name": "maxlength",
-							"value": "60"
-						},
-						{
-							"name": "aria-label",
-							"value": "Email"
-						}
-					],
-					"required": {
-						"errorMessage": "Email is required"
-					}
-				}
-			},
-			
-			{
-				"class": "",
-				"label": "Email",
-				"id": "email",
-				"textInput": {
-					"inputParentClass":"col-md-6",
-					"attributes": [
-						{
-							"name": "id",
-							"value": "email"
-						},
-						{
-							"name": "autoComplete",
-							"value": "off"
-						},
-						{
-							"name": "class",
-							"value": "form-control"
-						},
-						{
-							"name": "placeholder",
-							"value": "Lorem Ipsum"
-						},
-						{
-							"name": "type",
-							"value": "email"
-						},
-						{
-							"name": "data-minlength",
-							"value": "2"
-						},
-						{
-							"name": "data-minlength-error",
-							"value": "Invalid Email"
-						},
-						{
-							"name": "maxlength",
-							"value": "60"
-						},
-						{
-							"name": "aria-label",
-							"value": "Email"
-						}
-					],
-					"required": {
-						"errorMessage": "Email is required"
-					}
-				}
-			}
-		],
-		"bottomField":{
-			"headingTag": "h3",
-	        "headingClass": "",
-	        "headingSubtxt":"",
-	        "formFields":[
-				{
-					"label": "Select Menu",
-					"action": "Change",
-					"selectField": {
-						"attributes": [{
-								"name": "id",
-								"value": "selectMenu"
-							},
-							{
-								"name": "class",
-								"value": "select-menu"
-							}
-						],
-						"options": [{
-								"name": "dummy text",
-								"value": "dummy text",
-								"selected": "selected"
-							},
-							{
-								"name": "dummy text",
-								"value": "dummy text"
-							},
-							{
-								"name": "dummy text",
-								"value": "dummy text"
-							}
-						]
-					}
-				}
-			]
-		},
-		"button": {
-			"buttonText": "Lorem",
-			"buttonType": "button",
-			"buttonClass": "form-btn"
-		}		
-    },
-    "blogData":{
-    	"heroBanner": {
-	        "bannerClass": "insightBanner",
-	        "bannerImg": "",
-	        "insightBanner" : {
-	            "heading": "A Brand New View",
-	            "description": "Welcome to our world! Here you'll find all the latest thinking in marketing along with news, case studies and other useful resources to support your programs"
-	        },
-	        "blogBanner": "",
-	        "homeBanner": "" 
-	    }
-    },
-    "contactPage":{
-    	"imageList":{
-    		"imgPath" : "../../images/blog-banner.jpg"
-    	}
+    "headingTxt": "This is dummy heading",
+    "bannerContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": {
+      "link": "#",
+      "linkClass": "",
+      "linkTxt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     }
-    
+  },
+  "cta": {
+    "headingTag": "h3",
+    "ctaContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+    "textInput": {
+      "inputParentClass": "email-input col-md-7",
+      "attributes": [{
+          "name": "id",
+          "value": "email"
+        },
+        {
+          "name": "autoComplete",
+          "value": "off"
+        },
+        {
+          "name": "class",
+          "value": "form-control"
+        },
+        {
+          "name": "placeholder",
+          "value": "Lorem ipsum"
+        },
+        {
+          "name": "type",
+          "value": "email"
+        },
+        {
+          "name": "data-minlength",
+          "value": "2"
+        },
+        {
+          "name": "data-minlength-error",
+          "value": "Invalid First Name"
+        },
+        {
+          "name": "maxlength",
+          "value": "60"
+        },
+        {
+          "name": "aria-label",
+          "value": "Email"
+        }
+      ],
+      "required": {
+        "errorMessage": "Email is required"
+      }
+    },
+    "button": {
+      "buttonText": "Button",
+      "buttonClass": "cta-btn",
+      "fontAwesomeIconClass": "fa fa-caret-right"
+    },
+    "imageList": {
+      "imgPath": "../../images/cta-bg.svg",
+      "imgAlttxt": "alt text",
+    }
+  },
+
+  "rightRail": {
+    "asideLinks": [{},
+      {},
+      {},
+      {}
+	],
+	"linkIcons":[
+		{
+			"links": {
+				"link": "#",
+				"linkClass": "",
+				"linkTxt": "Lorem Ipsum",
+				"fontAwesomeIconClass": "fa fa-cloud-download-alt"
+			}
+		},
+		{
+			"links": {
+				"link": "#",
+				"linkClass": "",
+				"linkTxt": "Lorem Ipsum",
+				"fontAwesomeIconClass": "far fa-question-circle"
+			}
+		}
+	]
+  }, 
+  "listItem": "List Item",
+
+  "header1": {
+    "navList": [{
+        "links": {
+          "link": "#",
+          "linkClass": "nav-link active",
+          "linkTxt": "Home"
+        }
+      },
+      {
+        "links": {
+          "link": "#",
+          "linkClass": "nav-link",
+          "linkTxt": "About us"
+        }
+      },
+      {
+        "links": {
+          "link": "#",
+          "linkClass": "nav-link",
+          "linkTxt": "Case studies"
+        }
+      },
+      {
+        "links": {
+          "link": "#",
+          "linkClass": "nav-link",
+          "linkTxt": "insights"
+        }
+      },
+      {
+        "links": {
+          "link": "#",
+          "linkClass": "nav-link contact-button",
+          "linkTxt": "Contact us"
+        }
+      }
+    ]
+  },
+  "paginationBlog": {
+    "paginationList": [{
+        "links": {
+          "link": "#",
+          "linkClass": "pagination-btn btn-1 active",
+          "linkTxt": "1"
+        }
+      },
+      {
+        "links": {
+          "link": "#",
+          "linkClass": "pagination-btn btn-2",
+          "linkTxt": "2"
+        }
+      }
+    ]
+  },
+  "contentBlock": {
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "button": {
+      "buttonText": "Lorem",
+      "buttonType": "button",
+      "buttonClass": "contentBlock-btn",
+      "buttonIcon": "external-link"
+    }
+  },
+  "caseStudy": {
+
+
+    "imageLists": [{},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+
+
+    "headingTag": "h3",
+    "headingClass": "bloghead",
+
+
+    "caseStudyStory": {
+      "caseStudyStoryHead": [{
+          "title": "Project",
+          "desc": "Targeting"
+        },
+        {
+          "title": "Services",
+          "desc": "Data, analytics and modeling Strategic mapping"
+        },
+        {
+          "title": "Industry",
+          "desc": "Nonprofit"
+        }
+      ]
+    },
+    "caseStudyStoryDetail": {
+      "title": "The story",
+      "desc": "The Leukemia & Lymphoma Society (LLS) wanted to help its local chapters expand their School & Youth Programs’ fundraising efforts. They asked Epsilon to develop an analytics-based targeting strategy to help the chapters identify high-potential schools and improve their marketing effectiveness."
+    },
+    "caseStudySolution": {
+      "headingTag": "h3",
+      "headingClass": "bloghead",
+      "headingTxt": "The Solution",
+      "headingSubtxt": "",
+      "csSolutionLogo": "../../images/al-logo.png",
+      "csSolutionAltTxt": "al-logo",
+      "csSolutionContent": "Epsilon's Loyalty platform supports and routs data for each Balance Rewards member interaction, including online/in-store enrollments, online purchases and activity uploads from devices lnk FitBit. We also integrated Web services support real-time enrollment through multiple channels."
+    },
+    "caseStudyResults": {
+      "headingTag": "h3",
+      "headingClass": "bloghead",
+      "headingTxt": "The Results",
+      "headingSubtxt": "",
+      "csResultsContent": "more than 150 million people have enrolled in the Balance Rewards program. The system processes 4M+ purchase transactions per day and 4B+ loyalty requests per year."
+    }
+  },
+  "moreCaseStudy": {
+    "headingTag": "h3",
+    "headingClass": "bloghead",
+    "headingTxt": "More Case Studies",
+    "headingSubtxt": "",
+    "imageLists": [{
+        "imageList": {
+          "imgPath": "../../images/cs-1.jpg",
+          "imgAlttxt": "alt text",
+          "imgLink": "#",
+          "linkClass": ""
+        }
+      },
+      {
+        "imageList": {
+          "imgPath": "../../images/cs-2.jpg",
+          "imgAlttxt": "alt text",
+          "imgLink": "#",
+          "linkClass": ""
+        }
+      },
+      {
+        "imageList": {
+          "imgPath": "../../images/cs-3.jpg",
+          "imgAlttxt": "alt text",
+          "imgLink": "#",
+          "linkClass": ""
+        }
+      },
+      {
+        "imageList": {
+          "imgPath": "../../images/cs-4.jpg",
+          "imgAlttxt": "alt text",
+          "imgLink": "#",
+          "linkClass": ""
+        }
+      }
+
+    ],
+    "links": {
+      "link": "#",
+      "linkClass": "more-cs-btn",
+      "linkTxt": "View More Work"
+    }
+  },
+
+
+  "blogList": {
+    "headingTag": "h4",
+    "headingTxt": "Lorem Ipsum is simply dummy text of the print",
+    "headingSubtxt": "",
+    "blogContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "links": {
+      "linkTxt": "Lorem ",
+      "linkClass": "blog-btn",
+      "linkIcon": "chevron-right",
+      "link": "#"
+    }
+  },
+
+  "blogs": {
+    "headingTag": "h3",
+    "headingClass": "bloghead",
+    "headingTxt": "Lorem",
+    "headingSubtxt": " dummy text of the print",
+    "blogLists": [{},
+      {}
+    ]
+  },
+  "footer": {
+    "ctaSection": {
+      "imageList": {
+        "imgPath": "../../images/footer-img.jpg",
+        "imgAlttxt": "alt text",
+        "imgLink": "#"
+      },
+      "headingTag": "h2",
+      "headingTxt": "Let’s get together. Crownpeak Empower 2018",
+      "headingSubtxt": "",
+      "links": {
+        "linkTxt": "Contact us",
+        "linkClass": "footer-cta-btn",
+        "linkIcon": "chevron-right",
+        "link": "#"
+      }
+    },
+    "aboutContent": {
+      "epsilonURL": "#",
+      "twitterURL": "#",
+      "privacyURL": "#",
+      "preferenceURL": "#"
+    },
+    "copyright": {
+      "privacyURL": "#",
+      "privacyTxt": "Privacy Policy",
+      "termsURL": "#",
+      "termsTxt": "Terms & Conditions",
+      "copyTxt": "Copyright © 2018 Epsilon Data Management LLC. All rights reserved."
+    }
+  },
+  "testimonialBanner": {
+    "links": {
+      "linkTxt": "watch client testimonial",
+      "linkClass": "testimonial-cta-btn",
+      "link": "#"
+    },
+    "testimonialImg": "../../images/testimonial-banner.jpeg",
+    "testimonialAltTxt": "Testimonial image",
+    "testimonial": "We were able to launch a [loyalty] program in a few short months... we wouldn't have been able to do it without Epsilon and the partnership we've built.",
+    "testimonialAuthor": "Kelly Smolinksi, Director, Customer Systems, Walgreens",
+
+    "headingTag": "h1",
+    "headingClass": "bloghead",
+    "headingTxt": "4M+",
+    "headingSubtxt": "pruchase transactions/day"
+  },
+  "mainBlogs": {
+    "blogList": [{
+        "headingTag": "h3",
+        "headingClass": "bloghead",
+        "headingTxt": "Why your data strategy and loyalty program do belong together",
+        "headingSubtxt": "",
+        "blogContent": "One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
+        "blogAuthor": "Jackie Marquis",
+        "blogDate": "Oct 11, 2018",
+        "blogTags": "Loyalty, Loyalty Marketing, Strategy, Data",
+        "links": {
+          "linkTxt": "View Post",
+          "linkClass": "blog-btn",
+          "linkIcon": "chevron-right",
+          "link": "#"
+        },
+        "imageList": {
+          "imgPath": "../../images/blog-1.png",
+          "imgAlttxt": "alt text",
+          "imgLink": "#"
+        }
+      },
+      {
+        "headingTag": "h3",
+        "headingClass": "bloghead",
+        "headingTxt": "Understanding the value of the catalog in the digital age",
+        "headingSubtxt": "",
+        "blogContent": "One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
+        "blogAuthor": "Jackie Marquis",
+        "blogDate": "Oct 11, 2018",
+        "blogTags": "Loyalty, Loyalty Marketing, Strategy, Data",
+        "links": {
+          "linkTxt": "View Post",
+          "linkClass": "blog-btn",
+          "linkIcon": "chevron-right",
+          "link": "#"
+        },
+        "imageList": {
+          "imgPath": "../../images/blog-2.png",
+          "imgAlttxt": "alt text",
+          "imgLink": "#"
+        }
+      }
+    ]
+  },
+  "subscribeForm": {
+    "groupHead": "Subscribe",
+    "formFields": [{
+        "class": "",
+        "label": "First Name",
+        "id": "firstName",
+        "textInput": {
+          "attributes": [{
+              "name": "id",
+              "value": "firstName"
+            },
+            {
+              "name": "autoComplete",
+              "value": "off"
+            },
+            {
+              "name": "class",
+              "value": "form-control"
+            },
+            {
+              "name": "placeholder",
+              "value": "Lorem ipsum"
+            },
+            {
+              "name": "type",
+              "value": "text"
+            },
+            {
+              "name": "data-minlength",
+              "value": "2"
+            },
+            {
+              "name": "data-minlength-error",
+              "value": "Invalid First Name"
+            },
+            {
+              "name": "maxlength",
+              "value": "60"
+            },
+            {
+              "name": "aria-label",
+              "value": "First Name"
+            }
+          ],
+          "required": {
+            "errorMessage": "First Name is required"
+          }
+        }
+      },
+      {
+        "class": "",
+        "label": "Last Name",
+        "id": "lastName",
+        "textInput": {
+          "attributes": [{
+              "name": "id",
+              "value": "lastName"
+            },
+            {
+              "name": "autoComplete",
+              "value": "off"
+            },
+            {
+              "name": "class",
+              "value": "form-control"
+            },
+            {
+              "name": "placeholder",
+              "value": "Lorem Ipsum"
+            },
+            {
+              "name": "type",
+              "value": "text"
+            },
+            {
+              "name": "data-minlength",
+              "value": "2"
+            },
+            {
+              "name": "data-minlength-error",
+              "value": "Invalid Last Name"
+            },
+            {
+              "name": "maxlength",
+              "value": "60"
+            },
+            {
+              "name": "aria-label",
+              "value": "Last Name"
+            }
+          ],
+          "required": {
+            "errorMessage": "Last Name is required"
+          }
+        }
+      },
+      {
+        "class": "",
+        "label": "Email",
+        "id": "email",
+        "textInput": {
+          "attributes": [{
+              "name": "id",
+              "value": "email"
+            },
+            {
+              "name": "autoComplete",
+              "value": "off"
+            },
+            {
+              "name": "class",
+              "value": "form-control"
+            },
+            {
+              "name": "placeholder",
+              "value": "Lorem Ipsum"
+            },
+            {
+              "name": "type",
+              "value": "email"
+            },
+            {
+              "name": "data-minlength",
+              "value": "2"
+            },
+            {
+              "name": "data-minlength-error",
+              "value": "Invalid Email"
+            },
+            {
+              "name": "maxlength",
+              "value": "60"
+            },
+            {
+              "name": "aria-label",
+              "value": "Email"
+            }
+          ],
+          "required": {
+            "errorMessage": "Email is required"
+          }
+        }
+      }
+    ],
+    "button": {
+      "buttonClass": "form-btn",
+      "buttonType": "button",
+      "buttonText": "Submit"
+    }
+  },
+  "sidebarBlogs": {
+    "sbBlogList": [{
+        "blogHeader": "Top Pics",
+        "blogImg": "../../images/sb-blog-1.jpg",
+        "blogImgAltTxt": "alt",
+        "sbBlogAuthor": "Epsilon Marketing",
+        "sbBlogHeading": "What millennials want from QSR loyalty programs",
+        "sbBlogDate": "Jan 10, 2017",
+        "links": {
+          "linkTxt": "View post",
+          "linkClass": "sb-blog-btn",
+          "linkIcon": "chevron-right",
+          "link": "#"
+        }
+      },
+      {
+        "blogHeader": "Go Deep",
+        "blogImg": "../../images/sb-blog-2.jpg",
+        "blogImgAltTxt": "alt",
+        "sbBlogAuthor": "Epsilon Marketing",
+        "sbBlogHeading": "What millennials want from QSR loyalty programs",
+        "sbBlogDate": "Jan 10, 2017",
+        "links": {
+          "linkTxt": "View post",
+          "linkClass": "sb-blog-btn",
+          "linkIcon": "chevron-right",
+          "link": "#"
+        }
+      }
+    ]
+  },
+
+  "homePageData": {
+    "heroBanner": {
+      "bannerClass": "landing-page",
+      "bannerImg": {
+        "url": "../../images/banner1.jpg",
+        "alt": "Lorem"
+      },
+      "homeBanner": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit "
+      },
+      "blogBanner": "",
+      "insightBanner": ""
+    }
+  },
+  "listWrap": {
+    "headingTag": "h3",
+    "headingClass": "",
+    "headingSubtxt": "",
+    "listHeading": "This is heading",
+    "listClass": "bullet-list",
+    "listItems": [{},
+      {},
+      {}
+    ],
+    "bottomTxt": "Dummy text"
+  },
+  "signupForm": {
+    "headingTag": "h3",
+    "headingClass": "signup-heading",
+    "headingSubtxt": "",
+
+    "formFields": [{
+        "class": "",
+        "label": "First Name",
+        "id": "firstName",
+        "textInput": {
+          "inputParentClass": "col-md-6",
+          "attributes": [{
+              "name": "id",
+              "value": "firstName"
+            },
+            {
+              "name": "autoComplete",
+              "value": "off"
+            },
+            {
+              "name": "class",
+              "value": "form-control"
+            },
+            {
+              "name": "placeholder",
+              "value": "Lorem ipsum"
+            },
+            {
+              "name": "type",
+              "value": "text"
+            },
+            {
+              "name": "data-minlength",
+              "value": "2"
+            },
+            {
+              "name": "data-minlength-error",
+              "value": "Invalid First Name"
+            },
+            {
+              "name": "maxlength",
+              "value": "60"
+            },
+            {
+              "name": "aria-label",
+              "value": "First Name"
+            }
+          ],
+          "required": {
+            "errorMessage": "First Name is required"
+          }
+        }
+      },
+      {
+        "class": "",
+        "label": "Last Name",
+        "id": "lastName",
+        "textInput": {
+          "inputParentClass": "col-md-6",
+          "attributes": [{
+              "name": "id",
+              "value": "lastName"
+            },
+            {
+              "name": "autoComplete",
+              "value": "off"
+            },
+            {
+              "name": "class",
+              "value": "form-control"
+            },
+            {
+              "name": "placeholder",
+              "value": "Lorem Ipsum"
+            },
+            {
+              "name": "type",
+              "value": "text"
+            },
+            {
+              "name": "data-minlength",
+              "value": "2"
+            },
+            {
+              "name": "data-minlength-error",
+              "value": "Invalid Last Name"
+            },
+            {
+              "name": "maxlength",
+              "value": "60"
+            },
+            {
+              "name": "aria-label",
+              "value": "Last Name"
+            }
+          ],
+          "required": {
+            "errorMessage": "Last Name is required"
+          }
+        }
+      },
+      {
+        "class": "",
+        "label": "Email",
+        "id": "email",
+        "textInput": {
+          "inputParentClass": "col-md-6",
+          "attributes": [{
+              "name": "id",
+              "value": "email"
+            },
+            {
+              "name": "autoComplete",
+              "value": "off"
+            },
+            {
+              "name": "class",
+              "value": "form-control"
+            },
+            {
+              "name": "placeholder",
+              "value": "Lorem Ipsum"
+            },
+            {
+              "name": "type",
+              "value": "email"
+            },
+            {
+              "name": "data-minlength",
+              "value": "2"
+            },
+            {
+              "name": "data-minlength-error",
+              "value": "Invalid Email"
+            },
+            {
+              "name": "maxlength",
+              "value": "60"
+            },
+            {
+              "name": "aria-label",
+              "value": "Email"
+            }
+          ],
+          "required": {
+            "errorMessage": "Email is required"
+          }
+        }
+      },
+      {
+        "class": "",
+        "label": "Email",
+        "id": "email",
+        "textInput": {
+          "inputParentClass": "col-md-6",
+          "attributes": [{
+              "name": "id",
+              "value": "email"
+            },
+            {
+              "name": "autoComplete",
+              "value": "off"
+            },
+            {
+              "name": "class",
+              "value": "form-control"
+            },
+            {
+              "name": "placeholder",
+              "value": "Lorem Ipsum"
+            },
+            {
+              "name": "type",
+              "value": "email"
+            },
+            {
+              "name": "data-minlength",
+              "value": "2"
+            },
+            {
+              "name": "data-minlength-error",
+              "value": "Invalid Email"
+            },
+            {
+              "name": "maxlength",
+              "value": "60"
+            },
+            {
+              "name": "aria-label",
+              "value": "Email"
+            }
+          ],
+          "required": {
+            "errorMessage": "Email is required"
+          }
+        }
+      },
+
+      {
+        "class": "",
+        "label": "Email",
+        "id": "email",
+        "textInput": {
+          "inputParentClass": "col-md-6",
+          "attributes": [{
+              "name": "id",
+              "value": "email"
+            },
+            {
+              "name": "autoComplete",
+              "value": "off"
+            },
+            {
+              "name": "class",
+              "value": "form-control"
+            },
+            {
+              "name": "placeholder",
+              "value": "Lorem Ipsum"
+            },
+            {
+              "name": "type",
+              "value": "email"
+            },
+            {
+              "name": "data-minlength",
+              "value": "2"
+            },
+            {
+              "name": "data-minlength-error",
+              "value": "Invalid Email"
+            },
+            {
+              "name": "maxlength",
+              "value": "60"
+            },
+            {
+              "name": "aria-label",
+              "value": "Email"
+            }
+          ],
+          "required": {
+            "errorMessage": "Email is required"
+          }
+        }
+      },
+
+      {
+        "class": "",
+        "label": "Email",
+        "id": "email",
+        "textInput": {
+          "inputParentClass": "col-md-6",
+          "attributes": [{
+              "name": "id",
+              "value": "email"
+            },
+            {
+              "name": "autoComplete",
+              "value": "off"
+            },
+            {
+              "name": "class",
+              "value": "form-control"
+            },
+            {
+              "name": "placeholder",
+              "value": "Lorem Ipsum"
+            },
+            {
+              "name": "type",
+              "value": "email"
+            },
+            {
+              "name": "data-minlength",
+              "value": "2"
+            },
+            {
+              "name": "data-minlength-error",
+              "value": "Invalid Email"
+            },
+            {
+              "name": "maxlength",
+              "value": "60"
+            },
+            {
+              "name": "aria-label",
+              "value": "Email"
+            }
+          ],
+          "required": {
+            "errorMessage": "Email is required"
+          }
+        }
+      }
+    ],
+    "bottomField": {
+      "headingTag": "h3",
+      "headingClass": "",
+      "headingSubtxt": "",
+      "formFields": [{
+        "label": "Select Menu",
+        "action": "Change",
+        "selectField": {
+          "attributes": [{
+              "name": "id",
+              "value": "selectMenu"
+            },
+            {
+              "name": "class",
+              "value": "select-menu"
+            }
+          ],
+          "options": [{
+              "name": "dummy text",
+              "value": "dummy text",
+              "selected": "selected"
+            },
+            {
+              "name": "dummy text",
+              "value": "dummy text"
+            },
+            {
+              "name": "dummy text",
+              "value": "dummy text"
+            }
+          ]
+        }
+      }]
+    },
+    "button": {
+      "buttonText": "Lorem",
+      "buttonType": "button",
+      "buttonClass": "form-btn"
+    }
+  },
+  "blogData": {
+    "heroBanner": {
+      "bannerClass": "insightBanner",
+      "bannerImg": "",
+      "insightBanner": {
+        "heading": "A Brand New View",
+        "description": "Welcome to our world! Here you'll find all the latest thinking in marketing along with news, case studies and other useful resources to support your programs"
+      },
+      "blogBanner": "",
+      "homeBanner": ""
+    }
+  },
+  "contactPage": {
+    "imageList": {
+      "imgPath": "../../images/blog-banner.jpg"
+    }
+  }
+
 
 
 

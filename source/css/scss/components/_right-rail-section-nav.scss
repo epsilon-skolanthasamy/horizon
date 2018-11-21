@@ -1,0 +1,31 @@
+.aside-nav {
+  li {
+    padding: 8px 0;
+
+    &.active {
+      font-weight: bold;
+    }
+
+    a {
+      display: block;
+      color: $base-blue-color;
+    }
+
+    .social-media {
+      ul {
+        margin-left: -10px;
+        margin-right: -10px;
+      }
+
+      li {
+        padding: 0;
+      }
+    }
+
+    &.link-icons i.fa,
+    &.link-icons i.far {
+      padding-left: 5px;
+      font-size: 20px;
+    }
+  }
+}
